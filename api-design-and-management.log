@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.10.7)  17 JAN 2024 07:18
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.10.7)  19 JAN 2024 14:46
  restricted system commands enabled.
 **api-design-and-management.tex
 (./api-design-and-management.tex
@@ -863,32 +863,32 @@ File: l3backend-luatex.def 2022-02-07 L3 backend support: PDF output (LuaTeX)
 (./api-design-and-management.aux)
 \openout1 = api-design-and-management.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
-3.
+6.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -946,7 +946,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 33.
+Package hyperref Info: Link coloring OFF on input line 36.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -960,55 +960,55 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count355
 )
-LaTeX Info: Redefining \ref on input line 33.
-LaTeX Info: Redefining \pageref on input line 33.
-LaTeX Info: Redefining \nameref on input line 33.
+LaTeX Info: Redefining \ref on input line 36.
+LaTeX Info: Redefining \pageref on input line 36.
+LaTeX Info: Redefining \nameref on input line 36.
  (./api-design-and-management.out) (./api-design-and-management.out)
 \@outlinefile=\write5
 
 \openout5 = api-design-and-management.out
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 33.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 36.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 33.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 36.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmr/m/n on input line 33.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 33.
+(Font)                  OT1/cmss/m/n --> TU/lmr/m/n on input line 36.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmss/b/n on input line 33.
+(Font)                  OT1/cmr/bx/n --> TU/lmss/b/n on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmss/b/n on input line 33.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 33.
+(Font)                  OT1/cmr/bx/n --> TU/lmss/b/n on input line 36.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 33.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/m/n on input line 33.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 33.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/m/n on input line 36.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmss/m/it on input line 33.
+(Font)                  OT1/cmr/m/it --> TU/lmss/m/it on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmss/m/it on input line 33.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 33.
+(Font)                  OT1/cmr/bx/it --> TU/lmss/m/it on input line 36.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 33.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 33.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 36.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  TU/lmss/m/n --> TU/lmss/b/n on input line 33.
+(Font)                  TU/lmss/m/n --> TU/lmss/b/n on input line 36.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  TU/lmss/m/it --> TU/lmss/b/it on input line 33.
+(Font)                  TU/lmss/m/it --> TU/lmss/b/it on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> TU/lmr/b/n on input line 33.
+(Font)                  OT1/cmss/b/n --> TU/lmr/b/n on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  TU/lmss/b/n --> TU/lmss/b/n on input line 33.
+(Font)                  TU/lmss/b/n --> TU/lmss/b/n on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  TU/lmss/m/n --> TU/lmss/b/n on input line 33.
+(Font)                  TU/lmss/m/n --> TU/lmss/b/n on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  TU/lmss/m/it --> TU/lmss/b/it on input line 33.
+(Font)                  TU/lmss/m/it --> TU/lmss/b/it on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  TU/lmtt/m/n --> TU/lmtt/b/n on input line 33.
+(Font)                  TU/lmtt/m/n --> TU/lmtt/b/n on input line 36.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/translator/translator-basic-dicti
 onary-English.dict
@@ -1035,9 +1035,16 @@ tionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count356
- (./api-design-and-management.nav) [1
+ (./api-design-and-management.nav)
+<img/course-logo.png, id=66, 456.70625pt x 455.7025pt>
+File: img/course-logo.png Graphic file (type png)
+<use img/course-logo.png>
+Package luatex.def Info: img/course-logo.png  used on input line 40.
+(luatex.def)             Requested size: 199.16736pt x 99.58037pt.
+ [1
 
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./img/cou
+rse-logo.png>]
 (./api-design-and-management.toc) [2
 
 ] [3
@@ -1048,18 +1055,45 @@ Dictionary: translator-theorem-dictionary, Language: English
 
 ] [6
 
-] [7
+]
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <6> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 71.
+ [7
 
-] [8
+]
+<img/osi-model.png, id=187, 682.55pt x 547.04375pt>
+File: img/osi-model.png Graphic file (type png)
+<use img/osi-model.png>
+Package luatex.def Info: img/osi-model.png  used on input line 79.
+(luatex.def)             Requested size: 273.83794pt x 174.59846pt.
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 79.
+ [8
 
-] [9
+<./img/osi-model.png>]
+<img/api-client-to-server.png, id=199, 2167.09625pt x 872.25874pt>
+File: img/api-client-to-server.png Graphic file (type png)
+<use img/api-client-to-server.png>
+Package luatex.def Info: img/api-client-to-server.png  used on input line 87.
+(luatex.def)             Requested size: 205.38028pt x 99.7686pt.
+ [9
 
-] [10
+<./img/api-client-to-server.png>] [10
 
 ] [11
 
+] [12
+
+] [13
+
+] [14
+
+] [15
+
+] [16
+
 ]
-[12
+[17
 
 ]
 \tf@nav=\write6
@@ -1074,28 +1108,30 @@ Dictionary: translator-theorem-dictionary, Language: English
  (./api-design-and-management.aux)
 Package rerunfilecheck Info: File `api-design-and-management.out' has not chang
 ed.
-(rerunfilecheck)             Checksum: 11D4E3E7A0BC9499BA728AC0424C15E6;1569.
+(rerunfilecheck)             Checksum: 8F0C85D8D9B63312A151A0212504C2D9;1559.
 )
 
 Here is how much of LuaTeX's memory you used:
- 27441 strings out of 477785
+ 27562 strings out of 477785
  100000,1144653 words of node,token memory allocated
- 2914 words of node memory still in use:
-   47 hlist, 11 vlist, 11 rule, 8 disc, 7 local_par, 87 glue, 14 kern, 21 penalt
-y, 68 glyph, 96 attribute, 63 glue_spec, 96 attribute_list, 4 write, 42 pdf_colo
-rstack nodes
-   avail lists: 2:1008,3:617,4:366,5:125,6:63,7:1688,8:37,9:812,10:10,11:137
- 46806 multiletter control sequences out of 65536+600000
- 20 fonts using 1381871 bytes
- 128i,15n,115p,428b,620s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans8-regular.otf
-></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans10-regular.o
-tf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans12-regular
-.otf>
-Output written on api-design-and-management.pdf (12 pages, 31018 bytes).
+ 3754 words of node memory still in use:
+   76 hlist, 11 vlist, 16 rule, 8 disc, 7 local_par, 110 glue, 14 kern, 21 penal
+ty, 68 glyph, 158 attribute, 63 glue_spec, 158 attribute_list, 4 write, 39 pdf_l
+iteral, 44 pdf_colorstack nodes
+   avail lists: 2:1065,3:612,4:364,5:220,6:63,7:3556,8:37,9:778,10:17,11:275
+ 46899 multiletter control sequences out of 65536+600000
+ 24 fonts using 1909007 bytes
+ 128i,15n,115p,428b,719s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans10-oblique.ot
+f></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans8-oblique.o
+tf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans8-regular.
+otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans10-regula
+r.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans12-regu
+lar.otf>
+Output written on api-design-and-management.pdf (17 pages, 535397 bytes).
 
-PDF statistics: 206 PDF objects out of 1000 (max. 8388607)
- 166 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 131072)
- 176 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 306 PDF objects out of 1000 (max. 8388607)
+ 229 compressed objects within 3 object streams
+ 45 named destinations out of 1000 (max. 131072)
+ 366 words of extra memory for PDF output out of 10000 (max. 100000000)
 
