@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.10.7)  19 JAN 2024 14:46
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.10.7)  19 JAN 2024 16:16
  restricted system commands enabled.
 **api-design-and-management.tex
 (./api-design-and-management.tex
@@ -1118,7 +1118,7 @@ Here is how much of LuaTeX's memory you used:
    76 hlist, 11 vlist, 16 rule, 8 disc, 7 local_par, 110 glue, 14 kern, 21 penal
 ty, 68 glyph, 158 attribute, 63 glue_spec, 158 attribute_list, 4 write, 39 pdf_l
 iteral, 44 pdf_colorstack nodes
-   avail lists: 2:1065,3:612,4:364,5:220,6:63,7:3556,8:37,9:778,10:17,11:275
+   avail lists: 2:1059,3:612,4:364,5:220,6:63,7:3556,8:37,9:778,10:17,11:275
  46899 multiletter control sequences out of 65536+600000
  24 fonts using 1909007 bytes
  128i,15n,115p,428b,719s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1128,7 +1128,7 @@ tf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans8-regular.
 otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans10-regula
 r.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans12-regu
 lar.otf>
-Output written on api-design-and-management.pdf (17 pages, 535397 bytes).
+Output written on api-design-and-management.pdf (17 pages, 535389 bytes).
 
 PDF statistics: 306 PDF objects out of 1000 (max. 8388607)
  229 compressed objects within 3 object streams
