@@ -1,4 +1,4 @@
-## In this FAQ you will find the talks overview, and contents that will be covered. You can also watch the videos of the talks on [API Design and Management]()
+## In this FAQ you will find the talks overview, and contents that will be covered. You can also watch the videos of the talks on [API Design and Management](https://www.youtube.com/playlist?list=PLgAqrVq84PDcOryFRPZmhXR_FwGauGtyv)
 
 # What are these talks about?
 The talks are about API design in the context of microservices architecture and distributed systems, you can learn inside the followings:
