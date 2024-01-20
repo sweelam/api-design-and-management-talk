@@ -1,10 +1,10 @@
 \beamer@sectionintoc {1}{Course Objectives}{3}{0}{1}
 \beamer@sectionintoc {2}{Understanding APIs}{7}{0}{2}
-\beamer@sectionintoc {3}{API Design Principles}{10}{0}{3}
-\beamer@sectionintoc {4}{RESTful API Design}{11}{0}{4}
-\beamer@sectionintoc {5}{Advanced API Protocols}{12}{0}{5}
-\beamer@sectionintoc {6}{API Documentation and Specification}{13}{0}{6}
-\beamer@sectionintoc {7}{API Security}{14}{0}{7}
-\beamer@sectionintoc {8}{API Testing and Quality Assurance}{15}{0}{8}
-\beamer@sectionintoc {9}{API Management and Lifecycle}{16}{0}{9}
-\beamer@sectionintoc {10}{Conclusion}{17}{0}{10}
+\beamer@sectionintoc {3}{API Design Principles}{20}{0}{3}
+\beamer@sectionintoc {4}{RESTful API Design}{21}{0}{4}
+\beamer@sectionintoc {5}{Advanced API Protocols}{22}{0}{5}
+\beamer@sectionintoc {6}{API Documentation and Specification}{23}{0}{6}
+\beamer@sectionintoc {7}{API Security}{24}{0}{7}
+\beamer@sectionintoc {8}{API Testing and Quality Assurance}{25}{0}{8}
+\beamer@sectionintoc {9}{API Management and Lifecycle}{26}{0}{9}
+\beamer@sectionintoc {10}{Conclusion}{27}{0}{10}

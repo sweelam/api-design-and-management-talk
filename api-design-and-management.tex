@@ -7,6 +7,8 @@
 \usepackage{tikz}
 \usepackage{listings}
 \usepackage{colortbl}
+\usepackage{color}
+
 
 \tikzstyle{block} = [rectangle, draw, text width=4.5em, text centered, minimum height=2em]
 \lstset{basicstyle=\small\ttfamily}
@@ -23,6 +25,26 @@
   breaklines=true
 }
 
+
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{myblue}{rgb}{0,0,0.8}
+\lstset{language=XML,
+        morekeywords={m:GetPrice, m:StockName},
+        basicstyle=\ttfamily,
+        keywordstyle=\color{myblue},
+        commentstyle=\color{mygreen},
+        stringstyle=\color{myblue},
+        numbers=left,
+        numberstyle=\tiny\color{mygray},
+        stepnumber=1,
+        numbersep=3pt,
+        backgroundcolor=\color{white},
+        tabsize=1,
+        showspaces=false,
+        showstringspaces=false
+}
+
 \setbeamertemplate{navigation symbols}{} % Remove navigation symbols
 
 \title{API Design and Management}
@@ -32,6 +54,7 @@
 
 % Add the title graphic here
 \titlegraphic{\includegraphics[width=7cm, height=3.5cm]{img/course-logo.png}}
+\logo{\includegraphics[height=1cm]{img/channel-logo-circular.png}}
 
 \begin{document}
 
@@ -70,21 +93,95 @@
   
 \end{frame}
 
-\begin{frame}{Understanding APIs \small{\textit{(OSI Model)}}}
+\begin{frame}{Understanding APIs \small{\textit OSI Model}}
+	\small {The open systems interconnection (OSI) model is a conceptual model created for Standardization which enables diverse communication systems to communicate using standard protocols.} 
 	\begin{center}
-    		\includegraphics[width=0.8\textwidth, height=0.7\textheight]{img/osi-model.png}
+    		\includegraphics[width=0.8\textwidth, height=0.6\textheight]{img/osi-model.png}
   \end{center}
-  
-  \tiny { source:\href{https://www.coengoedegebure.com/osi-model}{\textcolor{blue}{coengoedegebure.com/osi-model}}}
+  \tiny { source: \href{https://www.coengoedegebure.com/osi-model}{\textcolor{blue}{coengoedegebure.com/osi-model}}}
 \end{frame}
 
-\begin{frame}{Understanding APIs}
+\begin{frame}{Understanding APIs \small Example}
 	\begin{center}
     		\includegraphics[width=0.6\textwidth, height=0.4\textheight]{img/api-client-to-server.png}
   \end{center}
   
-  \tiny { source:\href{https://phpenthusiast.com/blog/what-is-rest-api}{\textcolor{blue}{phpenthusiast.com/blog/what-is-rest-api}}}
+  \tiny { source: \href{https://phpenthusiast.com/blog/what-is-rest-api}{\textcolor{blue}{phpenthusiast.com/blog/what-is-rest-api}}}
 \end{frame}
+
+\begin{frame}[t]{Understanding APIs \small (API Types)}
+  There are several types of API, each one serves specific use case.
+  
+  \begin{itemize}
+  	\item<1-> Public APIs (Open APIs) \\
+  	\tiny{ The APIs are publicly available and can be designed in various ways, taking security into account. However, \underline{the main priority is to ensure they are easily consumable by as many clients as possible. }}
+
+  	\item<2-> \small Partner APIs \\
+  	\tiny{ Specialized interfaces that enable organizations to access data and service offerings across businesses (B2B) in order to create unique features within their own applications or services by utilizing a partner's resources. }
+  	
+  	\item<3-> \small Internal APIs \\
+  	 \tiny{ Intended for use internally by the organizations own developers. These APIs facilitate the transmission of data between different components of a system, enabling process automation. }
+  	 
+  	\item<4-> \small Composite APIs  {\tiny Executes a series of API requests in a single call.}
+  	\vspace{3mm}
+    \item<5->[] The types can be designed and developed using two ways \\
+    \begin{enumerate}
+     \item API Architectural Style, 
+     \item API Standard Protocol.  
+    \end{enumerate}    
+  \end{itemize}   
+  
+  
+\end{frame}
+
+
+\begin{frame}[t]{Understanding APIs \small (API Architecture vs API Protocols)}
+  \begin{block}{API Architecture Style}  
+   \scriptsize It refers to the high-level structural design of the API. It encompasses the standards, and best practices governing how the API is developed, how it interacts with other systems, and how it exposes its functionality and data.\\
+   \color{teal} Example: REST
+  \end{block}
+  
+  \begin{alertblock}{No Restrictions}
+    \scriptsize Architectural style is sensitive to change and enhancement; it relies more on human experience.
+  \end{alertblock}
+  
+  
+  \begin{block}{API Protocol}
+    \scriptsize It refers to a set of rules and standards used for communication between various software components. The protocol dictates how requests and responses are formatted and transmitted, and what are the restrictions of the communication.\\
+    \color{teal} Example: SOAP
+  \end{block}
+\end{frame}
+
+\begin{frame}[fragile,t]{Understanding APIs \small (SOAP API)}
+  
+  \begin{itemize}
+    \scriptsize
+    \item<1-> SOAP (Simple Object Access Protocol) is a protocol used for exchanging structured information in web services in computer networks. 
+    \item<2-> It's a standards-based web services access protocol that has been around for a long time. 
+	\item<3-> It relies on XML as its message format and usually relies on other application layer protocols, most notably Hypertext Transfer Protocol (HTTP) and Simple Mail Transfer Protocol (SMTP), for message negotiation and transmission.
+	\item<4->[] 
+	\tiny 
+	\begin{lstlisting}
+    <?xml version="1.0"?>
+    <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+      <soap:Header>
+        <!-- header information here -->
+      </soap:Header>
+      <soap:Body>
+        <m:GetPrice xmlns:m="http://www.example.org/stock">
+          <m:StockName>IBM</m:StockName>
+        </m:GetPrice>
+      </soap:Body>
+      <soap:Fault>
+        <!-- fault information here -->
+      </soap:Fault>
+    </soap:Envelope>
+    \end{lstlisting}
+
+  \end{itemize}
+  
+\end{frame}
+ 
  
 \section{API Design Principles}
 \begin{frame}{API Design Principles}
