@@ -45,6 +45,27 @@
         showstringspaces=false
 }
 
+% Define Protobuf language
+\lstdefinelanguage{protobuf}{
+  keywords={message, optional, repeated, required, string, int32, bool},
+  keywordstyle=\color{blue}\bfseries,
+  ndkeywords={bool, int32, float, double, string},
+  ndkeywordstyle=\color{darkgray}\bfseries,
+  identifierstyle=\color{black},
+  tabsize=1,
+  sensitive=false,
+  comment=[l]{//},
+  morecomment=[s]{/*}{*/},
+  commentstyle=\color{purple}\ttfamily,
+  stringstyle=\color{red}\ttfamily,
+  morestring=[b]",
+  morestring=[b]',
+}
+
+\definecolor{codegray}{gray}{0.9}
+\newcommand{\code}[1]{\colorbox{codegray}{\texttt{#1}}}
+
+
 \setbeamertemplate{navigation symbols}{} % Remove navigation symbols
 
 \title{API Design and Management}
@@ -181,6 +202,99 @@
   \end{itemize}
   
 \end{frame}
+
+\begin{frame}[fragile,t]{Understanding APIs \small (Other Protocols)}
+  
+  \begin{minipage}[t]{0.2\textwidth}
+    \begin{itemize}
+      \item \href{https://grpc.io}{\textcolor{blue}{gRPC}}
+      \item \href{https://en.wikipedia.org/wiki/REST}{\textcolor{blue}{REST}}
+      \item \href{https://graphql.org}{\textcolor{blue}{GraphQL}} 
+    \end{itemize}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[]{0.7\textwidth}
+    \begin{center}
+      \includegraphics[width=\textwidth, height=0.6\textheight]{img/api-protocols.png}
+    \end{center}
+  \end{minipage}
+  
+  \vspace{15mm}
+      \tiny { source: \href{https://mobilelive.medium.com/rest-vs-graphql-vs-grpc-comparing-three-modern-api-technologies-9ba58abadd82}{\textcolor{blue}{REST vs GraphQL vs gRPC: Comparing Three Modern API Technologies}}}
+
+\end{frame}
+
+\begin{frame}[fragile,t]{Understanding APIs \small (HTTP1 vs HTTP2)}  
+	\begin{table}[t]
+	\tiny
+	\centering
+		\begin{tabular}{  | >{\centering\arraybackslash}m{5cm} | >{\centering\arraybackslash}m{5cm} | }
+		\hline
+		\textbf{HTTP/1.1} & \textbf{HTTP/2} \\
+		\hline
+		Text-Based Protocol: Data is sent in a text-based format. & Binary Protocol: More efficient binary protocol, easier to parse. \\
+		\hline
+		One Request Per Connection: Each TCP connection allows only one request-response cycle at a time. & Multiplexing: Multiple requests and responses can be handled over a single TCP connection in parallel. \\
+		\hline
+		Headers Uncompressed: Headers are sent in plain text and can be quite large. & Header Compression: Uses HPACK compression to reduce overhead. \\
+		\hline
+		No Push Capabilities & Server Push \\
+		\hline
+		\end{tabular}
+		\end{table}
+    \begin{center}
+      \includegraphics[width=0.6\textwidth, height=0.57\textheight]{img/http1-http2.png}
+    \end{center}
+  
+\end{frame}
+
+\begin{frame}[fragile,t]{Understanding APIs \small (gRPC Protocol)}  
+	
+	\begin{itemize}
+	\scriptsize
+      \item gRPC is a modern open source high performance Remote Procedure Call (RPC) framework that was developed in Google.
+      \item gRPC can use \textbf{protocol buffers} as its underlying message interchange format.
+      \item gRPC is based around the idea of defining a service, specifying the methods that can be called remotely with their parameters and return types.
+      \tiny
+      \item On the server side, the server implements this interface and runs a gRPC server to handle client calls. 
+      \item On the client side, the client has a stub (referred to as just a client in some languages) that provides the same methods as the server.
+    \end{itemize}
+    
+    \begin{center}
+      \includegraphics[width=0.5\textwidth, height=0.4\textheight]{img/grpc.png}
+    \end{center}
+    
+    \tiny { source: \href{https://grpc.io/docs/what-is-grpc/introduction/}{\textcolor{blue}{Introduction to gRPC}}}
+  
+\end{frame}
+
+\begin{frame}[fragile,t]{Understanding APIs \small (Protocol Buffers)}  
+	
+	\begin{itemize}
+	\scriptsize
+      \item Protocol Buffers are a language-neutral, platform-neutral extensible mechanism for serializing structured data.
+      \item The file that includes the definition is \code {.proto} file
+      
+      \item[] 
+      \scriptsize
+      \begin{lstlisting}[language=protobuf]
+		message Person {
+			string name = 1;
+			int32 id = 2;
+			bool has_kids = 3;
+			optional string email = 4;
+		}
+      \end{lstlisting}
+    \end{itemize}
+    
+    \begin{center}
+      \includegraphics[width=0.7\textwidth, height=0.3\textheight]{img/protobuf-img.png}
+    \end{center}
+    
+    \tiny { source: \href{https://protobuf.dev/overview/}{\textcolor{blue}{protobuf overview}}}
+  
+\end{frame}
+
  
  
 \section{API Design Principles}

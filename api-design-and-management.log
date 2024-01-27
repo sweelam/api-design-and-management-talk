@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.10.7)  20 JAN 2024 23:32
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.10.7)  26 JAN 2024 19:33
  restricted system commands enabled.
 **api-design-and-management.tex
 (./api-design-and-management.tex
@@ -869,32 +869,32 @@ File: l3backend-luatex.def 2022-02-07 L3 backend support: PDF output (LuaTeX)
 (./api-design-and-management.aux)
 \openout1 = api-design-and-management.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 5
-9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 8
+0.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -952,7 +952,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 59.
+Package hyperref Info: Link coloring OFF on input line 80.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -966,55 +966,55 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count355
 )
-LaTeX Info: Redefining \ref on input line 59.
-LaTeX Info: Redefining \pageref on input line 59.
-LaTeX Info: Redefining \nameref on input line 59.
+LaTeX Info: Redefining \ref on input line 80.
+LaTeX Info: Redefining \pageref on input line 80.
+LaTeX Info: Redefining \nameref on input line 80.
  (./api-design-and-management.out) (./api-design-and-management.out)
 \@outlinefile=\write5
 
 \openout5 = api-design-and-management.out
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 59.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 80.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 59.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 80.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmr/m/n on input line 59.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 59.
+(Font)                  OT1/cmss/m/n --> TU/lmr/m/n on input line 80.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmss/b/n on input line 59.
+(Font)                  OT1/cmr/bx/n --> TU/lmss/b/n on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmss/b/n on input line 59.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 59.
+(Font)                  OT1/cmr/bx/n --> TU/lmss/b/n on input line 80.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 59.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/m/n on input line 59.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 59.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/m/n on input line 80.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmss/m/it on input line 59.
+(Font)                  OT1/cmr/m/it --> TU/lmss/m/it on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmss/m/it on input line 59.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 59.
+(Font)                  OT1/cmr/bx/it --> TU/lmss/m/it on input line 80.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 59.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 59.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 80.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  TU/lmss/m/n --> TU/lmss/b/n on input line 59.
+(Font)                  TU/lmss/m/n --> TU/lmss/b/n on input line 80.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  TU/lmss/m/it --> TU/lmss/b/it on input line 59.
+(Font)                  TU/lmss/m/it --> TU/lmss/b/it on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> TU/lmr/b/n on input line 59.
+(Font)                  OT1/cmss/b/n --> TU/lmr/b/n on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  TU/lmss/b/n --> TU/lmss/b/n on input line 59.
+(Font)                  TU/lmss/b/n --> TU/lmss/b/n on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  TU/lmss/m/n --> TU/lmss/b/n on input line 59.
+(Font)                  TU/lmss/m/n --> TU/lmss/b/n on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  TU/lmss/m/it --> TU/lmss/b/it on input line 59.
+(Font)                  TU/lmss/m/it --> TU/lmss/b/it on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  TU/lmtt/m/n --> TU/lmtt/b/n on input line 59.
+(Font)                  TU/lmtt/m/n --> TU/lmtt/b/n on input line 80.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/translator/translator-basic-dicti
 onary-English.dict
@@ -1045,12 +1045,12 @@ Dictionary: translator-theorem-dictionary, Language: English
 <img/course-logo.png, id=66, 456.70625pt x 455.7025pt>
 File: img/course-logo.png Graphic file (type png)
 <use img/course-logo.png>
-Package luatex.def Info: img/course-logo.png  used on input line 63.
+Package luatex.def Info: img/course-logo.png  used on input line 84.
 (luatex.def)             Requested size: 199.16736pt x 99.58037pt.
 <img/channel-logo-circular.png, id=67, 331.2375pt x 325.215pt>
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 63.
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 84.
 (luatex.def)             Requested size: 28.97612pt x 28.45274pt.
  [1
 
@@ -1059,28 +1059,28 @@ nnel-logo-circular.png><./img/course-logo.png>] (./api-design-and-management.to
 c)
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 67.
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 88.
 (luatex.def)             Requested size: 28.97612pt x 28.45274pt.
  [2
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 78.
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 99.
 (luatex.def)             Requested size: 28.97612pt x 28.45274pt.
  [3
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 78.
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 99.
 (luatex.def)             Requested size: 28.97612pt x 28.45274pt.
  [4
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 78.
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 99.
 (luatex.def)             Requested size: 28.97612pt x 28.45274pt.
 
 [5
@@ -1088,16 +1088,17 @@ Package luatex.def Info: img/channel-logo-circular.png  used on input line 78.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 78.
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 99.
 (luatex.def)             Requested size: 28.97612pt x 28.45274pt.
  [6
 
 ]
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <6> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 94.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 115.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 94.
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 115.
+
 (luatex.def)             Requested size: 28.97612pt x 28.45274pt.
  [7
 
@@ -1105,13 +1106,13 @@ Package luatex.def Info: img/channel-logo-circular.png  used on input line 94.
 <img/osi-model.png, id=189, 682.55pt x 547.04375pt>
 File: img/osi-model.png Graphic file (type png)
 <use img/osi-model.png>
-Package luatex.def Info: img/osi-model.png  used on input line 102.
+Package luatex.def Info: img/osi-model.png  used on input line 123.
 (luatex.def)             Requested size: 273.83794pt x 149.65703pt.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 102.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 123.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 102.
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 123.
 
 (luatex.def)             Requested size: 28.97612pt x 28.45274pt.
  [8
@@ -1120,33 +1121,33 @@ Package luatex.def Info: img/channel-logo-circular.png  used on input line 102.
 <img/api-client-to-server.png, id=201, 2167.09625pt x 872.25874pt>
 File: img/api-client-to-server.png Graphic file (type png)
 <use img/api-client-to-server.png>
-Package luatex.def Info: img/api-client-to-server.png  used on input line 110.
+Package luatex.def Info: img/api-client-to-server.png  used on input line 131.
 (luatex.def)             Requested size: 205.38028pt x 99.7686pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 110.
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 131.
 
 (luatex.def)             Requested size: 28.97612pt x 28.45274pt.
  [9
 
 <./img/api-client-to-server.png>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 135
+LaTeX Font Info:    Trying to load font information for U+msa on input line 156
 .
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 135
+LaTeX Font Info:    Trying to load font information for U+msb on input line 156
 .
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <5> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 135.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 156.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 135.
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 156.
 
 (luatex.def)             Requested size: 28.97612pt x 28.45274pt.
  [10
@@ -1154,7 +1155,7 @@ Package luatex.def Info: img/channel-logo-circular.png  used on input line 135.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 135.
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 156.
 
 (luatex.def)             Requested size: 28.97612pt x 28.45274pt.
  [11
@@ -1162,7 +1163,7 @@ Package luatex.def Info: img/channel-logo-circular.png  used on input line 135.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 135.
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 156.
 
 (luatex.def)             Requested size: 28.97612pt x 28.45274pt.
 
@@ -1171,7 +1172,7 @@ Package luatex.def Info: img/channel-logo-circular.png  used on input line 135.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 135.
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 156.
 
 (luatex.def)             Requested size: 28.97612pt x 28.45274pt.
  [13
@@ -1179,7 +1180,7 @@ Package luatex.def Info: img/channel-logo-circular.png  used on input line 135.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 135.
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 156.
 
 (luatex.def)             Requested size: 28.97612pt x 28.45274pt.
  [14
@@ -1187,7 +1188,7 @@ Package luatex.def Info: img/channel-logo-circular.png  used on input line 135.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 153.
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 174.
 
 (luatex.def)             Requested size: 28.97612pt x 28.45274pt.
  [15
@@ -1197,7 +1198,7 @@ Package luatex.def Info: img/channel-logo-circular.png  used on input line 153.
  (./api-design-and-management.vrb)
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 183.
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 204.
 
 (luatex.def)             Requested size: 28.97612pt x 28.45274pt.
  [16
@@ -1206,7 +1207,7 @@ Package luatex.def Info: img/channel-logo-circular.png  used on input line 183.
 (./api-design-and-management.vrb)
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 183.
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 204.
 
 (luatex.def)             Requested size: 28.97612pt x 28.45274pt.
  [17
@@ -1214,7 +1215,7 @@ Package luatex.def Info: img/channel-logo-circular.png  used on input line 183.
 ] (./api-design-and-management.vrb)
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 183.
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 204.
 
 (luatex.def)             Requested size: 28.97612pt x 28.45274pt.
 
@@ -1223,47 +1224,89 @@ Package luatex.def Info: img/channel-logo-circular.png  used on input line 183.
 ] (./api-design-and-management.vrb)
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 183.
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 204.
 
 (luatex.def)             Requested size: 28.97612pt x 28.45274pt.
  [19
 
 ]
+\openout4 = api-design-and-management.vrb
+ (./api-design-and-management.vrb
+<img/api-protocols.png, id=334, 1204.5pt x 677.53125pt>
+File: img/api-protocols.png Graphic file (type png)
+<use img/api-protocols.png>
+Package luatex.def Info: img/api-protocols.png  used on input line 13.
+(luatex.def)             Requested size: 239.5908pt x 149.65695pt.
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 15.
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 15.
+)
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 193.
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 225.
 
 (luatex.def)             Requested size: 28.97612pt x 28.45274pt.
- [20
 
-]
+[20
+
+<./img/api-protocols.png>]
+\openout4 = api-design-and-management.vrb
+ (./api-design-and-management.vrb
+<img/http1-http2.png, id=345, 604.2575pt x 692.5875pt>
+File: img/http1-http2.png Graphic file (type png)
+<use img/http1-http2.png>
+Package luatex.def Info: img/http1-http2.png  used on input line 20.
+(luatex.def)             Requested size: 205.3803pt x 142.17157pt.
+)
+Overfull \vbox (5.25111pt too high) detected at line 249
+ []
+
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 202.
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 249.
 
 (luatex.def)             Requested size: 28.97612pt x 28.45274pt.
- [21
+[21
 
-]
+<./img/http1-http2.png>]
+\openout4 = api-design-and-management.vrb
+ (./api-design-and-management.vrb
+<img/grpc.png, id=357, 521.95pt x 338.26375pt>
+File: img/grpc.png Graphic file (type png)
+<use img/grpc.png>
+Package luatex.def Info: img/grpc.png  used on input line 14.
+(luatex.def)             Requested size: 171.14494pt x 99.77145pt.
+)
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 213.
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 269.
 
 (luatex.def)             Requested size: 28.97612pt x 28.45274pt.
  [22
 
-]
+<./img/grpc.png>]
+\openout4 = api-design-and-management.vrb
+ (./api-design-and-management.vrb
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <8> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 11.
+<img/protobuf-img.png, id=368, 717.68124pt x 211.79124pt>
+File: img/protobuf-img.png Graphic file (type png)
+<use img/protobuf-img.png>
+Package luatex.def Info: img/protobuf-img.png  used on input line 21.
+(luatex.def)             Requested size: 239.60612pt x 74.82932pt.
+)
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 222.
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 296.
 
 (luatex.def)             Requested size: 28.97612pt x 28.45274pt.
  [23
 
-]
+<./img/protobuf-img.png>]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 231.
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 307.
 
 (luatex.def)             Requested size: 28.97612pt x 28.45274pt.
  [24
@@ -1271,27 +1314,59 @@ Package luatex.def Info: img/channel-logo-circular.png  used on input line 231.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 240.
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 316.
 
 (luatex.def)             Requested size: 28.97612pt x 28.45274pt.
- [25
+
+[25
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 250.
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 327.
 
 (luatex.def)             Requested size: 28.97612pt x 28.45274pt.
-
-[26
+ [26
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 258.
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 336.
 
 (luatex.def)             Requested size: 28.97612pt x 28.45274pt.
  [27
+
+]
+File: img/channel-logo-circular.png Graphic file (type png)
+<use img/channel-logo-circular.png>
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 345.
+
+(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+ [28
+
+]
+File: img/channel-logo-circular.png Graphic file (type png)
+<use img/channel-logo-circular.png>
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 354.
+
+(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+ [29
+
+]
+File: img/channel-logo-circular.png Graphic file (type png)
+<use img/channel-logo-circular.png>
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 364.
+
+(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+ [30
+
+]
+File: img/channel-logo-circular.png Graphic file (type png)
+<use img/channel-logo-circular.png>
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 372.
+
+(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+ [31
 
 ]
 \tf@nav=\write6
@@ -1310,16 +1385,18 @@ ed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 27967 strings out of 477785
+ 28141 strings out of 477785
  156266,1144653 words of node,token memory allocated
  3758 words of node memory still in use:
    76 hlist, 11 vlist, 16 rule, 8 disc, 7 local_par, 110 glue, 14 kern, 21 penal
 ty, 68 glyph, 159 attribute, 63 glue_spec, 159 attribute_list, 4 write, 39 pdf_l
 iteral, 44 pdf_colorstack nodes
-   avail lists: 2:2723,3:619,4:2856,5:2508,6:75,7:7142,8:37,9:7018,10:20,11:497
- 47060 multiletter control sequences out of 65536+600000
- 39 fonts using 3043095 bytes
+   avail lists: 2:2723,3:619,4:2856,5:2511,6:75,7:7185,8:37,9:7018,10:25,11:497
+ 47142 multiletter control sequences out of 65536+600000
+ 58 fonts using 4698783 bytes
  128i,15n,115p,428b,874s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmmonolt10-bold.otf
+></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf>
 </usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmmono8-regular.otf
 ></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans10-oblique.o
 tf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans8-oblique.
@@ -1327,10 +1404,10 @@ otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans8-regular
 .otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans10-regul
 ar.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans12-reg
 ular.otf>
-Output written on api-design-and-management.pdf (27 pages, 798150 bytes).
+Output written on api-design-and-management.pdf (31 pages, 1023431 bytes).
 
-PDF statistics: 434 PDF objects out of 1000 (max. 8388607)
- 323 compressed objects within 4 object streams
- 65 named destinations out of 1000 (max. 131072)
+PDF statistics: 495 PDF objects out of 1000 (max. 8388607)
+ 366 compressed objects within 4 object streams
+ 73 named destinations out of 1000 (max. 131072)
  546 words of extra memory for PDF output out of 10000 (max. 100000000)
 

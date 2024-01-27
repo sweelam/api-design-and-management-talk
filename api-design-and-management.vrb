@@ -1,28 +1,25 @@
-\frametitle{Understanding APIs \small (SOAP API)}
+\frametitle{Understanding APIs \small (Protocol Buffers)}
 
-  \begin{itemize}
-    \scriptsize
-    \item<1-> SOAP (Simple Object Access Protocol) is a protocol used for exchanging structured information in web services in computer networks.
-    \item<2-> It's a standards-based web services access protocol that has been around for a long time.
-	\item<3-> It relies on XML as its message format and usually relies on other application layer protocols, most notably Hypertext Transfer Protocol (HTTP) and Simple Mail Transfer Protocol (SMTP), for message negotiation and transmission.
-	\item<4->[]
-	\tiny
-	\begin{lstlisting}
-    <?xml version="1.0"?>
-    <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
-      <soap:Header>
-        <!-- header information here -->
-      </soap:Header>
-      <soap:Body>
-        <m:GetPrice xmlns:m="http://www.example.org/stock">
-          <m:StockName>IBM</m:StockName>
-        </m:GetPrice>
-      </soap:Body>
-      <soap:Fault>
-        <!-- fault information here -->
-      </soap:Fault>
-    </soap:Envelope>
-    \end{lstlisting}
+	\begin{itemize}
+	\scriptsize
+      \item Protocol Buffers are a language-neutral, platform-neutral extensible mechanism for serializing structured data.
+      \item The file that includes the definition is \code {.proto} file
 
-  \end{itemize}
+      \item[]
+      \scriptsize
+      \begin{lstlisting}[language=protobuf]
+		message Person {
+			string name = 1;
+			int32 id = 2;
+			bool has_kids = 3;
+			optional string email = 4;
+		}
+      \end{lstlisting}
+    \end{itemize}
+
+    \begin{center}
+      \includegraphics[width=0.7\textwidth, height=0.3\textheight]{img/protobuf-img.png}
+    \end{center}
+
+    \tiny { source: \href{https://protobuf.dev/overview/}{\textcolor{blue}{protobuf overview}}}
 
