@@ -1,0 +1,21 @@
+syntax = "proto3";
+package observer;
+
+service ObserverStatusService {
+
+    rpc getServiceStatus (SystemStatusRequest) returns (SystemStatusResponse) {}
+
+}
+
+message SystemStatusRequest {
+    optional string uuid = 1;
+    string service_name = 2;
+}
+
+message SystemStatusResponse {
+    string uuid = 1;
+    string status = 2;
+    string component = 3;
+    optional string service_name = 4;
+}
+

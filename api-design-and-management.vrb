@@ -1,25 +1,25 @@
-\frametitle{Understanding APIs \small (Protocol Buffers)}
+\frametitle{Understanding APIs \small (gRPC)}
 
-	\begin{itemize}
 	\scriptsize
-      \item Protocol Buffers are a language-neutral, platform-neutral extensible mechanism for serializing structured data.
-      \item The file that includes the definition is \code {.proto} file
-
-      \item[]
-      \scriptsize
       \begin{lstlisting}[language=protobuf]
-		message Person {
-			string name = 1;
-			int32 id = 2;
-			bool has_kids = 3;
-			optional string email = 4;
+		syntax = "proto3";
+		package observer;
+
+		service ObserverStatusService {
+    		rpc getServiceStatus (SystemStatusRequest)
+    				returns (SystemStatusResponse) {}
+		}
+
+		message SystemStatusRequest {
+    		optional string uuid = 1;
+    		string service_name = 2;
+		}
+
+		message SystemStatusResponse {
+    		string uuid = 1;
+    		string status = 2;
+    		string component = 3;
+    		optional string service_name = 4;
 		}
       \end{lstlisting}
-    \end{itemize}
-
-    \begin{center}
-      \includegraphics[width=0.7\textwidth, height=0.3\textheight]{img/protobuf-img.png}
-    \end{center}
-
-    \tiny { source: \href{https://protobuf.dev/overview/}{\textcolor{blue}{protobuf overview}}}
 

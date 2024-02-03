@@ -47,7 +47,8 @@
 
 % Define Protobuf language
 \lstdefinelanguage{protobuf}{
-  keywords={message, optional, repeated, required, string, int32, bool},
+  keywords={message, optional, repeated, required, returns,
+  service, rpc, package, syntax, string, int32, bool},
   keywordstyle=\color{blue}\bfseries,
   ndkeywords={bool, int32, float, double, string},
   ndkeywordstyle=\color{darkgray}\bfseries,
@@ -292,6 +293,42 @@
     \end{center}
     
     \tiny { source: \href{https://protobuf.dev/overview/}{\textcolor{blue}{protobuf overview}}}
+  
+\end{frame}
+
+\begin{frame}[fragile,t]{Understanding APIs \small (gRPC)}  
+
+    \begin{center}
+      \includegraphics[width=0.8\textwidth, height=0.7\textheight]{img/flight-gRPC.png}
+    \end{center}
+    \tiny { source: \href{https://grpc.io/docs/what-is-grpc/introduction/}{\textcolor{blue}{gRPC Offical doc}}}
+  
+\end{frame}
+
+\begin{frame}[fragile,t]{Understanding APIs \small (gRPC)}  
+	
+	\scriptsize
+      \begin{lstlisting}[language=protobuf]
+		syntax = "proto3";
+		package observer;
+
+		service ObserverStatusService {
+    		rpc getServiceStatus (SystemStatusRequest) 
+    				returns (SystemStatusResponse) {}
+		}
+
+		message SystemStatusRequest {
+    		optional string uuid = 1;
+    		string service_name = 2;
+		}
+
+		message SystemStatusResponse {
+    		string uuid = 1;
+    		string status = 2;
+    		string component = 3;
+    		optional string service_name = 4;
+		}
+      \end{lstlisting}
   
 \end{frame}
 
