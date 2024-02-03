@@ -1,0 +1,43 @@
+server:
+  port: 8883
+
+
+spring:
+  application:
+    name: email-service
+  kafka:
+    consumer:
+      bootstrap-servers: localhost:9092
+      group-id: email-group
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      auto-offset-reset: earliest
+      enable-auto-commit: false
+    listener:
+      ack-mode: manual_immediate
+
+opentracing:
+  jaeger:
+    http-sender:
+      url: http://localhost:14268/api/traces
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info, prometheus, metrics
+
+app:
+  kafka:
+    topic-name: flight.email.topic
+
+
+info:
+  java.version: ${java.version}
+  java.vm.vendor: ${java.vm.version}
+  application.name: ${spring.application.name}
+
+logging:
+  pattern:
+    level: "%5p [${spring.application.name:},%X{traceId:-},%X{spanId:-}]"

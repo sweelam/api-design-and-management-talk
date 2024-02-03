@@ -1,0 +1,13 @@
+=== Register new customer POST
+This api should 1,2,3
+==== Request structure
+include::{snippets}/registerCustomer/request-body.adoc[]
+
+==== Path Parameters
+include::{snippets}/registerCustomer/response-fields.adoc[]
+
+==== Example response
+include::{snippets}/registerCustomer/response-body.adoc[]
+
+==== CURL request
+include::{snippets}/registerCustomer/curl-request.adoc[]

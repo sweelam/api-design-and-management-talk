@@ -1,0 +1,60 @@
+version: '3.9'
+
+services:
+  zookeeper:
+    image: 'bitnami/zookeeper:latest'
+    ports:
+      - '2181:2181'
+    environment:
+      - ALLOW_ANONYMOUS_LOGIN=yes
+
+  kafka:
+    image: 'bitnami/kafka:3'
+    ports:
+      - '9092:9092'
+    environment:
+      - KAFKA_BROKER_ID=1
+      - KAFKA_CFG_LISTENERS=PLAINTEXT://:9092
+      - KAFKA_CFG_ADVERTISED_LISTENERS=PLAINTEXT://localhost:9092
+      - KAFKA_CFG_ZOOKEEPER_CONNECT=zookeeper:2181
+      - ALLOW_PLAINTEXT_LISTENER=yes
+    depends_on:
+      - zookeeper
+    restart: on-failure
+
+  jaeger-allinone:
+    image: jaegertracing/all-in-one:1.25
+    ports:
+      - 6831:6831/udp
+      - 6832:6832/udp
+      - 16686:16686
+      - 14268:14268
+
+  init-kafka:
+    image: 'bitnami/kafka:3'
+    depends_on:
+      - kafka
+    entrypoint: [ '/bin/sh', '-c' ]
+    command: |
+      '
+      # blocks until kafka is reachable
+      bin/kafka-topics.sh --bootstrap-server kafka:9092 --list
+
+      bin/kafka-topics.sh --bootstrap-server kafka:9092 --create --if-not-exists --topic flight.email.topic  --replication-factor 1 --partitions 2
+     
+      echo -e 'Created kafka topics:'
+      bin/kafka-topics.sh --bootstrap-server kafka:9092 --list
+      '
+
+  redis:
+    image: 'bitnami/redis:latest'
+    ports:
+      - '6379:6379'
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
+
+
+
+networks:
+  default:
+    name: flight-network
