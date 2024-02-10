@@ -1,0 +1,22 @@
+\frametitle{Understanding APIs \small (HTTP1 vs HTTP2)}
+\begin{table}[t]
+	\tiny
+	\centering
+		\begin{tabular}{  | >{\centering\arraybackslash}m{5cm} | >{\centering\arraybackslash}m{5cm} | }
+		\hline
+		\textbf{HTTP/1.1} & \textbf{HTTP/2} \\
+		\hline
+		Text-Based Protocol: Data is sent in a text-based format. & Binary Protocol: More efficient binary protocol, easier to parse. \\
+		\hline
+		One Request Per Connection: Each TCP connection allows only one request-response cycle at a time. & Multiplexing: Multiple requests and responses can be handled over a single TCP connection in parallel. \\
+		\hline
+		Headers Uncompressed: Headers are sent in plain text and can be quite large. & Header Compression: Uses HPACK compression to reduce overhead. \\
+		\hline
+		No Push Capabilities & Server Push \\
+		\hline
+		\end{tabular}
+		\end{table}
+    \begin{center}
+      \includegraphics[width=0.6\textwidth, height=0.57\textheight]{img/http1-http2.png}
+    \end{center}
+

@@ -1,0 +1,19 @@
+\frametitle{Understanding APIs \small (Other Protocols)}
+
+  \begin{minipage}[t]{0.2\textwidth}
+    \begin{itemize}
+      \item \href{https://grpc.io}{\textcolor{blue}{gRPC}}
+      \item \href{https://en.wikipedia.org/wiki/REST}{\textcolor{blue}{REST}}
+      \item \href{https://graphql.org}{\textcolor{blue}{GraphQL}}
+    \end{itemize}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[]{0.7\textwidth}
+    \begin{center}
+      \includegraphics[width=\textwidth, height=0.6\textheight]{img/api-protocols.png}
+    \end{center}
+  \end{minipage}
+
+  \vspace{15mm}
+      \tiny { source: \href{https://mobilelive.medium.com/rest-vs-graphql-vs-grpc-comparing-three-modern-api-technologies-9ba58abadd82}{\textcolor{blue}{REST vs GraphQL vs gRPC: Comparing Three Modern API Technologies}}}
+

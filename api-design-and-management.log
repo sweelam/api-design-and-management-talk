@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.10.7)  31 JAN 2024 16:54
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.10.7)  7 FEB 2024 05:00
  restricted system commands enabled.
 **api-design-and-management.tex
 (./api-design-and-management.tex
@@ -866,7 +866,14 @@ File: l3backend-luatex.def 2022-02-07 L3 backend support: PDF output (LuaTeX)
 \l__color_backend_stack_int=\count348
 \l__pdf_internal_box=\box84
 )
-(./api-design-and-management.aux)
+(./api-design-and-management.aux
+
+LaTeX Warning: Label `api-graphs<1>' multiply defined.
+
+
+LaTeX Warning: Label `api-graphs' multiply defined.
+
+)
 \openout1 = api-design-and-management.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
@@ -880,8 +887,7 @@ LaTeX Font Info:    ... okay on input line 81.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 8
 1.
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 81.
@@ -1234,8 +1240,8 @@ Package luatex.def Info: img/channel-logo-circular.png  used on input line 205.
  [19
 
 ]
-\openout4 = api-design-and-management.vrb
- (./api-design-and-management.vrb
+\openout4 = api-design-and-management.10.vrb
+ (./api-design-and-management.10.vrb
 <img/api-protocols.png, id=334, 1204.5pt x 677.53125pt>
 File: img/api-protocols.png Graphic file (type png)
 <use img/api-protocols.png>
@@ -1251,13 +1257,12 @@ File: img/channel-logo-circular.png Graphic file (type png)
 Package luatex.def Info: img/channel-logo-circular.png  used on input line 226.
 
 (luatex.def)             Requested size: 28.97612pt x 28.45274pt.
-
-[20
+ [20
 
 <./img/api-protocols.png>]
 \openout4 = api-design-and-management.vrb
  (./api-design-and-management.vrb
-<img/http1-http2.png, id=345, 604.2575pt x 692.5875pt>
+<img/http1-http2.png, id=347, 604.2575pt x 692.5875pt>
 File: img/http1-http2.png Graphic file (type png)
 <use img/http1-http2.png>
 Package luatex.def Info: img/http1-http2.png  used on input line 20.
@@ -1276,7 +1281,7 @@ Package luatex.def Info: img/channel-logo-circular.png  used on input line 250.
 <./img/http1-http2.png>]
 \openout4 = api-design-and-management.vrb
  (./api-design-and-management.vrb
-<img/grpc.png, id=357, 521.95pt x 338.26375pt>
+<img/grpc.png, id=359, 521.95pt x 338.26375pt>
 File: img/grpc.png Graphic file (type png)
 <use img/grpc.png>
 Package luatex.def Info: img/grpc.png  used on input line 14.
@@ -1294,7 +1299,7 @@ Package luatex.def Info: img/channel-logo-circular.png  used on input line 270.
  (./api-design-and-management.vrb
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <8> not available
 (Font)              Font shape `TU/lmtt/b/n' tried instead on input line 11.
-<img/protobuf-img.png, id=368, 717.68124pt x 211.79124pt>
+<img/protobuf-img.png, id=370, 717.68124pt x 211.79124pt>
 File: img/protobuf-img.png Graphic file (type png)
 <use img/protobuf-img.png>
 Package luatex.def Info: img/protobuf-img.png  used on input line 21.
@@ -1311,15 +1316,15 @@ Package luatex.def Info: img/channel-logo-circular.png  used on input line 297.
 \openout4 = api-design-and-management.vrb
 
 (./api-design-and-management.vrb
-<img/flight-gRPC.png, id=380, 999.735pt x 668.4975pt>
+<img/flight-gRPC.png, id=382, 999.735pt x 668.4975pt>
 File: img/flight-gRPC.png Graphic file (type png)
 <use img/flight-gRPC.png>
-Package luatex.def Info: img/flight-gRPC.png  used on input line 8.
+Package luatex.def Info: img/flight-gRPC.png  used on input line 4.
 (luatex.def)             Requested size: 273.83727pt x 174.60088pt.
 )
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 310.
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 306.
 
 (luatex.def)             Requested size: 28.97612pt x 28.45274pt.
  [24
@@ -1330,15 +1335,26 @@ Package luatex.def Info: img/channel-logo-circular.png  used on input line 310.
 (./api-design-and-management.vrb)
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 337.
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 333.
 
 (luatex.def)             Requested size: 28.97612pt x 28.45274pt.
  [25
 
 ]
+warning  (pdf backend): ignoring duplicate destination with the name 'api-graphs
+<1>'
+
+warning  (pdf backend): ignoring duplicate destination with the name 'api-graphs
+'
+(./api-design-and-management.10.vrb
+File: img/api-protocols.png Graphic file (type png)
+<use img/api-protocols.png>
+Package luatex.def Info: img/api-protocols.png  used on input line 13.
+(luatex.def)             Requested size: 239.5908pt x 149.65695pt.
+)
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 348.
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 335.
 
 (luatex.def)             Requested size: 28.97612pt x 28.45274pt.
  [26
@@ -1346,7 +1362,7 @@ Package luatex.def Info: img/channel-logo-circular.png  used on input line 348.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 357.
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 364.
 
 (luatex.def)             Requested size: 28.97612pt x 28.45274pt.
  [27
@@ -1354,7 +1370,7 @@ Package luatex.def Info: img/channel-logo-circular.png  used on input line 357.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 368.
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 373.
 
 (luatex.def)             Requested size: 28.97612pt x 28.45274pt.
  [28
@@ -1362,7 +1378,7 @@ Package luatex.def Info: img/channel-logo-circular.png  used on input line 368.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 377.
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 382.
 
 (luatex.def)             Requested size: 28.97612pt x 28.45274pt.
  [29
@@ -1370,7 +1386,7 @@ Package luatex.def Info: img/channel-logo-circular.png  used on input line 377.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 386.
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 393.
 
 (luatex.def)             Requested size: 28.97612pt x 28.45274pt.
  [30
@@ -1378,7 +1394,7 @@ Package luatex.def Info: img/channel-logo-circular.png  used on input line 386.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 395.
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 402.
 
 (luatex.def)             Requested size: 28.97612pt x 28.45274pt.
  [31
@@ -1386,7 +1402,7 @@ Package luatex.def Info: img/channel-logo-circular.png  used on input line 395.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 405.
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 411.
 
 (luatex.def)             Requested size: 28.97612pt x 28.45274pt.
  [32
@@ -1394,11 +1410,27 @@ Package luatex.def Info: img/channel-logo-circular.png  used on input line 405.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 413.
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 420.
 
 (luatex.def)             Requested size: 28.97612pt x 28.45274pt.
 
 [33
+
+]
+File: img/channel-logo-circular.png Graphic file (type png)
+<use img/channel-logo-circular.png>
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 430.
+
+(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+ [34
+
+]
+File: img/channel-logo-circular.png Graphic file (type png)
+<use img/channel-logo-circular.png>
+Package luatex.def Info: img/channel-logo-circular.png  used on input line 438.
+
+(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+ [35
 
 ]
 \tf@nav=\write6
@@ -1411,20 +1443,23 @@ Package luatex.def Info: img/channel-logo-circular.png  used on input line 413.
 
 \openout8 = api-design-and-management.snm
  (./api-design-and-management.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `api-design-and-management.out' has not chang
 ed.
 (rerunfilecheck)             Checksum: 8F0C85D8D9B63312A151A0212504C2D9;1559.
 )
 
 Here is how much of LuaTeX's memory you used:
- 28207 strings out of 477785
+ 28298 strings out of 477785
  156266,1144653 words of node,token memory allocated
- 3758 words of node memory still in use:
+ 3754 words of node memory still in use:
    76 hlist, 11 vlist, 16 rule, 8 disc, 7 local_par, 110 glue, 14 kern, 21 penal
-ty, 68 glyph, 159 attribute, 63 glue_spec, 159 attribute_list, 4 write, 39 pdf_l
+ty, 68 glyph, 158 attribute, 63 glue_spec, 158 attribute_list, 4 write, 39 pdf_l
 iteral, 44 pdf_colorstack nodes
-   avail lists: 2:2723,3:619,4:2856,5:2511,6:81,7:7296,8:37,9:7018,10:25,11:497
- 47168 multiletter control sequences out of 65536+600000
+   avail lists: 2:2725,3:629,4:2856,5:2513,6:81,7:7296,8:37,9:7018,10:25,11:497
+ 47228 multiletter control sequences out of 65536+600000
  58 fonts using 4698783 bytes
  128i,15n,115p,428b,874s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmmonolt10-bold.otf
@@ -1436,10 +1471,10 @@ otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans8-regular
 .otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans10-regul
 ar.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans12-reg
 ular.otf>
-Output written on api-design-and-management.pdf (33 pages, 1086122 bytes).
+Output written on api-design-and-management.pdf (35 pages, 1096182 bytes).
 
-PDF statistics: 514 PDF objects out of 1000 (max. 8388607)
- 381 compressed objects within 4 object streams
- 77 named destinations out of 1000 (max. 131072)
- 546 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 578 PDF objects out of 1000 (max. 8388607)
+ 422 compressed objects within 5 object streams
+ 83 named destinations out of 1000 (max. 131072)
+ 746 words of extra memory for PDF output out of 10000 (max. 100000000)
 

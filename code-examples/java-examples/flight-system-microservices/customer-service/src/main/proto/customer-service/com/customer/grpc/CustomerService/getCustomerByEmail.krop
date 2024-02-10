@@ -1,0 +1,14 @@
+{
+  "details": {
+    "endpoint": "http://localhost:9090",
+    "methodFqn": "com.customer.grpc.CustomerService.getCustomerByEmail"
+  },
+  "requests": [
+    {
+      "location": "getCustomerByEmail-request.json"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "grpc",
+  "importStreamId": "c7baad55-7cc6-40d9-83a4-1ddbff2916cc"
+}

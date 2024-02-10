@@ -1,5 +1,7 @@
 package com.flight.service;
 
+import com.flight.config.RedisClient;
+import com.flight.dto.CustomerResponse;
 import com.flight.dto.Flight;
 import com.flight.exceptions.FlightApiException;
 import org.junit.jupiter.api.Test;
@@ -21,7 +23,7 @@ class FlightServiceTest {
     CustomerService cs = Mockito.mock(CustomerService.class);
 
     FlightService flightService =
-            new FlightService(cs, Mockito.mock(EmailService.class));
+            new FlightService(cs, Mockito.mock(EmailService.class), Mockito.mock(RedisClient.class));
 
 
     @Test
@@ -32,7 +34,7 @@ class FlightServiceTest {
                 new Flight(UUID.randomUUID(), "Turkey-111", Instant.now() , "alex@gmail.com");
 
         var assertEx = assertThrows(FlightApiException.class,
-                () -> flightService.bookNewFlight(flightAdded, allFlights)
+                () -> flightService.bookNewFlight(flightAdded)
         );
 
         assertEquals("No customer found with provided email", assertEx.getReason());
@@ -43,16 +45,18 @@ class FlightServiceTest {
     void testBookNewFlightForDuplicateFlightsShouldThrowException() {
         List<Flight> allFlights = new ArrayList<>();
 
+        var uuid = UUID.randomUUID();
         Flight flightAdded =
-                new Flight(UUID.randomUUID(), "Turkey-111", Instant.now() , "alex@gmail.com");
+                new Flight(uuid, "Turkey-111", Instant.now() , "alex@gmail.com");
 
 
-        when(cs.customerFound("alex@gmail.com")).thenReturn(true);
+        when(cs.customerFound("alex@gmail.com"))
+                .thenReturn(new CustomerResponse(1, "alex", "alex@gmail.com", "Turkey-111"));
 
-        flightService.bookNewFlight(flightAdded, allFlights);
+        flightService.bookNewFlight(flightAdded);
 
         var assertEx = assertThrows(FlightApiException.class,
-                () -> flightService.bookNewFlight(flightAdded, allFlights)
+                () -> flightService.bookNewFlight(flightAdded)
         );
 
         assertEquals("Flight already booked!", assertEx.getReason());

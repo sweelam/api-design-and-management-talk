@@ -204,7 +204,7 @@
   
 \end{frame}
 
-\begin{frame}[fragile,t]{Understanding APIs \small (Other Protocols)}
+\begin{frame}[fragile,t, label=api-graphs]{Understanding APIs \small (Other Protocols)}
   
   \begin{minipage}[t]{0.2\textwidth}
     \begin{itemize}
@@ -332,7 +332,36 @@
   
 \end{frame}
 
- 
+\againframe{api-graphs}
+
+\begin{frame}[t]{Understanding APIs \small (RESTful API)}
+  
+    \scriptsize 
+  \begin{block}{REST API}  
+   \begin{itemize}
+    \scriptsize 
+   	\item In 2000, Roy Fielding proposed Representational State Transfer (REST) as an architectural approach to designing web services
+   	\item REST is independent of any underlying protocol and is not necessarily tied to HTTP
+   	\item REST is an architectural style for building distributed systems based on \textit{hypermedia}
+   \end{itemize}	   
+  \end{block}  
+  
+    \scriptsize  
+  \begin{block}{Primary Goal}  
+  \scriptsize
+	 {REST API doesn't bind the implementation to any specific implementation, the API could be written in \textbf{Go} , and the client can use any language or tools.}	   
+  \end{block}  
+  
+  \scriptsize
+  \begin{example}
+  	  	\scriptsize To \textbf{GET} an order , API URI might look like https://api-design/orders/1 \\
+  		\scriptsize Client response \code {\{"orderId":1,"orderValue":99.90,"productId":1,"quantity":1\}}
+  \end{example}
+  
+  \tiny { source: \href{https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design}
+  		{\textcolor{blue}{Microsoft: RESTful web API design}}}
+  
+\end{frame}
  
 \section{API Design Principles}
 \begin{frame}{API Design Principles}
