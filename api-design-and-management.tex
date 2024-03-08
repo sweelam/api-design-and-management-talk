@@ -362,7 +362,128 @@
   		{\textcolor{blue}{Microsoft: RESTful web API design}}}
   
 \end{frame}
- 
+
+\begin{frame}[t]{Understanding APIs \small (RESTful API)}
+	
+	\scriptsize 
+	\begin{block}{It is all about \textit{resources}}
+		A resource is an entity that can be identified, named, addressed, or handled on the web.REST APIs expose data as resources
+		and use standard HTTP methods to represent Create, Read, Update, and Delete (CRUD) transactions against these resources.
+	\end{block}  
+  
+  \scriptsize 
+   \begin{itemize}
+    \scriptsize 
+   	\item<2-> Resource is part of URL like, https://api-design/\textbf{orders}/1
+   	\item<3-> Resource is always noun and plural, for each resource, two URLs are generally implemented one for collection, 
+   	and one for specific element.\\ like, \textit{\textbf{/users}} and \textit{\textbf{/users/12}}
+   	\item<4-> HTTP methods like GET, POST, UPDATE, and DELETE inform the server about the action to be performed
+   	\item<5-> REST methods semantics ``CRUD``
+   		\begin{itemize}
+   				\scriptsize 
+  			\item READ   \hspace{.53cm} \rightarrow GET, \texttt{never change the server state}
+   			\item CREATE \hspace{.2cm} \rightarrow POST
+   			\item UPDATE \hspace{.15cm} \rightarrow PUT or PATCH
+   			\item DELETE \hspace{.18cm} \rightarrow DELETE
+   		\end{itemize}
+   \end{itemize}	   
+  
+  \vspace{2mm}
+  \scriptsize { source: \href{https://www.oreilly.com/library/view/designing-web-apis/9781492026914/}
+  		{\textcolor{blue}{Designing Web APIs}}}
+  
+\end{frame}
+
+\begin{frame}[t]{Understanding APIs \small (RESTful API)}
+	
+	\center \scriptsize \texttt{CRUD operations, HTTP verbs, and REST conventions}
+	\begin{center}
+      \includegraphics[width=0.7\textwidth, height=0.4\textheight]{img/crud.png}
+    \end{center}
+  
+  \vspace{10mm}
+  \tiny { source: \href{https://www.oreilly.com/library/view/designing-web-apis/9781492026914/}
+  		{\textcolor{blue}{Designing Web APIs}}}
+  
+\end{frame}
+
+\againframe{api-graphs}
+
+\begin{frame}[t]{Understanding APIs \small (Intro to GraphQL)}
+	\begin{block}{What is GraphQL?}
+	\scriptsize
+		\begin{itemize}
+			\item<1-> As shown in the name, it includes ``Graph`` which means it represents a relation to some extend, you have to keep in your mind this subtle notice.
+			\item<2-> GraphQL is a query language for your API, and a server-side runtime for executing queries using a type system you define for your data. 
+			\item<3-> GraphQL \textbf{isn't tied} to any specific database or storage engine and is instead backed by your existing code and data.		
+		\end{itemize}
+	\end{block}
+	
+	\vspace{40mm}
+	\tiny { source: \href{https://graphql.org/learn/}{\textcolor{blue}{Introduction to GraphQL}}}
+\end{frame}
+
+\begin{frame}[t]{Understanding APIs \small (Intro to GraphQL)}
+	\begin{block}{What is GraphQL?}
+	\scriptsize
+		\begin{itemize}
+			\item<1> As shown in the name, it includes ``Graph`` which means it represents a relation to some extend, you have to keep in your mind this subtle notice.
+			\item<1> GraphQL is a query language for your API, and a server-side runtime for executing queries using a type system you define for your data. 
+			\item<1> GraphQL \textbf{isn't tied} to any specific database or storage engine and is instead backed by your existing code and data.		
+		\end{itemize}
+	\end{block}
+	
+
+	\begin{example}
+		\tiny
+		A GraphQL service is created by defining types and fields on those types, then providing functions for each field on each type. For example, a GraphQL service that tells you who the logged in user is (me) as well as that user's name might look like this:
+	\end{example}
+	\begin{center}
+   		\includegraphics[width=0.7\textwidth, height=0.25\textheight]{img/graphql-example.png}
+    \end{center}
+    
+    \tiny { source: \href{https://graphql.org/learn/}{\textcolor{blue}{Introduction to GraphQL}}}
+  
+\end{frame}
+
+\begin{frame}[t]{Understanding APIs \small (Intro to GraphQL ``examples``)}
+\center
+	\begin{center}
+   		\includegraphics[width=0.5\textwidth, height=0.25\textheight]{img/graphql-example-2.png}
+    \end{center}
+    
+    \begin{center}
+   		\includegraphics[width=0.5\textwidth, height=0.25\textheight]{img/graphql-example-3.png}
+    \end{center}
+    
+    \tiny { source: \href{https://graphql.org/learn/}{\textcolor{blue}{Introduction to GraphQL}}}
+\end{frame}
+
+
+\begin{frame}[t]{Understanding APIs \small (Websockets API)}
+
+\begin{block}{What is Websocket API?}
+		\begin{itemize}
+		\scriptsize
+			\item<1-> The WebSocket API is an advanced technology that makes it possible to open a two-way interactive communication session between the user's browser and a server.
+			\item<2->  With this API, you can send messages to a server and receive event-driven responses without having to poll the server for a reply.
+		\end{itemize}
+	\end{block}
+    
+    \begin{center}
+   		\includegraphics[width=0.8\textwidth, height=0.5\textheight]{img/websockets.jpeg}
+    \end{center}
+    
+    \tiny { source: \href{https://dev.to/karanpratapsingh/system-design-long-polling-websockets-server-sent-events-sse-1hip}{\textcolor{blue}{WebSockets, Long polling, Server-Sent Events}}}
+\end{frame}
+
+\begin{frame}[t]{Understanding APIs}
+\center
+	\begin{center}
+   		\includegraphics[width=0.8\textwidth, height=0.7\textheight]{img/understanding-apis.jpg}
+    \end{center}
+\end{frame}
+
 \section{API Design Principles}
 \begin{frame}{API Design Principles}
   \begin{itemize}
@@ -371,6 +492,7 @@
     \item API Versioning Strategies
   \end{itemize}
 \end{frame}
+
 
 \section{RESTful API Design}
 \begin{frame}{RESTful API Design}
