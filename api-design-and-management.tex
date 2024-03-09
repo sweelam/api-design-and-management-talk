@@ -484,8 +484,51 @@
     \end{center}
 \end{frame}
 
+
 \section{API Design Principles}
-\begin{frame}{API Design Principles}
+\begin{frame}{API Design Principles (Know Your Consumer)}
+		\scriptsize
+  When designing an API, it's best to consider real-life use cases and think about the developers who will be using your API
+  \begin{itemize}
+  
+    \item<1-> What tasks should they be able to complete with your API? 
+    \item<2-> What kind of application should developer be able to build?
+    \item<3-> How can you make the developer understand your API clearly?
+    \item<4->[] 
+    	\begin{block}{Think Twice when Designing an API}
+			 API you design is like a window that shows what you want outsiders to see.
+		\end{block}
+	\item<5->[]
+		\begin{center}
+   			\includegraphics[width=0.6\textwidth, height=0.4\textheight]{img/advice-API.png}
+	    \end{center}
+    
+  \end{itemize}
+  
+  \tiny { source: \href{https://www.oreilly.com/library/view/designing-web-apis/9781492026914/}{\textcolor{blue}{Designing Web APIs}}}
+\end{frame}
+
+\begin{frame}{API Design Principles (Best Practices)}
+	\scriptsize
+	Think of your API as the UI you provide to someone, check the UX multiple times. 
+  \begin{itemize}
+    \item<2-> Make it fast and Easy to Get Started
+    \item<3-> Documentation that outline the specifications of an API can go a long way toward helping developers get started
+    	\begin{itemize}
+    		\scriptsize
+		    \item<4-> A tutorial is an interactive interface to teach developers about your API
+		    \item<5-> A guide is a more contextual document than a specification. It provides information for developers at a certain point in time—typically when getting started
+	    \end{itemize}
+    \item<6->[]
+    	\begin{center}
+   			\includegraphics[width=0.6\textwidth, height=0.4\textheight]{img/advice-api-2.png}
+	    \end{center}
+  \end{itemize}
+    
+  \tiny { source: \href{https://www.oreilly.com/library/view/designing-web-apis/9781492026914/}{\textcolor{blue}{Designing Web APIs}}}
+\end{frame}
+
+\begin{frame}{API Design Principles}≠
   \begin{itemize}
     \item Fundamentals of Good API Design
     \item Designing for Scalability and Performance

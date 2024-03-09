@@ -57,45 +57,49 @@
 \headcommand {\beamer@sectionpages {7}{42}}
 \headcommand {\beamer@subsectionpages {7}{42}}
 \headcommand {\sectionentry {3}{API Design Principles}{43}{API Design Principles}{0}}
-\headcommand {\slideentry {3}{0}{1}{43/43}{}{0}}
-\headcommand {\beamer@framepages {43}{43}}
-\headcommand {\beamer@sectionpages {43}{43}}
-\headcommand {\beamer@subsectionpages {43}{43}}
-\headcommand {\sectionentry {4}{RESTful API Design}{44}{RESTful API Design}{0}}
-\headcommand {\slideentry {4}{0}{1}{44/44}{}{0}}
-\headcommand {\beamer@framepages {44}{44}}
-\headcommand {\beamer@sectionpages {44}{44}}
-\headcommand {\beamer@subsectionpages {44}{44}}
-\headcommand {\sectionentry {5}{Advanced API Protocols}{45}{Advanced API Protocols}{0}}
-\headcommand {\slideentry {5}{0}{1}{45/45}{}{0}}
-\headcommand {\beamer@framepages {45}{45}}
-\headcommand {\beamer@sectionpages {45}{45}}
-\headcommand {\beamer@subsectionpages {45}{45}}
-\headcommand {\sectionentry {6}{API Documentation and Specification}{46}{API Documentation and Specification}{0}}
-\headcommand {\slideentry {6}{0}{1}{46/46}{}{0}}
-\headcommand {\beamer@framepages {46}{46}}
-\headcommand {\beamer@sectionpages {46}{46}}
-\headcommand {\beamer@subsectionpages {46}{46}}
-\headcommand {\sectionentry {7}{API Security}{47}{API Security}{0}}
-\headcommand {\slideentry {7}{0}{1}{47/47}{}{0}}
-\headcommand {\beamer@framepages {47}{47}}
-\headcommand {\beamer@sectionpages {47}{47}}
-\headcommand {\beamer@subsectionpages {47}{47}}
-\headcommand {\sectionentry {8}{API Testing and Quality Assurance}{48}{API Testing and Quality Assurance}{0}}
-\headcommand {\slideentry {8}{0}{1}{48/48}{}{0}}
-\headcommand {\beamer@framepages {48}{48}}
-\headcommand {\beamer@sectionpages {48}{48}}
-\headcommand {\beamer@subsectionpages {48}{48}}
-\headcommand {\sectionentry {9}{API Management and Lifecycle}{49}{API Management and Lifecycle}{0}}
-\headcommand {\slideentry {9}{0}{1}{49/49}{}{0}}
-\headcommand {\beamer@framepages {49}{49}}
-\headcommand {\beamer@sectionpages {49}{49}}
-\headcommand {\beamer@subsectionpages {49}{49}}
-\headcommand {\sectionentry {10}{Conclusion}{50}{Conclusion}{0}}
-\headcommand {\slideentry {10}{0}{1}{50/50}{}{0}}
-\headcommand {\beamer@framepages {50}{50}}
-\headcommand {\beamer@partpages {1}{50}}
-\headcommand {\beamer@subsectionpages {50}{50}}
-\headcommand {\beamer@sectionpages {50}{50}}
-\headcommand {\beamer@documentpages {50}}
-\headcommand {\gdef \inserttotalframenumber {33}}
+\headcommand {\slideentry {3}{0}{1}{43/47}{}{0}}
+\headcommand {\beamer@framepages {43}{47}}
+\headcommand {\slideentry {3}{0}{2}{48/53}{}{0}}
+\headcommand {\beamer@framepages {48}{53}}
+\headcommand {\slideentry {3}{0}{3}{54/54}{}{0}}
+\headcommand {\beamer@framepages {54}{54}}
+\headcommand {\beamer@sectionpages {43}{54}}
+\headcommand {\beamer@subsectionpages {43}{54}}
+\headcommand {\sectionentry {4}{RESTful API Design}{55}{RESTful API Design}{0}}
+\headcommand {\slideentry {4}{0}{1}{55/55}{}{0}}
+\headcommand {\beamer@framepages {55}{55}}
+\headcommand {\beamer@sectionpages {55}{55}}
+\headcommand {\beamer@subsectionpages {55}{55}}
+\headcommand {\sectionentry {5}{Advanced API Protocols}{56}{Advanced API Protocols}{0}}
+\headcommand {\slideentry {5}{0}{1}{56/56}{}{0}}
+\headcommand {\beamer@framepages {56}{56}}
+\headcommand {\beamer@sectionpages {56}{56}}
+\headcommand {\beamer@subsectionpages {56}{56}}
+\headcommand {\sectionentry {6}{API Documentation and Specification}{57}{API Documentation and Specification}{0}}
+\headcommand {\slideentry {6}{0}{1}{57/57}{}{0}}
+\headcommand {\beamer@framepages {57}{57}}
+\headcommand {\beamer@sectionpages {57}{57}}
+\headcommand {\beamer@subsectionpages {57}{57}}
+\headcommand {\sectionentry {7}{API Security}{58}{API Security}{0}}
+\headcommand {\slideentry {7}{0}{1}{58/58}{}{0}}
+\headcommand {\beamer@framepages {58}{58}}
+\headcommand {\beamer@sectionpages {58}{58}}
+\headcommand {\beamer@subsectionpages {58}{58}}
+\headcommand {\sectionentry {8}{API Testing and Quality Assurance}{59}{API Testing and Quality Assurance}{0}}
+\headcommand {\slideentry {8}{0}{1}{59/59}{}{0}}
+\headcommand {\beamer@framepages {59}{59}}
+\headcommand {\beamer@sectionpages {59}{59}}
+\headcommand {\beamer@subsectionpages {59}{59}}
+\headcommand {\sectionentry {9}{API Management and Lifecycle}{60}{API Management and Lifecycle}{0}}
+\headcommand {\slideentry {9}{0}{1}{60/60}{}{0}}
+\headcommand {\beamer@framepages {60}{60}}
+\headcommand {\beamer@sectionpages {60}{60}}
+\headcommand {\beamer@subsectionpages {60}{60}}
+\headcommand {\sectionentry {10}{Conclusion}{61}{Conclusion}{0}}
+\headcommand {\slideentry {10}{0}{1}{61/61}{}{0}}
+\headcommand {\beamer@framepages {61}{61}}
+\headcommand {\beamer@partpages {1}{61}}
+\headcommand {\beamer@subsectionpages {61}{61}}
+\headcommand {\beamer@sectionpages {61}{61}}
+\headcommand {\beamer@documentpages {61}}
+\headcommand {\gdef \inserttotalframenumber {35}}
