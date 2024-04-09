@@ -660,7 +660,51 @@
 	\end{itemize}
 \end{frame}
 
-\againframe{crud-ops}
+\begin{frame}[t]{Restful API Design Semantics}
+	\scriptsize
+	HTTP semantics include the intentions defined by each request method
+	
+	\begin{block}{HTTP Core Semantics}
+		\begin{itemize}
+			\item In request header fields, status codes that describe the response
+			\item \textbf{Representation} metadata describe how content is intended to be interpreted by a recipient
+			\item Request header fields that might influence content selection, and the various selection algorithms that are collectively referred to as "content negotiation"
+		\end{itemize}				
+	\end{block}	
+	
+	\begin{block}{Representation Definition}
+		A "representation" is information that is intended to reflect a past, current, or desired state of a given resource. A representation consists of a set of representation metadata and a potentially unbounded stream of representation data.
+	\end{block}		
+		
+	\begin{center}
+   		\includegraphics[width=0.6\textwidth, height=0.2\textheight]{img/header-metadata.png}
+	\end{center}
+	
+	  \tiny source: \href{https://www.rfc-editor.org/rfc/rfc9110.html} {\textcolor{blue}{RFC 9110}} 
+
+\end{frame}
+
+
+\begin{frame}[t]{Restful API Design Semantics "Content Type"}
+	\scriptsize	
+		\begin{itemize}
+			\item Content-Type: The indicated media type defines both the data format and how that data is intended to be processed by a recipient.
+			\item[] [Format]
+			\item[] Content-Type: [media type];[subtype]
+			\item[] \code{Content-Type: text/html ; Charset="utf-8"}   
+			\begin{examples}
+				Content-Type: application/json \\
+				Content-Type: image/png   \\
+				Content-Type: application/x-www-form-urlencoded  \\
+				Content-Type: multipart/form-data  \\
+				Content-Type: video/mp4   \\
+			\end{examples}
+			
+		\end{itemize}				
+	
+	  \tiny source: \href{https://www.rfc-editor.org/rfc/rfc9110.html} {\textcolor{blue}{RFC 9110}} 
+\end{frame}
+
 
 \section{Advanced API Protocols}
 \begin{frame}{Advanced API Protocols}
