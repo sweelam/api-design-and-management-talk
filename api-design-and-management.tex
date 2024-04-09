@@ -394,7 +394,7 @@
   
 \end{frame}
 
-\begin{frame}[t]{Understanding APIs \small (RESTful API)}
+\begin{frame}[t, label=crud-ops]{Understanding APIs \small (RESTful API)}
 	
 	\center \scriptsize \texttt{CRUD operations, HTTP verbs, and REST conventions}
 	\begin{center}
@@ -521,32 +521,146 @@
 	    \end{itemize}
     \item<6->[]
     	\begin{center}
-   			\includegraphics[width=0.6\textwidth, height=0.4\textheight]{img/advice-api-2.png}
+   			\includegraphics[width=0.6\textwidth, height=0.3\textheight]{img/advice-api-2.png}
 	    \end{center}
   \end{itemize}
     
   \tiny { source: \href{https://www.oreilly.com/library/view/designing-web-apis/9781492026914/}{\textcolor{blue}{Designing Web APIs}}}
 \end{frame}
 
-\begin{frame}{API Design Principles}≠
+\begin{frame}{API Design Principles (Request Packets)}
+	\scriptsize
+	HTTP Protocol was built on top of TCP protocol
+	\begin{itemize}
+    \item HTTP Request is sent to server over TCP IP PACKET
+    \item Server Reply with ACK , PSH, and provide Response in another IP PACKET
+    \item CLIENT can follow up with ACK and close the connection
+  \end{itemize}
+  
+   	\begin{center}
+   		\includegraphics[width=0.6\textwidth, height=0.4\textheight]{img/api-request-details.png}
+	\end{center}
+    
+\end{frame}
+
+\begin{frame}{API Design Principles (Request Packets)}
+	\scriptsize
+	HTTP Protocol was built on top of TCP protocol
+	\begin{itemize}
+    	\item HTTP Request is sent to server over TCP IP PACKET
+    	\item Server Reply with ACK , PSH, and provide Response in another IP PACKET
+    	\item CLIENT can follow up with ACK and close the connection
+  	\end{itemize}  
+   	\begin{center}
+   		\includegraphics[width=0.8\textwidth, height=0.5\textheight]{img/api-request.png}
+	\end{center}
+    
+\end{frame}
+
+\begin{frame}{API Design Principles (Request Packets)}
+	\scriptsize
+	HTTP Protocol was built on top of TCP protocol
+	\begin{itemize}
+    	\item HTTP Request is sent to server over TCP IP PACKET
+    	\item Server Reply with ACK , PSH, and provide Response in another IP PACKET
+    	\item CLIENT can follow up with ACK and close the connection
+  	\end{itemize}  
+  	
+   	\begin{center}
+   		\includegraphics[width=0.8\textwidth, height=0.5\textheight]{img/api-response.png}
+	\end{center}
+    
+\end{frame}
+
+\begin{frame}{API Design Principles}
   \begin{itemize}
     \item Fundamentals of Good API Design
-    \item Designing for Scalability and Performance
+    \item Designing for Scalability and Performance ?
     \item API Versioning Strategies
   \end{itemize}
 \end{frame}
-
 
 \section{RESTful API Design}
 \begin{frame}{RESTful API Design}
   \begin{itemize}
     \item RESTful Architecture Principles
-    \item Designing RESTful Services (Endpoints, HTTP Methods, Status Codes)
+    \item Designing RESTful Services (HTTP Methods, Status Codes)
     \item Best Practices in RESTful API
   \end{itemize}
 \end{frame}
 
 
+\begin{frame}[t]{RESTful Architecture Principles}
+	\scriptsize
+	In late 1993, Roy Fielding, co-founder of the Apache HTTP Server Project recognized that the Web’s scalability was governed by a set of key constraints which were grouped under six categories:
+	\begin{itemize}
+    	\item \textcolor{teal}{Client-server}
+    	\item \textcolor{teal}{Uniform interface}
+    	\item Layered system
+    	\item Stateless
+    	\item Code-on-demand `Optional`
+    	\item \textcolor{red} {Cache}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}[t]{RESTful Architecture Principles}
+	\scriptsize
+	In late 1993, Roy Fielding, co-founder of the Apache HTTP Server Project recognized that the Web’s scalability was governed by a set of key constraints which were grouped under six categories:
+	\begin{itemize}
+    	\item \textcolor{teal}{Client-server}
+    	\item \textcolor{teal}{Uniform interface}
+
+    	\item Layered system
+    	\item[] \textcolor{gray}{\tiny The layered system constraints enable network-based intermediaries such as proxies and gateways to be transparently deployed between a client and server using the Web’s uniform interface.} 
+    	
+    	\item Stateless
+    	\item Code-on-demand `Optional`
+    	\item \textcolor{red} {Cache}
+	\end{itemize}
+\end{frame}
+
+
+\begin{frame}[t]{RESTful Architecture Principles}
+	\scriptsize
+	In late 1993, Roy Fielding, co-founder of the Apache HTTP Server Project recognized that the Web’s scalability was governed by a set of key constraints which were grouped under six categories:
+	\begin{itemize}
+    	\item \textcolor{teal}{Client-server}
+    	\item \textcolor{teal}{Uniform interface}
+
+    	\item Layered system
+    	\item[] \textcolor{gray}{\tiny The layered system constraints enable network-based intermediaries such as proxies and gateways to be transparently deployed between a client and server using the Web’s uniform interface.} 
+    	
+    	\item Stateless
+    	\item[] \textcolor{gray}{ \tiny The stateless constraint dictates that a web server is not required to memorize the state of its client applications. As a result, each client must include all of the contextual information that it considers relevant in each interaction with the web server. }
+    	
+    	\item Code-on-demand `Optional`
+    	\item \textcolor{red} {Cache}
+	\end{itemize}
+\end{frame}
+
+
+\begin{frame}[t]{RESTful Architecture Principles}
+	\scriptsize
+	In late 1993, Roy Fielding, co-founder of the Apache HTTP Server Project recognized that the Web’s scalability was governed by a set of key constraints which were grouped under six categories:
+	\begin{itemize}
+    	\item \textcolor{teal}{Client-server}
+    	\item \textcolor{teal}{Uniform interface}
+
+    	\item Layered system
+    	
+    	\item[] \textcolor{gray}{\tiny The layered system constraints enable network-based intermediaries such as proxies and gateways to be transparently deployed between a client and server using the Web’s uniform interface.} 
+    	
+    	\item Stateless
+    	\item[] \textcolor{gray}{ \tiny The stateless constraint dictates that a web server is not required to memorize the state of its client applications. As a result, each client must include all of the contextual information that it considers relevant in each interaction with the web server. }
+    	
+    	\item Code-on-demand `Optional`
+    	\item[] \textcolor{gray}{\tiny Code-on-demand enables web servers to temporarily transfer executable programs, such as scripts or plug-ins, to clients.}
+
+    	\item \textcolor{red} {Cache}
+	\end{itemize}
+\end{frame}
+
+\againframe{crud-ops}
 
 \section{Advanced API Protocols}
 \begin{frame}{Advanced API Protocols}
