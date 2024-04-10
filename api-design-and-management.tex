@@ -693,14 +693,16 @@
 			\item[] Content-Type: [media type];[subtype]
 			\item[] \code{Content-Type: text/html ; Charset="utf-8"}   
 			\begin{examples}
-				Content-Type: application/json \\
-				Content-Type: image/png   \\
-				Content-Type: application/x-www-form-urlencoded  \\
-				Content-Type: multipart/form-data  \\
-				Content-Type: video/mp4   \\
+				application/json 				   \hfill image/png   			\\
+				application/x-www-form-urlencoded  \hfill multipart/form-data   \\
 			\end{examples}
-			
-		\end{itemize}				
+			\item \alert{Understanding the Media type helps you handling the request correctly with minimal processing}
+		\end{itemize}	
+		
+		
+		\begin{center}
+   			\includegraphics[width=0.6\textwidth, height=0.3\textheight]{img/unspported-media-type.png}
+		\end{center}		
 	
 	  \tiny source: \href{https://www.rfc-editor.org/rfc/rfc9110.html} {\textcolor{blue}{RFC 9110}} 
 \end{frame}

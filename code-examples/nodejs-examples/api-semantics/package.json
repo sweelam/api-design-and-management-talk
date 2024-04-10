@@ -1,0 +1,15 @@
+{
+  "name": "api-semantics",
+  "version": "1.0.0",
+  "description": "simulate api core semantics",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "nodemon src/index.js"
+  },
+  "author": "Mohamed Sweelam",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
+}
