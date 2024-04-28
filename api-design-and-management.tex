@@ -572,14 +572,6 @@
     
 \end{frame}
 
-\begin{frame}{API Design Principles}
-  \begin{itemize}
-    \item Fundamentals of Good API Design
-    \item Designing for Scalability and Performance ?
-    \item API Versioning Strategies
-  \end{itemize}
-\end{frame}
-
 \section{RESTful API Design}
 \begin{frame}{RESTful API Design}
   \begin{itemize}
@@ -705,6 +697,80 @@
 		\end{center}		
 	
 	  \tiny source: \href{https://www.rfc-editor.org/rfc/rfc9110.html} {\textcolor{blue}{RFC 9110}} 
+\end{frame}
+
+\begin{frame}[t]{Restful API Design "HTTP Methods"}
+		
+		\begin{center}
+   			\includegraphics[width=0.8\textwidth, height=0.6\textheight]{img/http-methods.png}
+		\end{center}		
+	
+	  \tiny source: \href{https://www.rfc-editor.org/rfc/rfc9110.html} {\textcolor{blue}{RFC 9110}} 
+\end{frame}
+
+\begin{frame}[t]{Restful API Design Semantics "Common Properties"}
+	\scriptsize
+	\begin{block}{Safe Methods}
+		An HTTP method is safe if a request using this method doesn’t alter the state of the server. In other words, it leads to a read-only operation.\\
+		\begin{itemize}
+			\item Safe methods: \code{GET, HEAD, OPTIONS}
+			\item Unsafe methods: \code{POST, PUT, DELETE, CONNECT, PATCH}
+		\end{itemize}				
+	\end{block}
+	
+	\vspace{44mm}
+	\tiny source: \href{https://learning.mlytics.com/the-internet/http-request-methods} {\textcolor{blue}{Common Properties}} 
+\end{frame}
+
+\begin{frame}[t]{Restful API Design Semantics "Common Properties"}
+	\scriptsize
+	\begin{block}{Safe Methods}	
+		An HTTP method is safe if a request using this method doesn’t alter the state of the server. In other words, it leads to a read-only operation.
+	\end{block}
+		
+	\begin{block}{Idempotent Methods}
+		An HTTP method is idempotent if multiple identical requests using this method will have the same effect on the server as that of a single request of that same method.\\
+		\begin{itemize}
+			\item Idempotent methods: \code{GET, HEAD, PUT, DELETE, OPTIONS, TRACE}
+			\item Non-idempotent methods: \code{POST, CONNECT, PATCH}
+		\end{itemize}	
+	\end{block}
+	
+	\vspace{27mm}
+	\tiny source: \href{https://learning.mlytics.com/the-internet/http-request-methods} {\textcolor{blue}{Common Properties}} 
+\end{frame}
+
+\begin{frame}[t]{Restful API Design Semantics "Common Properties"}
+	\scriptsize
+	\begin{block}{Safe Methods}		
+		An HTTP method is safe if a request using this method doesn’t alter the state of the server. In other words, it leads to a read-only operation.	
+	\end{block}
+		
+	\begin{block}{Idempotent Methods}	
+		An HTTP method is idempotent if multiple identical requests using this method will have the same effect on the server as that of a single request of that same method.
+	\end{block}
+	
+	\begin{block}{Method Caching}
+		An HTTP method is cacheable if the response to a request using this method is allowed to be stored for future use. 
+		\begin{itemize}
+			\item In general safe methods are defined as cacheable like \code{GET} and \code{HEAD}.
+			\item Non-cacheable methods: \code{POST, PUT, DELETE, CONNECT, OPTIONS, PATCH}.
+		\end{itemize}			
+		
+	\end{block}
+	
+	\vspace{10mm}
+	\tiny source: \href{https://learning.mlytics.com/the-internet/http-request-methods} {\textcolor{blue}{Common Properties}} 
+\end{frame}
+
+\begin{frame}[t]{Restful API Design "Communications"}
+		\scriptsize	
+		How to communicate the specifications to the client?
+
+		\begin{center}
+   			\includegraphics[width=0.8\textwidth, height=0.6\textheight]{img/swagger-doc.png}
+		\end{center}		
+	
 \end{frame}
 
 

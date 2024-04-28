@@ -8,9 +8,9 @@ app.get('/api/orders', (req, res) => {
 
 app.post('/api/orders', (req, res) => {
     let contentType = req.headers['content-type']
-
+    console.log(contentType)
     if (contentType !== 'application/json') 
-        res.sendStatus(415)     // unsupported media type
+        return res.sendStatus(415)     // unsupported media type
     
 
     res.json({"msg": "empty response ^_^"})
