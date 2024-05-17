@@ -4,12 +4,15 @@
   "description": "simulate api core semantics",
   "main": "src/index.js",
   "scripts": {
-    "test": "nodemon src/index.js"
+    "test": "nodemon src/server.js"
   },
   "author": "Mohamed Sweelam",
   "license": "ISC",
   "devDependencies": {
     "express": "^4.19.2",
     "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5"
   }
 }
