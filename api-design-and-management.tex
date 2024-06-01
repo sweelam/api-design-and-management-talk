@@ -380,11 +380,11 @@
    	\item<4-> HTTP methods like GET, POST, UPDATE, and DELETE inform the server about the action to be performed
    	\item<5-> REST methods semantics ``CRUD``
    		\begin{itemize}
-   				\scriptsize 
-  			\item READ   \hspace{.53cm} \rightarrow GET, \texttt{never change the server state}
-   			\item CREATE \hspace{.2cm} \rightarrow POST
-   			\item UPDATE \hspace{.15cm} \rightarrow PUT or PATCH
-   			\item DELETE \hspace{.18cm} \rightarrow DELETE
+   			\scriptsize 
+  			\item READ   \hspace{0.53cm} $\rightarrow$ GET, \texttt{never change the server state}
+   			\item CREATE \hspace{0.2cm}  $\rightarrow$ POST
+   			\item UPDATE \hspace{0.15cm} $\rightarrow$ PUT or PATCH
+   			\item DELETE \hspace{0.18cm} $\rightarrow$ DELETE
    		\end{itemize}
    \end{itemize}	   
   
@@ -763,6 +763,28 @@
 	\tiny source: \href{https://learning.mlytics.com/the-internet/http-request-methods} {\textcolor{blue}{Common Properties}} 
 \end{frame}
 
+\section{API Documentation and Specification}
+\begin{frame}{API Documentation and Specification}
+  \begin{itemize}
+    \item Importance of Comprehensive API Documentation
+    \item Tools for API Documentation (Swagger, OpenAPI Specification)
+    \item Maintaining and Versioning API Documentation
+  \end{itemize}
+\end{frame}
+
+\begin{frame}[t]{API Documentations}
+		\begin{itemize}
+			\item<1-> API Docs is like the manual of using something, instructions to follow "remember IKEA" 
+			\item<2-> Consumers/Users always prefer agreements to feel safe
+			\item<3-> API docs explain and answer consumers' questions, why you'd use this API? with examples
+			\item<4-> API docs should mention carefully the restrictions like Authentication, Rate Limiting, and Terms of use
+			\item<5-> Consumers love to try, they always look for \textit{"Getting Started"}; Interactive API platforms are what they will love more.
+			\item<6-> API Docs need to be up to date to avoid any service usage interruptions.
+		\end{itemize}		
+	
+\end{frame}
+
+
 \begin{frame}[t]{Restful API Design "Communications"}
 		\scriptsize	
 		How to communicate the specifications to the client?
@@ -773,24 +795,6 @@
 	
 \end{frame}
 
-
-\section{Advanced API Protocols}
-\begin{frame}{Advanced API Protocols}
-  \begin{itemize}
-    \item Introduction to GraphQL and Its Advantages
-    \item Implementing gRPC for Microservices
-    \item Comparison of Different API Styles
-  \end{itemize}
-\end{frame}
-
-\section{API Documentation and Specification}
-\begin{frame}{API Documentation and Specification}
-  \begin{itemize}
-    \item Importance of Comprehensive API Documentation
-    \item Tools for API Documentation (Swagger, OpenAPI Specification)
-    \item Maintaining and Versioning API Documentation
-  \end{itemize}
-\end{frame}
 
 \section{API Security}
 \begin{frame}{API Security}
