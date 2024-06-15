@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.5.25)  31 MAY 2024 03:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 40) (preloaded format=pdflatex 2024.5.31)  15 JUN 2024 06:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1923,7 +1923,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 796.
  <./img/swagger-doc.png>]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 806.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 819.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [76
@@ -1931,7 +1931,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 806.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 815.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 819.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [77
@@ -1939,7 +1939,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 815.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 825.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 819.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [78
@@ -1947,10 +1947,51 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 825.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 833.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 819.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [79
+
+]
+File: img/channel-logo-circular.png Graphic file (type png)
+<use img/channel-logo-circular.png>
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 819.
+
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
+ [80
+
+]
+File: img/channel-logo-circular.png Graphic file (type png)
+<use img/channel-logo-circular.png>
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 829.
+
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
+ [81
+
+]
+File: img/channel-logo-circular.png Graphic file (type png)
+<use img/channel-logo-circular.png>
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 838.
+
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
+ [82
+
+]
+File: img/channel-logo-circular.png Graphic file (type png)
+<use img/channel-logo-circular.png>
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 848.
+
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
+ [83
+
+]
+File: img/channel-logo-circular.png Graphic file (type png)
+<use img/channel-logo-circular.png>
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 856.
+
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
+
+[84
 
 ]
 \tf@nav=\write6
@@ -1962,8 +2003,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 833.
 \tf@snm=\write8
 \openout8 = `api-design-and-management.snm'.
 
-
-(./api-design-and-management.aux)
+ (./api-design-and-management.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1975,10 +2015,10 @@ ed.
 (rerunfilecheck)             Checksum: 4E5A91BF4701CCAFE702CBC8FDE18E23;1398.
  ) 
 Here is how much of TeX's memory you used:
- 27618 strings out of 476034
- 547288 string characters out of 5792864
+ 27636 strings out of 476034
+ 547673 string characters out of 5792854
  1948388 words of memory out of 6000000
- 47314 multiletter control sequences out of 15000+600000
+ 47322 multiletter control sequences out of 15000+600000
  523020 words of font info for 70 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
  128i,15n,122p,401b,1435s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1990,10 +2030,10 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmtt8.pfb>
-Output written on api-design-and-management.pdf (79 pages, 1937651 bytes).
+Output written on api-design-and-management.pdf (84 pages, 1954522 bytes).
 PDF statistics:
- 1215 PDF objects out of 1440 (max. 8388607)
- 848 compressed objects within 9 object streams
- 172 named destinations out of 1000 (max. 500000)
- 1483 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1307 PDF objects out of 1440 (max. 8388607)
+ 908 compressed objects within 10 object streams
+ 182 named destinations out of 1000 (max. 500000)
+ 1639 words of extra memory for PDF output out of 10000 (max. 10000000)
 

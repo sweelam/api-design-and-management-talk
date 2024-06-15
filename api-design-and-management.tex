@@ -796,6 +796,29 @@
 \end{frame}
 
 
+\begin{frame}[t]{Hypermedia}
+		
+		User uses APIs according to his understanding with the help of communications support, calling APIs using \textit{resources}. Eventually the user will need to follow some more resources' calls. You might be think of:
+		
+		\scriptsize		
+		\begin{itemize}
+			\item<1-> How can the user/client know which request he needs to make next?
+			\item<2-> How should the request should look like?
+			\item<3-> Which types of error should the client expect?
+			
+			\item<4->[] \normalsize The answer to this is \textit{"hpermedia"}
+			
+			\item<5->[] 
+				\small
+				\begin{block}{Hypermedia}
+					Hypermedia is a way for the server to tell the client what HTTP requests the client might want to make in the future. It’s a menu, provided by the server, from which the client is free to choose. The server knows what might happen, but the client decides what actually happens.
+				\end{block}
+		\end{itemize}		
+
+\tiny source: \href{https://www.oreilly.com/library/view/restful-web-apis/9781449359713/} {\textcolor{blue}{Restful Web APIs}} 	
+\end{frame}
+
+
 \section{API Security}
 \begin{frame}{API Security}
   \begin{itemize}
