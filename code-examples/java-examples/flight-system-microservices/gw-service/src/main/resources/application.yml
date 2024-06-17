@@ -8,11 +8,15 @@ spring:
         - id: flight-search-service
           uri: http://localhost:8082
           predicates:
+            - Path=/api/flights/booking/**
+        - id: flight-booking-service
+          uri: http://localhost:8086
+          predicates:
             - Path=/api/flights/search/**
-        - id: customer-service
+        - id: user-service
           uri: http://localhost:8081
           predicates:
-            - Path=/api/v1/customers/**
+            - Path=/api/**
           filters:
             - AddResponseHeader=My-Header-Good,Good
             - name: RequestRateLimiter

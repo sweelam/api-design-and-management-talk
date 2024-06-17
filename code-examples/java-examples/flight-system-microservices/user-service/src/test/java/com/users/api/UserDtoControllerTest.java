@@ -1,8 +1,7 @@
-package com.customers.api;
+package com.users.api;
 
-import com.customers.dto.Customer;
+import com.users.dto.UserDto;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -18,8 +17,6 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
-import java.util.UUID;
-
 import static java.util.UUID.randomUUID;
 import static org.springframework.restdocs.mockmvc.MockMvcRestDocumentation.document;
 import static org.springframework.restdocs.mockmvc.MockMvcRestDocumentation.documentationConfiguration;
@@ -31,7 +28,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @AutoConfigureMockMvc
 @ActiveProfiles("test")
 @ExtendWith(RestDocumentationExtension.class)
-class CustomerControllerTest {
+class UserDtoControllerTest {
     private final String URL = "/api/v1/customers";
     @Autowired
     MockMvc mockMvc;
@@ -62,7 +59,7 @@ class CustomerControllerTest {
 
     @Test
     void registerNewCustomerShouldReturnCreatedCode() throws Exception {
-        var newCustomer = new Customer(0, "bahaa ahmed", "bahaa@gmail.com", randomUUID().toString());
+        var newCustomer = new UserDto(0, "bahaa ahmed", "bahaa@gmail.com", randomUUID().toString());
 
         mockMvc.perform(
                 MockMvcRequestBuilders.post(URL + "/registration")

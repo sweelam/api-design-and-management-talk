@@ -1,4 +1,4 @@
-package com.customers.exceptions;
+package com.users.exceptions;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -29,8 +29,8 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
   }
 
 
-  @ExceptionHandler(value = {CustomerApiException.class})
-  public ResponseEntity<AbstractMap.SimpleEntry<String, String>> handle(CustomerApiException exception) {
+  @ExceptionHandler(value = {UserApiException.class})
+  public ResponseEntity<AbstractMap.SimpleEntry<String, String>> handle(UserApiException exception) {
     LOG.error("Request could not be processed: ", exception);
 
     AbstractMap.SimpleEntry<String, String> response =

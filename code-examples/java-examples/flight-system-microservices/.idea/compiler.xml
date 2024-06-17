@@ -10,7 +10,7 @@
         <module name="flight-booking-service" />
         <module name="flight-booking" />
         <module name="flight-search-service" />
-        <module name="customer-service" />
+        <module name="user-service" />
         <module name="gw-service" />
         <module name="flight-search" />
         <module name="notification-service" />
@@ -22,7 +22,6 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="customer-service" options="-parameters" />
       <module name="flight-booking" options="-parameters" />
       <module name="flight-booking-service" options="-parameters" />
       <module name="flight-search" options="-parameters" />
@@ -30,6 +29,7 @@
       <module name="flight-service" options="-parameters" />
       <module name="gw-service" options="-parameters" />
       <module name="notification-service" options="-parameters" />
+      <module name="user-service" options="-parameters" />
     </option>
   </component>
 </project>

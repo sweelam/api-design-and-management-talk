@@ -1,4 +1,4 @@
-package com.customers.config;
+package com.users.config;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;

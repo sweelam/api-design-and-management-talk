@@ -11,6 +11,13 @@ spring:
       value-serializer: org.apache.kafka.common.serialization.StringSerializer
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       bootstrap-servers: localhost:9092
+  datasource:
+    url: jdbc:postgresql://localhost:5432/flight-booking
+    username: ${USERNAME:db_user}
+    password: ${PASSWORD:123qwe}
+  threads:
+    virtual:
+      enabled: true
 
 
 management:
