@@ -15,28 +15,27 @@ spring:
             basedOnPreviousValue: false
     gateway:
       routes:
-      - id: flight-service
-        uri: http://localhost:8082
-        predicates:
-          - Path=/api/v1/flights/**
-      - id: customer-service
-        uri: http://localhost:8081
-        predicates:
-          - Path=/api/v1/customers/**
-        filters:
-          - AddResponseHeader=My-Header-Good,Good
-          - name: RequestRateLimiter
-            args:
-              redis-rate-limiter.replenishRate: 100
-              redis-rate-limiter.burstCapacity: 200
-              redis-rate-limiter.requestedTokens: 1
+        - id: flight-search-service
+          uri: http://localhost:8082
+          predicates:
+            - Path=/api/flights/search/**
+        - id: customer-service
+          uri: http://localhost:8081
+          predicates:
+            - Path=/api/v1/customers/**
+          filters:
+            - AddResponseHeader=My-Header-Good,Good
+            - name: RequestRateLimiter
+              args:
+                redis-rate-limiter.replenishRate: 100
+                redis-rate-limiter.burstCapacity: 200
+                redis-rate-limiter.requestedTokens: 1
 
 
   application:
     name: edge-service
-  redis:
-    host: localhost
-    port: 6379
+  data.redis.host: localhost
+  data.redis.port: 6379
 
 
 opentracing:

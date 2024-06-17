@@ -1,6 +1,20 @@
 version: '3.9'
 
 services:
+  postgres:
+    container_name: flight-system-db
+    image: postgres
+    restart: unless-stopped
+    volumes:
+      - ./postgres-db/schema.sql:/docker-entrypoint-initdb.d/schema.sql
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-db_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-123qwe}
+      POSTGRES_DB: ${POSTGRES_DB:-flight-booking}
+      PGDATA: /data/postgres/mydb
+
   zookeeper:
     image: 'zookeeper:3.6.3'
     container_name: 'zookeeper'
@@ -28,7 +42,7 @@ services:
     container_name: kafka-ui
     image: provectuslabs/kafka-ui:latest
     ports:
-      - 8080:8080
+      - '8080:8080'
     depends_on:
       - kafka
     environment:
@@ -45,19 +59,17 @@ services:
   jaeger-allinone:
     image: jaegertracing/all-in-one:1.25
     ports:
-      - 6831:6831/udp
-      - 6832:6832/udp
-      - 16686:16686
-      - 14268:14268
+      - '16686:16686'
+      - '14268:14268'
 
   cassandra-schema:
     image: jaegertracing/jaeger-cassandra-schema
     environment:
-      - CASSANDRA_KEYSPACE=jeager_schema
+      - CASSANDRA_KEYSPACE=jaeger_schema
       - CASSANDRA_SERVERS=flight-cassandra
       - CASSANDRA_PASSWORD=cassandra
       - CASSANDRA_USERNAME=cassandra
-      - KEYSPACE=jeager_schema
+      - KEYSPACE=jaeger_schema
       - VERSION=4
     depends_on:
       - cassandra
@@ -66,7 +78,7 @@ services:
   jaeger-collectors:
     image: jaegertracing/jaeger-collector:1.44
     environment:
-      - CASSANDRA_KEYSPACE=jeager_schema
+      - CASSANDRA_KEYSPACE=jaeger_schema
       - CASSANDRA_SERVERS=flight-cassandra
       - CASSANDRA_PASSWORD=cassandra
       - CASSANDRA_USERNAME=cassandra

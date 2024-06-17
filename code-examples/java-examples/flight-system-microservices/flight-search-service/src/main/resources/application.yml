@@ -1,0 +1,29 @@
+server:
+  port: '8082'
+  servlet:
+    context-path: /api/flights
+
+spring:
+  application:
+    name: flight-search-service
+  kafka:
+    producer:
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      bootstrap-servers: localhost:9092
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info, prometheus, metrics
+app:
+  kafka:
+    topic-name: flight.email.topic
+opentracing:
+  jaeger:
+    http-sender:
+      url: http://localhost:14268/api/traces
+
+

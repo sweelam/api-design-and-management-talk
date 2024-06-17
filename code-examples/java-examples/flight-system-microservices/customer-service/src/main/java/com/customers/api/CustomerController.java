@@ -37,7 +37,7 @@ public class CustomerController {
                 .filter(customer -> email.equals(customer.email()))
                 .findAny();
 
-        if (!customerOtp.isPresent()) {
+        if (customerOtp.isEmpty()) {
             throw new CustomerApiException("No customer found with provided email", HttpStatus.NOT_FOUND);
         }
 

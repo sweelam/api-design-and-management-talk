@@ -36,7 +36,7 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
     AbstractMap.SimpleEntry<String, String> response =
             new AbstractMap.SimpleEntry<>("message", exception.getReason());
 
-    return ResponseEntity.status(exception.getStatus()).body(response);
+    return ResponseEntity.status(exception.getStatusCode()).body(response);
   }
 
   protected ResponseEntity<Object> handleMissingPathVariable(MissingPathVariableException ex, HttpHeaders headers, HttpStatus status, WebRequest request) {
