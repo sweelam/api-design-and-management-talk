@@ -3,16 +3,6 @@ server:
 
 spring:
   cloud:
-    default-filters:
-      - name: Retry
-        args:
-          retry: 5
-          methods: GET
-          backoff:
-            firstBackOff: 10ms
-            maxBackOff: 50ms
-            factor: 2
-            basedOnPreviousValue: false
     gateway:
       routes:
         - id: flight-search-service
@@ -30,6 +20,17 @@ spring:
                 redis-rate-limiter.replenishRate: 100
                 redis-rate-limiter.burstCapacity: 200
                 redis-rate-limiter.requestedTokens: 1
+    default-filters:
+      - name: Retry
+        args:
+          retry: 5
+          methods: GET
+          backoff:
+            firstBackOff: 10ms
+            maxBackOff: 50ms
+            factor: 2
+            basedOnPreviousValue: false
+
 
 
   application:
