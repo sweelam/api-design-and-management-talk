@@ -10,10 +10,10 @@
         <module name="flight-booking-service" />
         <module name="flight-booking" />
         <module name="flight-search-service" />
-        <module name="user-service" />
-        <module name="gw-service" />
+        <module name="flight-gateway-service" />
+        <module name="flight-notification-service" />
         <module name="flight-search" />
-        <module name="notification-service" />
+        <module name="flight-user-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,12 +24,12 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="flight-booking" options="-parameters" />
       <module name="flight-booking-service" options="-parameters" />
+      <module name="flight-gateway-service" options="-parameters" />
+      <module name="flight-notification-service" options="-parameters" />
       <module name="flight-search" options="-parameters" />
       <module name="flight-search-service" options="-parameters" />
       <module name="flight-service" options="-parameters" />
-      <module name="gw-service" options="-parameters" />
-      <module name="notification-service" options="-parameters" />
-      <module name="user-service" options="-parameters" />
+      <module name="flight-user-service" options="-parameters" />
     </option>
   </component>
 </project>

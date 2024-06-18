@@ -17,6 +17,9 @@
         <option value="$PROJECT_DIR$/notification-service/pom.xml" />
         <option value="$PROJECT_DIR$/flight-booking-service/pom.xml" />
         <option value="$PROJECT_DIR$/user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/flight-notification-service/pom.xml" />
+        <option value="$PROJECT_DIR$/flight-gateway-service/pom.xml" />
+        <option value="$PROJECT_DIR$/flight-user-service/pom.xml" />
       </list>
     </option>
   </component>

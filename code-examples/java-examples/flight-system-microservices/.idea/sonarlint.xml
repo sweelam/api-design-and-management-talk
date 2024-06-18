@@ -3,7 +3,9 @@
   <component name="SonarLintProjectSettings">
     <option name="moduleMapping">
       <map>
-        <entry key="user-service" value="customer-service" />
+        <entry key="flight-gateway-service" value="gw-service" />
+        <entry key="flight-notification-service" value="notification-service" />
+        <entry key="flight-user-service" value="customer-service" />
       </map>
     </option>
   </component>

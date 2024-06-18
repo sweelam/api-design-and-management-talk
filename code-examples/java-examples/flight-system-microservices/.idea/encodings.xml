@@ -2,9 +2,9 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/flight-booking-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flight-gateway-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flight-notification-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/flight-search-service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/gw-service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/notification-service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flight-user-service/src/main/java" charset="UTF-8" />
   </component>
 </project>
