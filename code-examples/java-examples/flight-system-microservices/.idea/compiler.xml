@@ -12,8 +12,32 @@
         <module name="flight-search-service" />
         <module name="flight-gateway-service" />
         <module name="flight-notification-service" />
-        <module name="flight-search" />
+      </profile>
+      <profile name="Annotation profile for flight-user-service" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.6.0.Beta2/mapstruct-processor-1.6.0.Beta2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.6.0.Beta2/mapstruct-1.6.0.Beta2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.6.0.Beta2/mapstruct-processor-1.6.0.Beta2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.6.0.Beta2/mapstruct-1.6.0.Beta2.jar" />
+        </processorPath>
         <module name="flight-user-service" />
+      </profile>
+      <profile name="Annotation profile for flight-search-service" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.6.0.Beta2/mapstruct-processor-1.6.0.Beta2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.6.0.Beta2/mapstruct-1.6.0.Beta2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.6.0.Beta2/mapstruct-processor-1.6.0.Beta2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.6.0.Beta2/mapstruct-1.6.0.Beta2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
+        </processorPath>
+        <module name="flight-search" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

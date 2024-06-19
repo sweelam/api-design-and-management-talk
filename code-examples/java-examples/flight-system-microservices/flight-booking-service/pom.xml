@@ -8,7 +8,7 @@
 		<version>3.2.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.flight</groupId>
+	<groupId>com.flightDto</groupId>
 	<artifactId>flight-booking</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>flight-booking-service</name>

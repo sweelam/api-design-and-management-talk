@@ -1,7 +1,7 @@
 server:
   port: '8082'
   servlet:
-    context-path: /api/flights
+    context-path: /api/flights/search
 
 spring:
   application:

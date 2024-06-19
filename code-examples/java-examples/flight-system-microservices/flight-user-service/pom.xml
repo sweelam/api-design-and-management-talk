@@ -8,8 +8,8 @@
 		<version>3.2.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>users</groupId>
-	<artifactId>flight-user-service</artifactId>
+	<groupId>com.user</groupId>
+	<artifactId>flightD-user-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>flight-user-service</name>
 	<description>Customer Service demo </description>
@@ -142,7 +142,7 @@
 						<path>
 							<groupId>org.mapstruct</groupId>
 							<artifactId>mapstruct-processor</artifactId>
-							<version>${<mapstruct class="version"></mapstruct>}</version>
+							<version>${mapstruct.version}</version>
 						</path>
 					</annotationProcessorPaths>
 				</configuration>

@@ -6,7 +6,7 @@ services:
     image: postgres
     restart: unless-stopped
     volumes:
-      - ./postgres-db/schema.sql:/docker-entrypoint-initdb.d/schema.sql
+      - ./postgres-db:/docker-entrypoint-initdb.d
     ports:
       - "5432:5432"
     environment:
@@ -55,7 +55,6 @@ services:
     ports:
       - '9042:9042'
 
-
   jaeger-allinone:
     image: jaegertracing/all-in-one:1.25
     ports:
@@ -74,7 +73,6 @@ services:
     depends_on:
       - cassandra
 
-
   jaeger-collectors:
     image: jaegertracing/jaeger-collector:1.44
     environment:
@@ -87,7 +85,6 @@ services:
     depends_on:
       - cassandra-schema
     restart: on-failure
-
 
   init-kafka:
     image: 'bitnami/kafka:3'
@@ -104,6 +101,7 @@ services:
       echo -e 'Created kafka topics:'
       bin/kafka-topics.sh --bootstrap-server kafka:9092 --list
       '
+
 
   redis:
     image: 'bitnami/redis:latest'

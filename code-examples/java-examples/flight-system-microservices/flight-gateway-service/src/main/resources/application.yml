@@ -5,10 +5,10 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: flight-search-service
+        - id: flight-booking-service
           uri: http://localhost:8082
           predicates:
-            - Path=/api/flights/booking/**
+            - Path=/api/flights/search/**
         - id: flight-booking-service
           uri: http://localhost:8086
           predicates:

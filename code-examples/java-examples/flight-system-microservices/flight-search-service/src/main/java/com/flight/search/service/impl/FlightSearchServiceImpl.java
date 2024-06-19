@@ -1,0 +1,56 @@
+package com.flight.search.service.impl;
+
+import com.flight.search.config.RedisClient;
+import com.flight.search.dto.FlightDto;
+import com.flight.search.mappers.FlightSearchMapper;
+import com.flight.search.repo.FlightSearchRepo;
+import com.flight.search.service.CustomerService;
+import com.flight.search.service.EmailService;
+import com.flight.search.service.FlightSearchService;
+import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.stereotype.Service;
+
+import java.time.Duration;
+import java.util.List;
+
+import static java.util.Optional.ofNullable;
+
+@Service
+@RequiredArgsConstructor
+@Slf4j
+public class FlightSearchServiceImpl implements FlightSearchService {
+    private final CustomerService customerService;
+    private final EmailService emailService;
+    private final RedisClient redisClient;
+    private final FlightSearchRepo flightSearchRepo;
+    private final FlightSearchMapper flightSearchMapper;
+
+
+    @Override
+    public FlightDto getFlightByFlightNumber(String flightNumber) {
+        return ofNullable(redisClient.get(flightNumber))
+                .map(t -> (FlightDto) t)
+                .orElseGet(() -> {
+                    log.info("Fetching from DB");
+
+                    return flightSearchRepo.findByFlightNumber(flightNumber)
+                            .map(flightSearchMapper::convertToFlightDto)
+                            .map(flightDto -> redisClient.setAndGet(flightNumber, flightDto,
+                                    Duration.ofHours(10).toHours()))
+                            .orElse(null);
+                });
+    }
+
+    @Override
+    public List<FlightDto> getAllFlights() {
+        return flightSearchRepo.findAll().stream()
+                .map(flightSearchMapper::convertToFlightDto).toList();
+    }
+
+    @Override
+    public List<FlightDto> getAllFlightsFromTo(String departureAirport, String arrivalAirport) {
+        return List.of();
+    }
+
+}
