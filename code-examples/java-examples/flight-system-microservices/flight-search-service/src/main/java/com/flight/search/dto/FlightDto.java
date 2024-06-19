@@ -1,5 +1,6 @@
 package com.flight.search.dto;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.time.Instant;
 
@@ -10,4 +11,4 @@ public record FlightDto(
         String arrivalAirport,
         Instant departureTime,
         Instant arrivalTime,
-        BigDecimal price) {}
+        BigDecimal price) implements Serializable {}

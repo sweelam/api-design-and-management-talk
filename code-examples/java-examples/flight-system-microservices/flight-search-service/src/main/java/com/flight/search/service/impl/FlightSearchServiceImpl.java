@@ -11,9 +11,9 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
-import java.time.Duration;
 import java.util.List;
 
+import static java.time.Duration.ofHours;
 import static java.util.Optional.ofNullable;
 
 @Service
@@ -36,8 +36,8 @@ public class FlightSearchServiceImpl implements FlightSearchService {
 
                     return flightSearchRepo.findByFlightNumber(flightNumber)
                             .map(flightSearchMapper::convertToFlightDto)
-                            .map(flightDto -> redisClient.setAndGet(flightNumber, flightDto,
-                                    Duration.ofHours(10).toHours()))
+                            .map(flightDto ->
+                                    redisClient.setAndGet(flightNumber, flightDto, ofHours(10).toHours()))
                             .orElse(null);
                 });
     }

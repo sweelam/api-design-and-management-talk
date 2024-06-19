@@ -1,4 +1,4 @@
-package com.flight.search.rest;
+package com.flight.search.api;
 
 import com.flight.search.dto.FlightDto;
 import com.flight.search.service.FlightSearchService;

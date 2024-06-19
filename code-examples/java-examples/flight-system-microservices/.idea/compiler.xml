@@ -20,8 +20,6 @@
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.6.0.Beta2/mapstruct-processor-1.6.0.Beta2.jar" />
           <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.6.0.Beta2/mapstruct-1.6.0.Beta2.jar" />
-          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.6.0.Beta2/mapstruct-processor-1.6.0.Beta2.jar" />
-          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.6.0.Beta2/mapstruct-1.6.0.Beta2.jar" />
         </processorPath>
         <module name="flight-user-service" />
       </profile>
@@ -30,9 +28,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.6.0.Beta2/mapstruct-processor-1.6.0.Beta2.jar" />
-          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.6.0.Beta2/mapstruct-1.6.0.Beta2.jar" />
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
           <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.6.0.Beta2/mapstruct-processor-1.6.0.Beta2.jar" />
           <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.6.0.Beta2/mapstruct-1.6.0.Beta2.jar" />
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
