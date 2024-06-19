@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 import static org.apache.logging.log4j.util.Strings.isBlank;
-import static org.mapstruct.ap.internal.util.Strings.isEmpty;
+import static org.springframework.util.ObjectUtils.isEmpty;
 
 
 @RestController

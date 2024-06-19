@@ -19,14 +19,14 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @AutoConfigureMockMvc
 class FlightSearchControllerTest {
-    private static final String FLIGHT_SERACH_URL = "/";
+    private static final String FLIGHT_SEARCH_URL = "/";
     @Autowired
     private MockMvc mockMvc;
 
     @Test
     void getAllFlights_ShouldReturnOk() throws Exception {
         MvcResult mvcResult = mockMvc.perform(
-                        get(FLIGHT_SERACH_URL).contentType(MediaType.APPLICATION_JSON))
+                        get(FLIGHT_SEARCH_URL).contentType(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
                 .andReturn();
 
@@ -39,7 +39,8 @@ class FlightSearchControllerTest {
     @Test
     void getFlightByFlightNumber_ShouldReturnOk() throws Exception {
         MvcResult mvcResult = mockMvc.perform(
-                        get(FLIGHT_SERACH_URL).contentType(MediaType.APPLICATION_JSON)
+                        get(FLIGHT_SEARCH_URL).contentType(MediaType.APPLICATION_JSON)
+                                .accept(MediaType.APPLICATION_JSON)
                                 .param("flightNumber", "FL102")
                 )
                 .andExpect(status().isOk())
@@ -51,7 +52,4 @@ class FlightSearchControllerTest {
         assertEquals(3, parsedResponse.read("$.[0].id", Integer.class));
     }
 
-    @Test
-    void getFlightByFlightNumber() {
-    }
 }
