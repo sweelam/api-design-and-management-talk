@@ -11,6 +11,7 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.asyncDispatch;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
@@ -50,6 +51,36 @@ class FlightSearchControllerTest {
         var responseBody = mvcResult.getResponse().getContentAsString();
         DocumentContext parsedResponse = JsonPath.parse(responseBody);
         assertEquals(3, parsedResponse.read("$.[0].id", Integer.class));
+    }
+
+    @Test
+    void getFlightByFlightNumber_ShouldReturnBadRequest() throws Exception {
+        mockMvc.perform(
+                get(FLIGHT_SEARCH_URL).contentType(MediaType.APPLICATION_JSON)
+                        .accept(MediaType.APPLICATION_JSON)
+                        .param("flightNumber", "123")
+        ).andExpect(status().isBadRequest());
+    }
+
+
+    @Test
+    void getFlightFromTo_ShouldReturnOk() throws Exception {
+        MvcResult result = mockMvc.perform(
+                get(FLIGHT_SEARCH_URL + "direction").contentType(MediaType.APPLICATION_JSON)
+                        .accept(MediaType.APPLICATION_JSON)
+                        .param("from", "LAX")
+                        .param("to", "JFK")
+        ).andReturn();
+
+        MvcResult mvcResult = mockMvc.perform(asyncDispatch(result))
+                .andExpect(status().isOk())
+                .andReturn();
+
+        var responseBody = mvcResult.getResponse().getContentAsString();
+        DocumentContext parsedResponse = JsonPath.parse(responseBody);
+
+        assertEquals(1, parsedResponse.read("$.size()", Integer.class));
+        assertEquals(7, parsedResponse.read("$.[0].size()", Integer.class));
     }
 
 }
