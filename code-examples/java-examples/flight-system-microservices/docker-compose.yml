@@ -5,8 +5,8 @@ services:
     container_name: flight-system-db
     image: postgres
     restart: unless-stopped
-    volumes:
-      - ./postgres-db:/docker-entrypoint-initdb.d
+#    volumes:
+#      - ./postgres-db:/docker-entrypoint-initdb.d
     ports:
       - "5432:5432"
     environment:

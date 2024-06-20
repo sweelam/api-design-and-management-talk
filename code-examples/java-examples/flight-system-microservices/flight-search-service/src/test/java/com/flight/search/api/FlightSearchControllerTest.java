@@ -1,5 +1,6 @@
 package com.flight.search.api;
 
+import com.flight.search.infra.IntegrationTestSupport;
 import com.jayway.jsonpath.DocumentContext;
 import com.jayway.jsonpath.JsonPath;
 import org.junit.jupiter.api.Test;
@@ -19,7 +20,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @AutoConfigureMockMvc
-class FlightSearchControllerTest {
+class FlightSearchControllerTest extends IntegrationTestSupport {
     private static final String FLIGHT_SEARCH_URL = "/";
     @Autowired
     private MockMvc mockMvc;
