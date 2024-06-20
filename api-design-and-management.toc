@@ -3,7 +3,7 @@
 \beamer@sectionintoc {3}{API Design Principles}{43}{0}{3}
 \beamer@sectionintoc {4}{RESTful API Design}{57}{0}{4}
 \beamer@sectionintoc {5}{API Documentation and Specification}{68}{0}{5}
-\beamer@sectionintoc {6}{API Security}{81}{0}{6}
-\beamer@sectionintoc {7}{API Testing and Quality Assurance}{82}{0}{7}
-\beamer@sectionintoc {8}{API Management and Lifecycle}{83}{0}{8}
-\beamer@sectionintoc {9}{Conclusion}{84}{0}{9}
+\beamer@sectionintoc {6}{API Security}{85}{0}{6}
+\beamer@sectionintoc {7}{API Testing and Quality Assurance}{86}{0}{7}
+\beamer@sectionintoc {8}{API Management and Lifecycle}{87}{0}{8}
+\beamer@sectionintoc {9}{Conclusion}{88}{0}{9}

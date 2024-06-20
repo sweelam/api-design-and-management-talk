@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/customer-service/customer-service.iml" filepath="$PROJECT_DIR$/customer-service/customer-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/flight-system-microservices.iml" filepath="$PROJECT_DIR$/.idea/flight-system-microservices.iml" />
     </modules>
   </component>

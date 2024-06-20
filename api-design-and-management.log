@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 40) (preloaded format=pdflatex 2024.5.31)  15 JUN 2024 06:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 40) (preloaded format=pdflatex 2024.5.31)  15 JUN 2024 17:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -842,24 +842,24 @@ LaTeX Warning: Label `api-graphs' multiply defined.
 )
 \openout1 = `api-design-and-management.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -917,64 +917,64 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 81.
+Package hyperref Info: Link coloring OFF on input line 80.
 
 (./api-design-and-management.out) (./api-design-and-management.out)
 \@outlinefile=\write5
 \openout5 = `api-design-and-management.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 81.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 80.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 81.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 80.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 81.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 81.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 80.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 81.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 81.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 81.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 80.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 81.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 81.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 81.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 80.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 81.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 81.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 81.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 80.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 81.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 81.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 80.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 81.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 80.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 81.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 81.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 81.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 81.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 81.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 81.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 81.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 80.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 80.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 8
-1.
+0.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 8
-1.
+0.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 81.
+ut line 80.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -1005,12 +1005,12 @@ Dictionary: translator-theorem-dictionary, Language: English
 <img/course-logo.png, id=62, 456.70625pt x 455.7025pt>
 File: img/course-logo.png Graphic file (type png)
 <use img/course-logo.png>
-Package pdftex.def Info: img/course-logo.png  used on input line 85.
+Package pdftex.def Info: img/course-logo.png  used on input line 84.
 (pdftex.def)             Requested size: 199.16736pt x 99.58037pt.
 <img/channel-logo-circular.png, id=64, 331.2375pt x 325.215pt>
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 85.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 84.
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [1
 
@@ -1018,46 +1018,42 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 85.
 r.png> <./img/course-logo.png>] (./api-design-and-management.toc)
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 89.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 88.
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [2
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 100.
-
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 99.
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [3
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 100.
-
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 99.
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [4
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 100.
-
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 99.
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [5
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 100.
-
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 99.
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [6
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 116.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 115.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [7
@@ -1066,11 +1062,11 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 116.
 <img/osi-model.png, id=177, 682.55pt x 547.04375pt>
 File: img/osi-model.png Graphic file (type png)
 <use img/osi-model.png>
-Package pdftex.def Info: img/osi-model.png  used on input line 124.
+Package pdftex.def Info: img/osi-model.png  used on input line 123.
 (pdftex.def)             Requested size: 273.83794pt x 149.64868pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 124.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 123.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [8
@@ -1079,30 +1075,30 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 124.
 <img/api-client-to-server.png, id=189, 2167.09625pt x 872.25874pt>
 File: img/api-client-to-server.png Graphic file (type png)
 <use img/api-client-to-server.png>
-Package pdftex.def Info: img/api-client-to-server.png  used on input line 132.
+Package pdftex.def Info: img/api-client-to-server.png  used on input line 131.
 (pdftex.def)             Requested size: 205.38028pt x 99.7553pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 132.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 131.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [9
 
  <./img/api-client-to-server.png>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 157
+LaTeX Font Info:    Trying to load font information for U+msa on input line 156
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 157
+LaTeX Font Info:    Trying to load font information for U+msb on input line 156
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 157.
+ut line 156.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
@@ -1110,7 +1106,7 @@ thkerncmss.
 )
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 157.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 156.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
 
@@ -1119,7 +1115,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 157.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 157.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 156.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [11
@@ -1127,7 +1123,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 157.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 157.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 156.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [12
@@ -1135,7 +1131,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 157.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 157.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 156.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [13
@@ -1143,7 +1139,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 157.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 157.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 156.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [14
@@ -1151,7 +1147,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 157.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 175.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 174.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [15
@@ -1162,7 +1158,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 175.
  (./api-design-and-management.vrb)
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 205.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 204.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [16
@@ -1171,7 +1167,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 205.
 (./api-design-and-management.vrb)
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 205.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 204.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [17
@@ -1179,7 +1175,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 205.
 ] (./api-design-and-management.vrb)
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 205.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 204.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
 
@@ -1188,7 +1184,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 205.
 ] (./api-design-and-management.vrb)
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 205.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 204.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [19
@@ -1205,7 +1201,7 @@ Package pdftex.def Info: img/api-protocols.png  used on input line 13.
 )
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 226.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 225.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [20
@@ -1220,12 +1216,12 @@ File: img/http1-http2.png Graphic file (type png)
 Package pdftex.def Info: img/http1-http2.png  used on input line 20.
 (pdftex.def)             Requested size: 205.3803pt x 142.16101pt.
 )
-Overfull \vbox (5.24745pt too high) detected at line 250
+Overfull \vbox (5.24745pt too high) detected at line 249
  []
 
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 250.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 249.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
 [21
@@ -1242,7 +1238,7 @@ Package pdftex.def Info: img/grpc.png  used on input line 14.
 )
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 270.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 269.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [22
@@ -1261,7 +1257,7 @@ Package pdftex.def Info: img/protobuf-img.png  used on input line 21.
 )
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 297.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 296.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [23
@@ -1279,7 +1275,7 @@ Package pdftex.def Info: img/flight-gRPC.png  used on input line 4.
 )
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 306.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 305.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [24
@@ -1291,7 +1287,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 306.
 (./api-design-and-management.vrb)
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 333.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 332.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [25
@@ -1301,13 +1297,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{api-graphs<1>
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.335 \againframe{api-graphs}
+l.334 \againframe{api-graphs}
                              
 pdfTeX warning (ext4): destination with the same identifier (name{api-graphs}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.335 \againframe{api-graphs}
+l.334 \againframe{api-graphs}
                               (./api-design-and-management.10.vrb
 File: img/api-protocols.png Graphic file (type png)
 <use img/api-protocols.png>
@@ -1316,23 +1312,23 @@ Package pdftex.def Info: img/api-protocols.png  used on input line 13.
 )
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 335.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 334.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [26
 
 ]
 LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 
-364.
+363.
 
 (/usr/share/texlive/texmf-dist/tex/latex/R/omscmtt.fd
 File: omscmtt.fd 
 )
 LaTeX Font Info:    Font shape `OMS/cmtt/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 364.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 363.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 364.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 363.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [27
@@ -1340,25 +1336,25 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 364.
 ]
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/b/it' instead on input line 395.
+(Font)              using `OT1/cmss/b/it' instead on input line 394.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/b/it' undefined
-(Font)              using `OT1/cmss/b/n' instead on input line 395.
+(Font)              using `OT1/cmss/b/n' instead on input line 394.
 
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <8> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 395.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 394.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/b/it' instead on input line 395.
+(Font)              using `OT1/cmss/b/it' instead on input line 394.
 
 LaTeX Font Info:    Font shape `OT1/cmss/b/it' in size <8> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 395.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 394.
 
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 395.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 394.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
 [28
@@ -1366,15 +1362,15 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 395.
 ]
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/b/it' instead on input line 395.
+(Font)              using `OT1/cmss/b/it' instead on input line 394.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/b/it' instead on input line 395.
+(Font)              using `OT1/cmss/b/it' instead on input line 394.
 
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 395.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 394.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
 [29
@@ -1382,15 +1378,15 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 395.
 ]
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/b/it' instead on input line 395.
+(Font)              using `OT1/cmss/b/it' instead on input line 394.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/b/it' instead on input line 395.
+(Font)              using `OT1/cmss/b/it' instead on input line 394.
 
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 395.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 394.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
 [30
@@ -1398,15 +1394,15 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 395.
 ]
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/b/it' instead on input line 395.
+(Font)              using `OT1/cmss/b/it' instead on input line 394.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/b/it' instead on input line 395.
+(Font)              using `OT1/cmss/b/it' instead on input line 394.
 
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 395.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 394.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
 [31
@@ -1414,15 +1410,15 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 395.
 ]
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/b/it' instead on input line 395.
+(Font)              using `OT1/cmss/b/it' instead on input line 394.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/b/it' instead on input line 395.
+(Font)              using `OT1/cmss/b/it' instead on input line 394.
 
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 395.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 394.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
 [32
@@ -1431,11 +1427,11 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 395.
 <img/crud.png, id=524, 596.2275pt x 199.74625pt>
 File: img/crud.png Graphic file (type png)
 <use img/crud.png>
-Package pdftex.def Info: img/crud.png  used on input line 408.
+Package pdftex.def Info: img/crud.png  used on input line 407.
 (pdftex.def)             Requested size: 239.60579pt x 99.76315pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 408.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 407.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [33
@@ -1445,13 +1441,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{api-graphs<1>
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.410 \againframe{api-graphs}
+l.409 \againframe{api-graphs}
                              
 pdfTeX warning (ext4): destination with the same identifier (name{api-graphs}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.410 \againframe{api-graphs}
+l.409 \againframe{api-graphs}
                               (./api-design-and-management.10.vrb
 File: img/api-protocols.png Graphic file (type png)
 <use img/api-protocols.png>
@@ -1460,40 +1456,40 @@ Package pdftex.def Info: img/api-protocols.png  used on input line 13.
 )
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 410.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 409.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [34
 
 ]
-Overfull \vbox (1.03859pt too high) detected at line 424
+Overfull \vbox (1.03859pt too high) detected at line 423
  []
 
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 424.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 423.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
 [35
 
 ]
-Overfull \vbox (1.03859pt too high) detected at line 424
+Overfull \vbox (1.03859pt too high) detected at line 423
  []
 
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 424.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 423.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
 [36
 
 ]
-Overfull \vbox (1.03859pt too high) detected at line 424
+Overfull \vbox (1.03859pt too high) detected at line 423
  []
 
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 424.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 423.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
 [37
@@ -1502,15 +1498,15 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 424.
 <img/graphql-example.png, id=623, 740.7675pt x 161.60374pt>
 File: img/graphql-example.png Graphic file (type png)
 <use img/graphql-example.png>
-Package pdftex.def Info: img/graphql-example.png  used on input line 447.
+Package pdftex.def Info: img/graphql-example.png  used on input line 446.
 (pdftex.def)             Requested size: 239.60497pt x 62.35202pt.
 
-Overfull \vbox (1.00957pt too high) detected at line 447
+Overfull \vbox (1.00957pt too high) detected at line 446
  []
 
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 447.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 446.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
 [38
@@ -1519,16 +1515,16 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 447.
 <img/graphql-example-2.png, id=634, 740.7675pt x 161.60374pt>
 File: img/graphql-example-2.png Graphic file (type png)
 <use img/graphql-example-2.png>
-Package pdftex.def Info: img/graphql-example-2.png  used on input line 460.
+Package pdftex.def Info: img/graphql-example-2.png  used on input line 459.
 (pdftex.def)             Requested size: 171.14156pt x 62.35202pt.
 <img/graphql-example-3.png, id=635, 740.7675pt x 161.60374pt>
 File: img/graphql-example-3.png Graphic file (type png)
 <use img/graphql-example-3.png>
-Package pdftex.def Info: img/graphql-example-3.png  used on input line 460.
+Package pdftex.def Info: img/graphql-example-3.png  used on input line 459.
 (pdftex.def)             Requested size: 171.14156pt x 62.35202pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 460.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 459.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [39
@@ -1537,11 +1533,11 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 460.
 <img/websockets.jpeg, id=658, 803.0pt x 338.26375pt>
 File: img/websockets.jpeg Graphic file (type jpg)
 <use img/websockets.jpeg>
-Package pdftex.def Info: img/websockets.jpeg  used on input line 478.
+Package pdftex.def Info: img/websockets.jpeg  used on input line 477.
 (pdftex.def)             Requested size: 273.83733pt x 124.70657pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 478.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 477.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [40
@@ -1549,11 +1545,11 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 478.
  <./img/websockets.jpeg>]
 File: img/websockets.jpeg Graphic file (type jpg)
 <use img/websockets.jpeg>
-Package pdftex.def Info: img/websockets.jpeg  used on input line 478.
+Package pdftex.def Info: img/websockets.jpeg  used on input line 477.
 (pdftex.def)             Requested size: 273.83733pt x 124.70657pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 478.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 477.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [41
@@ -1562,11 +1558,11 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 478.
 <img/understanding-apis.jpg, id=684, 1490.56876pt x 675.52374pt>
 File: img/understanding-apis.jpg Graphic file (type jpg)
 <use img/understanding-apis.jpg>
-Package pdftex.def Info: img/understanding-apis.jpg  used on input line 485.
+Package pdftex.def Info: img/understanding-apis.jpg  used on input line 484.
 (pdftex.def)             Requested size: 273.81764pt x 174.58064pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 485.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 484.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [42
@@ -1575,11 +1571,11 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 485.
 <img/advice-API.png, id=704, 571.13374pt x 220.825pt>
 File: img/advice-API.png Graphic file (type png)
 <use img/advice-API.png>
-Package pdftex.def Info: img/advice-API.png  used on input line 509.
+Package pdftex.def Info: img/advice-API.png  used on input line 508.
 (pdftex.def)             Requested size: 205.38141pt x 99.76456pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 509.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 508.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [43
@@ -1587,11 +1583,11 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 509.
  <./img/advice-API.png>]
 File: img/advice-API.png Graphic file (type png)
 <use img/advice-API.png>
-Package pdftex.def Info: img/advice-API.png  used on input line 509.
+Package pdftex.def Info: img/advice-API.png  used on input line 508.
 (pdftex.def)             Requested size: 205.38141pt x 99.76456pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 509.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 508.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [44
@@ -1599,11 +1595,11 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 509.
 ]
 File: img/advice-API.png Graphic file (type png)
 <use img/advice-API.png>
-Package pdftex.def Info: img/advice-API.png  used on input line 509.
+Package pdftex.def Info: img/advice-API.png  used on input line 508.
 (pdftex.def)             Requested size: 205.38141pt x 99.76456pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 509.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 508.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [45
@@ -1611,11 +1607,11 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 509.
 ]
 File: img/advice-API.png Graphic file (type png)
 <use img/advice-API.png>
-Package pdftex.def Info: img/advice-API.png  used on input line 509.
+Package pdftex.def Info: img/advice-API.png  used on input line 508.
 (pdftex.def)             Requested size: 205.38141pt x 99.76456pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 509.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 508.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [46
@@ -1623,11 +1619,11 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 509.
 ]
 File: img/advice-API.png Graphic file (type png)
 <use img/advice-API.png>
-Package pdftex.def Info: img/advice-API.png  used on input line 509.
+Package pdftex.def Info: img/advice-API.png  used on input line 508.
 (pdftex.def)             Requested size: 205.38141pt x 99.76456pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 509.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 508.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [47
@@ -1636,11 +1632,11 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 509.
 <img/advice-api-2.png, id=782, 673.51625pt x 302.12875pt>
 File: img/advice-api-2.png Graphic file (type png)
 <use img/advice-api-2.png>
-Package pdftex.def Info: img/advice-api-2.png  used on input line 529.
+Package pdftex.def Info: img/advice-api-2.png  used on input line 528.
 (pdftex.def)             Requested size: 205.3759pt x 74.82204pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 529.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 528.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [48
@@ -1648,11 +1644,11 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 529.
  <./img/advice-api-2.png>]
 File: img/advice-api-2.png Graphic file (type png)
 <use img/advice-api-2.png>
-Package pdftex.def Info: img/advice-api-2.png  used on input line 529.
+Package pdftex.def Info: img/advice-api-2.png  used on input line 528.
 (pdftex.def)             Requested size: 205.3759pt x 74.82204pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 529.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 528.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [49
@@ -1660,11 +1656,11 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 529.
 ]
 File: img/advice-api-2.png Graphic file (type png)
 <use img/advice-api-2.png>
-Package pdftex.def Info: img/advice-api-2.png  used on input line 529.
+Package pdftex.def Info: img/advice-api-2.png  used on input line 528.
 (pdftex.def)             Requested size: 205.3759pt x 74.82204pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 529.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 528.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [50
@@ -1672,11 +1668,11 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 529.
 ]
 File: img/advice-api-2.png Graphic file (type png)
 <use img/advice-api-2.png>
-Package pdftex.def Info: img/advice-api-2.png  used on input line 529.
+Package pdftex.def Info: img/advice-api-2.png  used on input line 528.
 (pdftex.def)             Requested size: 205.3759pt x 74.82204pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 529.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 528.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [51
@@ -1684,11 +1680,11 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 529.
 ]
 File: img/advice-api-2.png Graphic file (type png)
 <use img/advice-api-2.png>
-Package pdftex.def Info: img/advice-api-2.png  used on input line 529.
+Package pdftex.def Info: img/advice-api-2.png  used on input line 528.
 (pdftex.def)             Requested size: 205.3759pt x 74.82204pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 529.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 528.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [52
@@ -1696,11 +1692,11 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 529.
 ]
 File: img/advice-api-2.png Graphic file (type png)
 <use img/advice-api-2.png>
-Package pdftex.def Info: img/advice-api-2.png  used on input line 529.
+Package pdftex.def Info: img/advice-api-2.png  used on input line 528.
 (pdftex.def)             Requested size: 205.3759pt x 74.82204pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 529.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 528.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [53
@@ -1709,11 +1705,11 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 529.
 <img/api-request-details.png, id=834, 746.79pt x 184.69pt>
 File: img/api-request-details.png Graphic file (type png)
 <use img/api-request-details.png>
-Package pdftex.def Info: img/api-request-details.png  used on input line 544.
+Package pdftex.def Info: img/api-request-details.png  used on input line 543.
 (pdftex.def)             Requested size: 205.37358pt x 99.7621pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 544.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 543.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [54
@@ -1722,11 +1718,11 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 544.
 <img/api-request.png, id=843, 1912.14375pt x 473.77pt>
 File: img/api-request.png Graphic file (type png)
 <use img/api-request.png>
-Package pdftex.def Info: img/api-request.png  used on input line 558.
+Package pdftex.def Info: img/api-request.png  used on input line 557.
 (pdftex.def)             Requested size: 273.82545pt x 124.70264pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 558.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 557.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [55
@@ -1735,11 +1731,11 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 558.
 <img/api-response.png, id=853, 1912.14375pt x 752.8125pt>
 File: img/api-response.png Graphic file (type png)
 <use img/api-response.png>
-Package pdftex.def Info: img/api-response.png  used on input line 573.
+Package pdftex.def Info: img/api-response.png  used on input line 572.
 (pdftex.def)             Requested size: 273.82545pt x 124.70264pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 573.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 572.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [56
@@ -1747,7 +1743,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 573.
  <./img/api-response.png>]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 582.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 581.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [57
@@ -1755,7 +1751,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 582.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 596.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 595.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [58
@@ -1763,7 +1759,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 596.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 612.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 611.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [59
@@ -1771,7 +1767,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 612.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 631.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 630.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [60
@@ -1779,7 +1775,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 631.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 653.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 652.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [61
@@ -1788,11 +1784,11 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 653.
 <img/header-metadata.png, id=921, 719.68875pt x 152.06813pt>
 File: img/header-metadata.png Graphic file (type png)
 <use img/header-metadata.png>
-Package pdftex.def Info: img/header-metadata.png  used on input line 677.
+Package pdftex.def Info: img/header-metadata.png  used on input line 676.
 (pdftex.def)             Requested size: 205.37698pt x 49.88098pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 677.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 676.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
 
@@ -1802,12 +1798,12 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 677.
 <img/unspported-media-type.png, id=944, 456.95718pt x 194.22563pt>
 File: img/unspported-media-type.png Graphic file (type png)
 <use img/unspported-media-type.png>
-Package pdftex.def Info: img/unspported-media-type.png  used on input line 700.
+Package pdftex.def Info: img/unspported-media-type.png  used on input line 699.
 
 (pdftex.def)             Requested size: 205.3778pt x 74.82599pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 700.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 699.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [63
@@ -1816,11 +1812,11 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 700.
 <img/http-methods.png, id=954, 553.31718pt x 295.85532pt>
 File: img/http-methods.png Graphic file (type png)
 <use img/http-methods.png>
-Package pdftex.def Info: img/http-methods.png  used on input line 709.
+Package pdftex.def Info: img/http-methods.png  used on input line 708.
 (pdftex.def)             Requested size: 273.83797pt x 149.65178pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 709.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 708.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
 
@@ -1829,7 +1825,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 709.
  <./img/http-methods.png>]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 723.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 722.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [65
@@ -1837,7 +1833,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 723.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 741.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 740.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [66
@@ -1845,7 +1841,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 741.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 764.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 763.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [67
@@ -1853,7 +1849,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 764.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 773.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 772.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [68
@@ -1861,7 +1857,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 773.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 785.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 784.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [69
@@ -1869,7 +1865,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 785.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 785.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 784.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [70
@@ -1877,7 +1873,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 785.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 785.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 784.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [71
@@ -1885,7 +1881,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 785.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 785.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 784.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [72
@@ -1893,7 +1889,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 785.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 785.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 784.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [73
@@ -1901,7 +1897,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 785.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 785.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 784.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
 
@@ -1911,11 +1907,11 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 785.
 <img/swagger-doc.png, id=1105, 1185.67969pt x 681.29532pt>
 File: img/swagger-doc.png Graphic file (type png)
 <use img/swagger-doc.png>
-Package pdftex.def Info: img/swagger-doc.png  used on input line 796.
+Package pdftex.def Info: img/swagger-doc.png  used on input line 795.
 (pdftex.def)             Requested size: 273.8404pt x 149.64633pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 796.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 795.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [75
@@ -1923,7 +1919,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 796.
  <./img/swagger-doc.png>]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 819.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 818.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [76
@@ -1931,7 +1927,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 819.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 819.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 818.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [77
@@ -1939,7 +1935,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 819.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 819.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 818.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [78
@@ -1947,7 +1943,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 819.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 819.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 818.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [79
@@ -1955,43 +1951,80 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 819.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 819.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 818.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [80
 
 ]
+\openout4 = `api-design-and-management.vrb'.
+
+
+(./api-design-and-management.vrb)
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 829.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 851.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [81
 
-]
+] (./api-design-and-management.vrb)
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 838.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 851.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
- [82
 
-]
+[82
+
+] (./api-design-and-management.vrb)
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 848.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 851.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [83
 
-]
+] (./api-design-and-management.vrb)
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 856.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 851.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
 
 [84
+
+]
+File: img/channel-logo-circular.png Graphic file (type png)
+<use img/channel-logo-circular.png>
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 862.
+
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
+ [85
+
+]
+File: img/channel-logo-circular.png Graphic file (type png)
+<use img/channel-logo-circular.png>
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 871.
+
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
+ [86
+
+]
+File: img/channel-logo-circular.png Graphic file (type png)
+<use img/channel-logo-circular.png>
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 881.
+
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
+ [87
+
+]
+File: img/channel-logo-circular.png Graphic file (type png)
+<use img/channel-logo-circular.png>
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 889.
+
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
+ [88
 
 ]
 \tf@nav=\write6
@@ -2015,25 +2048,29 @@ ed.
 (rerunfilecheck)             Checksum: 4E5A91BF4701CCAFE702CBC8FDE18E23;1398.
  ) 
 Here is how much of TeX's memory you used:
- 27636 strings out of 476034
- 547673 string characters out of 5792854
+ 27657 strings out of 476034
+ 548037 string characters out of 5792854
  1948388 words of memory out of 6000000
- 47322 multiletter control sequences out of 15000+600000
+ 47326 multiletter control sequences out of 15000+600000
  523020 words of font info for 70 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
  128i,15n,122p,401b,1435s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmtt8.pfb>
-Output written on api-design-and-management.pdf (84 pages, 1954522 bytes).
+
+pdfTeX warning (dest): name{Navigation89} has been referenced but does not exis
+t, replaced by a fixed one
+
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmtt8.pfb>
+Output written on api-design-and-management.pdf (88 pages, 1965623 bytes).
 PDF statistics:
- 1307 PDF objects out of 1440 (max. 8388607)
- 908 compressed objects within 10 object streams
- 182 named destinations out of 1000 (max. 500000)
- 1639 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1378 PDF objects out of 1440 (max. 8388607)
+ 955 compressed objects within 10 object streams
+ 191 named destinations out of 1000 (max. 500000)
+ 1759 words of extra memory for PDF output out of 10000 (max. 10000000)
 

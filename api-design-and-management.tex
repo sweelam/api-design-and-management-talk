@@ -9,7 +9,6 @@
 \usepackage{colortbl}
 \usepackage{color}
 
-
 \tikzstyle{block} = [rectangle, draw, text width=4.5em, text centered, minimum height=2em]
 \lstset{basicstyle=\small\ttfamily}
 
@@ -817,6 +816,40 @@
 
 \tiny source: \href{https://www.oreilly.com/library/view/restful-web-apis/9781449359713/} {\textcolor{blue}{Restful Web APIs}} 	
 \end{frame}
+
+
+\begin{frame}[t, fragile]{Hypermedia}
+		\begin{itemize}
+			\item<1-> Application Navigation Control \\
+			\scriptsize		
+				\begin{semiverbatim}
+					\code{<a href="http://www.tyi.com/messages/"> See the latest messages </a>}	
+				\end{semiverbatim}
+			
+			\item<2-> Application Embdedded Control
+			\scriptsize		
+				\begin{semiverbatim}
+					\code{<img rel="icon" src="http://www.example.com/logo.png" />}
+				\end{semiverbatim}
+			
+			\item<3-> Application Complex Control \\
+			\scriptsize			
+				\begin{semiverbatim}
+					\code{<form action="http://www.youtypeitwepostit.com/messages" method="post">}
+					\code{	<input type="text" name="message" value="" required="true" /> }
+					\code{</form>}
+				\end{semiverbatim}
+				
+			\item<4->[] 
+			\scriptsize		
+			\begin{block}{Hypermedia Formal Definition}
+				Hypermedia is defined by the presence of application control information embedded within, or as a layer above, the presentation of information.
+			\end{block}	
+		\end{itemize}		
+
+\tiny source: \href{https://www.oreilly.com/library/view/restful-web-apis/9781449359713/} {\textcolor{blue}{Restful Web APIs}} 	
+\end{frame}
+				
 
 
 \section{API Security}

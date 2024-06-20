@@ -1,25 +1,30 @@
-\frametitle{Understanding APIs \small (gRPC)}
+\frametitle{Hypermedia}
+\begin{itemize}
+			\item<1-> Application Navigation Control \\
+			\scriptsize		
+				\begin{semiverbatim}
+					\code{<a href="http://www.tyi.com/messages/"> See the latest messages </a>}	
+				\end{semiverbatim}
+			
+			\item<2-> Application Embdedded Control
+			\scriptsize		
+				\begin{semiverbatim}
+					\code{<img rel="icon" src="http://www.example.com/logo.png" />}
+				\end{semiverbatim}
+			
+			\item<3-> Application Complex Control \\
+			\scriptsize			
+				\begin{semiverbatim}
+					\code{<form action="http://www.youtypeitwepostit.com/messages" method="post">}
+					\code{	<input type="text" name="message" value="" required="true" /> }
+					\code{</form>}
+				\end{semiverbatim}
+				
+			\item<4->[]
+			\scriptsize		
+			\begin{block}{Hypermedia Formal Definition}
+				Hypermedia is defined by the presence of application control information embedded within, or as a layer above, the presentation of information.
+			\end{block}	
+		\end{itemize}		
 
-	\scriptsize
-      \begin{lstlisting}[language=protobuf]
-		syntax = "proto3";
-		package observer;
-
-		service ObserverStatusService {
-    		rpc getServiceStatus (SystemStatusRequest)
-    				returns (SystemStatusResponse) {}
-		}
-
-		message SystemStatusRequest {
-    		optional string uuid = 1;
-    		string service_name = 2;
-		}
-
-		message SystemStatusResponse {
-    		string uuid = 1;
-    		string status = 2;
-    		string component = 3;
-    		optional string service_name = 4;
-		}
-      \end{lstlisting}
-
+\tiny source: \href{https://www.oreilly.com/library/view/restful-web-apis/9781449359713/} {\textcolor{blue}{Restful Web APIs}} 	
