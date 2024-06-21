@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.user</groupId>
-	<artifactId>flightD-user-service</artifactId>
+	<artifactId>flight-user-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>flight-user-service</name>
 	<description>Customer Service demo </description>

@@ -28,12 +28,18 @@ management:
     web:
       exposure:
         include: health, info, prometheus, metrics
+  tracing:
+    sampling:
+      probability: 1.0
 app:
+  tracing:
+    url: http://localhost:4318/v1/traces
   kafka:
     topic-name: flight.email.topic
-opentracing:
-  jaeger:
-    http-sender:
-      url: http://localhost:14268/api/traces
+
+
+logging:
+  pattern:
+    level: '%5p [${spring.application.name:},%X{traceId:-},%X{spanId:-}]'
 
 

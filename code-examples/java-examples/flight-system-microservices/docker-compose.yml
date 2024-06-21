@@ -49,42 +49,45 @@ services:
       KAFKA_CLUSTERS_0_NAME: local
       KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: kafka:29092
 
-  cassandra:
-    container_name: flight-cassandra
-    image: bitnami/cassandra:latest
-    ports:
-      - '9042:9042'
+#  cassandra:
+#    container_name: flight-cassandra
+#    image: bitnami/cassandra:latest
+#    ports:
+#      - '9042:9042'
 
   jaeger-allinone:
-    image: jaegertracing/all-in-one:1.25
+    image: jaegertracing/all-in-one:latest
     ports:
       - '16686:16686'
-      - '14268:14268'
-
-  cassandra-schema:
-    image: jaegertracing/jaeger-cassandra-schema
+      - '4318:4318'
     environment:
-      - CASSANDRA_KEYSPACE=jaeger_schema
-      - CASSANDRA_SERVERS=flight-cassandra
-      - CASSANDRA_PASSWORD=cassandra
-      - CASSANDRA_USERNAME=cassandra
-      - KEYSPACE=jaeger_schema
-      - VERSION=4
-    depends_on:
-      - cassandra
+      - COLLECTOR_OTLP_ENABLED=true
 
-  jaeger-collectors:
-    image: jaegertracing/jaeger-collector:1.44
-    environment:
-      - CASSANDRA_KEYSPACE=jaeger_schema
-      - CASSANDRA_SERVERS=flight-cassandra
-      - CASSANDRA_PASSWORD=cassandra
-      - CASSANDRA_USERNAME=cassandra
-      - SPAN_STORAGE_TYPE=cassandra
-      - SAMPLING_INITIAL_SAMPLING_PROBABILITY=1
-    depends_on:
-      - cassandra-schema
-    restart: on-failure
+
+#  cassandra-schema:
+#    image: jaegertracing/jaeger-cassandra-schema
+#    environment:
+#      - CASSANDRA_KEYSPACE=jaeger_schema
+#      - CASSANDRA_SERVERS=flight-cassandra
+#      - CASSANDRA_PASSWORD=cassandra
+#      - CASSANDRA_USERNAME=cassandra
+#      - KEYSPACE=jaeger_schema
+#      - VERSION=4
+#    depends_on:
+#      - cassandra
+#
+#  jaeger-collectors:
+#    image: jaegertracing/jaeger-collector:1.44
+#    environment:
+#      - CASSANDRA_KEYSPACE=jaeger_schema
+#      - CASSANDRA_SERVERS=flight-cassandra
+#      - CASSANDRA_PASSWORD=cassandra
+#      - CASSANDRA_USERNAME=cassandra
+#      - SPAN_STORAGE_TYPE=cassandra
+#      - SAMPLING_INITIAL_SAMPLING_PROBABILITY=1
+#    depends_on:
+#      - cassandra-schema
+#    restart: on-failure
 
   init-kafka:
     image: 'bitnami/kafka:3'

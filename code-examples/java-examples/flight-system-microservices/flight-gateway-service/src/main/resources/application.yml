@@ -5,7 +5,7 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: flight-booking-service
+        - id: flight-search-service
           uri: http://localhost:8082
           predicates:
             - Path=/api/flights/search/**
@@ -34,29 +34,22 @@ spring:
             maxBackOff: 50ms
             factor: 2
             basedOnPreviousValue: false
-
-
-
   application:
     name: edge-service
   data.redis.host: localhost
   data.redis.port: 6379
-
-
-opentracing:
-  jaeger:
-    http-sender:
-      url: http://localhost:14268/api/traces
-    probabilistic-sampler:
-      sampling-rate: 0.5
 
 management:
   endpoints:
     web:
       exposure:
         include: health, info, prometheus, metrics
+  tracing:
+    url: http://localhost:4318/v1/traces
+    sampling:
+      probability: 1.0
 
 
 logging:
-  level:
-    org.springframework.cloud.gateway.handler.RoutePredicateHandlerMapping: DEBUG
+  pattern:
+    level: '%5p [${spring.application.name:},%X{traceId:-},%X{spanId:-}]'

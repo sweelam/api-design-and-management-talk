@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.api</groupId>
-	<artifactId>flight-notification-service</artifactId>
+	<artifactId>flight-notification</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>flight-notification-service</name>
+	<name>flight-notification</name>
 	<description>Email Service demo </description>
 	<properties>
 		<java.version>21</java.version>
