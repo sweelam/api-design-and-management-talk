@@ -18,7 +18,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 
-@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.MOCK)
 @AutoConfigureMockMvc
 class FlightSearchControllerTest extends IntegrationTestSupport {
     private static final String FLIGHT_SEARCH_URL = "/";
@@ -67,7 +67,7 @@ class FlightSearchControllerTest extends IntegrationTestSupport {
     @Test
     void getFlightFromTo_ShouldReturnOk() throws Exception {
         MvcResult result = mockMvc.perform(
-                get(FLIGHT_SEARCH_URL + "direction").contentType(MediaType.APPLICATION_JSON)
+                get(FLIGHT_SEARCH_URL + "direct-path").contentType(MediaType.APPLICATION_JSON)
                         .accept(MediaType.APPLICATION_JSON)
                         .param("from", "LAX")
                         .param("to", "JFK")

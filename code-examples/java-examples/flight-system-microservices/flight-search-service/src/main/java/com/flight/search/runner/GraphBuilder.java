@@ -2,17 +2,18 @@ package com.flight.search.runner;
 
 import com.flight.search.repo.FlightSearchRepo;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Component;
 
-import java.time.Instant;
-import java.time.LocalDateTime;
 import java.time.ZoneOffset;
 import java.util.*;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+
+import static com.flight.search.utils.TimeUtils.getDurationInHours;
 
 @Component
 @Slf4j
@@ -20,13 +21,21 @@ public class GraphBuilder implements ApplicationRunner {
     private static final Map<String, List<FlightNode>> flightsGraph = new HashMap<>();
     private final FlightSearchRepo flightSearchRepo;
     private final ExecutorService ex = Executors.newVirtualThreadPerTaskExecutor();
+    private final String activeProfile;
 
-    public GraphBuilder(FlightSearchRepo flightSearchRepo) {
+    public GraphBuilder(FlightSearchRepo flightSearchRepo,
+                        @Value("${active.profile}") final String activeProfile) {
         this.flightSearchRepo = flightSearchRepo;
+        this.activeProfile = activeProfile;
     }
 
     @Override
     public void run(ApplicationArguments args) {
+        if (activeProfile.equals("test")) {
+            this.buildGraph();
+            return;
+        }
+
         CompletableFuture.runAsync(this::buildGraph, ex);
     }
 
@@ -36,18 +45,14 @@ public class GraphBuilder implements ApplicationRunner {
                     String src = flight.getDepartureAirport();
                     String dest = flight.getArrivalAirport();
 
-                    Instant departureTime = flight.getDepartureTime();
-                    Instant arrivalTime = flight.getArrivalTime();
-
                     float duration =
-                            LocalDateTime.ofInstant(arrivalTime, ZoneOffset.UTC).getHour() -
-                                    LocalDateTime.ofInstant(departureTime, ZoneOffset.UTC).getHour() ;
+                            getDurationInHours(flight.getDepartureTime(), flight.getArrivalTime(), ZoneOffset.UTC);
 
                     flightsGraph.computeIfAbsent(src, k -> new ArrayList<>()).add(new FlightNode(dest, duration));
                 });
     }
 
-    public List<FlightNode> findPath(String from, String to) {
+    public List<String> findPath(String from, String to) {
         Deque<FlightNode> Q = new ArrayDeque<>();
         Map<FlightNode, FlightNode> parentMap = new HashMap<>();
 
@@ -70,6 +75,7 @@ public class GraphBuilder implements ApplicationRunner {
                 if (!visited.contains(neighbour)) {
                     visited.add(neighbour);
                     Q.offer(neighbour);
+                    parentMap.put(neighbour, current);
                 }
             }
         }
@@ -77,16 +83,16 @@ public class GraphBuilder implements ApplicationRunner {
         return Collections.emptyList();
     }
 
-    private List<FlightNode> buildThePath(Map<FlightNode, FlightNode> parentMap, FlightNode endNode) {
-        List<FlightNode> path = new ArrayList<>();
+    private List<String> buildThePath(Map<FlightNode, FlightNode> parentMap, FlightNode endNode) {
+        List<String> path = new ArrayList<>();
         FlightNode step = endNode;
 
         while (step != null) {
-            path.add(step);
-            step = parentMap.get(step);  // Go to the parent of the current node
+            path.add(step.airPort());
+            step = parentMap.get(step);
         }
 
-        Collections.reverse(path);  // The path is constructed from end to start, so reverse it
+        Collections.reverse(path);
         return path;
     }
 }

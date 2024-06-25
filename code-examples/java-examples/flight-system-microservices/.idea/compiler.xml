@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="flight-booking-service" />
         <module name="flight-search-service" />
+        <module name="flight-notification-service" />
         <module name="flight-gateway-service" />
         <module name="flight-notification" />
       </profile>
@@ -37,6 +38,7 @@
       <module name="flight-booking-service" options="-parameters" />
       <module name="flight-gateway-service" options="-parameters" />
       <module name="flight-notification" options="-parameters" />
+      <module name="flight-notification-service" options="-parameters" />
       <module name="flight-search" options="-parameters" />
       <module name="flight-search-service" options="-parameters" />
       <module name="flight-service" options="-parameters" />

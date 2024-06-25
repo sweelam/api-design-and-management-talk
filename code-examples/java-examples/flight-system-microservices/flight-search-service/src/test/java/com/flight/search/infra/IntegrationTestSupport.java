@@ -13,7 +13,10 @@ public abstract class IntegrationTestSupport {
 
     @Container
     protected static PostgreSQLContainer<?> postgres =
-            new PostgreSQLContainer<>("postgres:16-alpine");
+            new PostgreSQLContainer<>("postgres:16-alpine")
+                    .withDatabaseName("test")
+                    .withUsername("test")
+                    .withPassword("test");
 
 
     @DynamicPropertySource

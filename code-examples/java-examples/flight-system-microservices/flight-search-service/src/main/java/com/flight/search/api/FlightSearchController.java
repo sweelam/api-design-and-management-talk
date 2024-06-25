@@ -29,9 +29,16 @@ public class FlightSearchController {
         );
     }
 
-    @GetMapping("direction")
+    @GetMapping("direct-path")
     public DeferredResult<List<FlightDto>> getFlightsFromTo(@RequestParam String from, @RequestParam String to) {
         return ApiResponseUtils.toResponse(flightSearchService.getAllFlightsFromTo(from, to));
+    }
+
+
+    @GetMapping("shortest-path")
+    public DeferredResult<List<String>> getShortestFlightPathFromTo(
+            @RequestParam String from, @RequestParam String to) {
+        return ApiResponseUtils.toResponse(flightSearchService.shortestPath(from, to));
     }
 
 }

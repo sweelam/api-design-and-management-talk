@@ -5,12 +5,13 @@ import com.flight.search.dto.FlightDto;
 import com.flight.search.exceptions.FlightApiException;
 import com.flight.search.mappers.FlightSearchMapper;
 import com.flight.search.repo.FlightSearchRepo;
+import com.flight.search.runner.GraphBuilder;
 import com.flight.search.service.FlightSearchService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
+import java.util.*;
 
 import static java.time.Duration.ofHours;
 import static java.util.Optional.ofNullable;
@@ -22,6 +23,7 @@ public class FlightSearchServiceImpl implements FlightSearchService {
     private final RedisClient redisClient;
     private final FlightSearchRepo flightSearchRepo;
     private final FlightSearchMapper flightSearchMapper;
+    private final GraphBuilder graphBuilder;
 
 
     @Override
@@ -49,6 +51,11 @@ public class FlightSearchServiceImpl implements FlightSearchService {
     public List<FlightDto> getAllFlightsFromTo(String departureAirport, String arrivalAirport) {
         return flightSearchRepo.findAllByDepartureAirportAndAndArrivalAirport(departureAirport, arrivalAirport)
                 .stream().map(flightSearchMapper::convertToFlightDto).toList();
+    }
+
+    @Override
+    public List<String> shortestPath(String from, String to) {
+        return graphBuilder.findPath(from, to);
     }
 
 }
