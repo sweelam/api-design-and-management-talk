@@ -1,4 +1,4 @@
-package com.flight.booking.rest;
+package com.flight.booking.api;
 
 
 import org.springframework.web.bind.annotation.*;

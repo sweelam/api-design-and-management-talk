@@ -55,7 +55,7 @@ class FlightSearchControllerTest extends IntegrationTestSupport {
     }
 
     @Test
-    void getFlightByFlightNumber_ShouldReturnBadRequest() throws Exception {
+    void getFlightByWrongFlightNumber_ShouldReturnBadRequest() throws Exception {
         mockMvc.perform(
                 get(FLIGHT_SEARCH_URL).contentType(MediaType.APPLICATION_JSON)
                         .accept(MediaType.APPLICATION_JSON)
@@ -82,6 +82,26 @@ class FlightSearchControllerTest extends IntegrationTestSupport {
 
         assertEquals(1, parsedResponse.read("$.size()", Integer.class));
         assertEquals(7, parsedResponse.read("$.[0].size()", Integer.class));
+    }
+
+    @Test
+    void getShortestFlightFromTo_ShouldReturnOk() throws Exception {
+        MvcResult result = mockMvc.perform(
+                get(FLIGHT_SEARCH_URL + "shortest-path").contentType(MediaType.APPLICATION_JSON)
+                        .accept(MediaType.APPLICATION_JSON)
+                        .param("from", "LAX")
+                        .param("to", "JFK")
+        ).andReturn();
+
+        MvcResult mvcResult = mockMvc.perform(asyncDispatch(result))
+                .andExpect(status().isOk())
+                .andReturn();
+
+//        var responseBody = mvcResult.getResponse().getContentAsString();
+//        DocumentContext parsedResponse = JsonPath.parse(responseBody);
+//
+//        assertEquals(1, parsedResponse.read("$.size()", Integer.class));
+//        assertEquals(7, parsedResponse.read("$.[0].size()", Integer.class));
     }
 
 }

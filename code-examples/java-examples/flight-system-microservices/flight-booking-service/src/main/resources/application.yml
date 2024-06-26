@@ -18,6 +18,10 @@ spring:
   threads:
     virtual:
       enabled: true
+  flyway:
+    baseline-on-migrate: true
+    baseline-version: 3
+    ignore-migration-patterns: '*:missing, *:ignored, *:future'
 
 
 management:
@@ -28,9 +32,6 @@ management:
 app:
   kafka:
     topic-name: flight.email.topic
-opentracing:
-  jaeger:
-    http-sender:
-      url: http://localhost:14268/api/traces
-
+  tracing:
+      url: http://localhost:4318/v1/traces
 

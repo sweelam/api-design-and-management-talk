@@ -24,14 +24,14 @@ public class GraphBuilder implements ApplicationRunner {
     private final String activeProfile;
 
     public GraphBuilder(FlightSearchRepo flightSearchRepo,
-                        @Value("${active.profile}") final String activeProfile) {
+                        @Value("${active.profile:}") final String activeProfile) {
         this.flightSearchRepo = flightSearchRepo;
         this.activeProfile = activeProfile;
     }
 
     @Override
     public void run(ApplicationArguments args) {
-        if (activeProfile.equals("test")) {
+        if ("test".equals(activeProfile)) {
             this.buildGraph();
             return;
         }
