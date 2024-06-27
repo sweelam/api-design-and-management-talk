@@ -1,5 +1,7 @@
 package com.flight.booking.entity;
 
+import com.flight.booking.dto.enums.BookingStatus;
+import com.flight.booking.dto.enums.BookingStatusConverter;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
@@ -23,7 +25,8 @@ public class Booking {
     private Instant bookingTime;
 
     @Column(name = "status", nullable = false, length = 20)
-    private String status;
+    @Convert(converter = BookingStatusConverter.class)
+    private BookingStatus status;
 
     @ColumnDefault("CURRENT_TIMESTAMP")
     @Column(name = "created_at")
@@ -33,10 +36,10 @@ public class Booking {
     @Column(name = "updated_at")
     private Instant updatedAt;
 
-    @Column(name = "flight_id")
+    @Column(name = "flight_id", nullable = false)
     private Integer flightId;
 
-    @Column(name = "user_id")
+    @Column(name = "user_id", nullable = false)
     private Integer userId;
 
 }

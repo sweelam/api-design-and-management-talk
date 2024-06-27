@@ -1,33 +1,41 @@
 package com.flight.booking.service.impl;
 
-public class FlightBookingServiceImpl {
-//    public void bookNewFlight(final Flight flightAdded) {
-//        var email = flightAdded.customerEmail();
-//
-//        var customerFound =
-//                ofNullable(redisClient.get(email))
-//                        .map(t -> (CustomerResponse) t)
-//                        .orElseGet(() -> {
-//                            var customerResponse = customerService.customerFound(email);
-//                            redisClient.setAndGet(email, customerResponse, 2);
-//                            return customerResponse;
-//                        });
-//
-//        if (Objects.isNull(customerFound)) {
-//            throw new FlightApiException("No customer found with provided email", HttpStatus.NOT_FOUND);
-//        }
-//
-//
-//        var fl = (Flight) redisClient.get(flightAdded.flightName());
-//        if (fl != null && (fl.flightName().equalsIgnoreCase(flightAdded.flightName()) || fl.id().equals(flightAdded.id()))) {
-//            logger.warn("Flight was already added!");
-//            throw new FlightApiException("Flight already booked!", HttpStatus.BAD_REQUEST);
-//        }
-//
-//
-//        redisClient.set(flightAdded.flightName(), flightAdded, 2);
-//
-//        // push email event
-//        emailService.sendEmail(flightAdded.customerEmail(), flightAdded.flightName());
-//    }
+import com.flight.booking.dto.BookingDto;
+import com.flight.booking.mappers.FlightBookingMapper;
+import com.flight.booking.repo.FlightBookingRepo;
+import com.flight.booking.service.FlightBookingService;
+import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+
+@Service
+@Slf4j
+@RequiredArgsConstructor
+public class FlightBookingServiceImpl implements FlightBookingService {
+    private final FlightBookingRepo flightBookingRepo;
+    private final FlightBookingMapper flightBookingMapper;
+
+    @Override
+    public List<BookingDto> getBookings() {
+        return flightBookingRepo.findAll()
+                .stream().map(flightBookingMapper::convertToBookingtDto)
+                .toList();
+    }
+
+    @Override
+    public BookingDto getBookingById(Integer bookingId) {
+        return null;
+    }
+
+    @Override
+    public BookingDto createBooking(BookingDto bookingDto) {
+        return null;
+    }
+
+    @Override
+    public BookingDto updateBooking(BookingDto bookingDto) {
+        return null;
+    }
 }
