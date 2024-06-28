@@ -3,8 +3,7 @@ package com.flight.booking.entity;
 import com.flight.booking.dto.enums.BookingStatus;
 import com.flight.booking.dto.enums.BookingStatusConverter;
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 import org.hibernate.annotations.ColumnDefault;
 
 import java.time.Instant;
@@ -13,6 +12,9 @@ import java.time.Instant;
 @Setter
 @Entity
 @Table(name = "bookings", schema = "public")
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 public class Booking {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "bookings_id_gen")
@@ -29,12 +31,14 @@ public class Booking {
     private BookingStatus status;
 
     @ColumnDefault("CURRENT_TIMESTAMP")
-    @Column(name = "created_at")
-    private Instant createdAt;
+    @Column(name = "created_at", updatable = false)
+    @Builder.Default
+    private Instant createdAt = Instant.now();
 
     @ColumnDefault("CURRENT_TIMESTAMP")
-    @Column(name = "updated_at")
-    private Instant updatedAt;
+    @Column(name = "updated_at", updatable = true)
+    @Builder.Default
+    private Instant updatedAt = Instant.now();
 
     @Column(name = "flight_id", nullable = false)
     private Integer flightId;

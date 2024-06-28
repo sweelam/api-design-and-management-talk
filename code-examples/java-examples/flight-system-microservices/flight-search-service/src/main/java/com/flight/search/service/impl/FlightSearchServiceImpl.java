@@ -42,6 +42,13 @@ public class FlightSearchServiceImpl implements FlightSearchService {
     }
 
     @Override
+    public FlightDto getFlightById(Integer flightId) {
+        return flightSearchRepo.findById(flightId)
+                .map(flightSearchMapper::convertToFlightDto)
+                .orElseThrow(() -> new FlightApiException("No Flight found with provided flight id"));
+    }
+
+    @Override
     public List<FlightDto> getAllFlights() {
         return flightSearchRepo.findAll().stream()
                 .map(flightSearchMapper::convertToFlightDto).toList();

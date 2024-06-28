@@ -5,10 +5,10 @@ import com.users.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.context.request.async.DeferredResult;
+
+import static com.users.api.ApiResponseUtils.toResponse;
 
 @RestController
 @RequestMapping("/api/public/users")
@@ -21,5 +21,10 @@ public class RegistrationController {
         return userService.addUser(userRequest)
                 .map(res -> new ResponseEntity<>(res, HttpStatus.CREATED))
                 .orElseGet(() -> new ResponseEntity<>(HttpStatus.BAD_REQUEST));
+    }
+
+    @GetMapping("/{userId}")
+    public DeferredResult<UserDto> getUserById(@PathVariable Integer userId) {
+        return toResponse(userService.getUserById(userId));
     }
 }

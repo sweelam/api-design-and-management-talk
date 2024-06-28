@@ -29,6 +29,11 @@ public class FlightSearchController {
         );
     }
 
+    @GetMapping("{flightId}")
+    public ResponseEntity<FlightDto> getFlightById(@PathVariable Integer flightId) {
+        return ResponseEntity.ok(flightSearchService.getFlightById(flightId));
+    }
+
     @GetMapping("direct-path")
     public DeferredResult<List<FlightDto>> getFlightsFromTo(@RequestParam String from, @RequestParam String to) {
         return ApiResponseUtils.toResponse(flightSearchService.getAllFlightsFromTo(from, to));

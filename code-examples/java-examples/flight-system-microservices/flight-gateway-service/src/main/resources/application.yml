@@ -12,7 +12,7 @@ spring:
         - id: flight-booking-service
           uri: http://localhost:8086
           predicates:
-            - Path=/api/flights/search/**
+            - Path=/api/flights/bookings/**
         - id: user-service
           uri: http://localhost:8081
           predicates:

@@ -5,13 +5,15 @@ import com.users.exceptions.UserApiException;
 import com.users.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.context.request.async.DeferredResult;
 
 import java.util.List;
 
-import static java.util.UUID.randomUUID;
+import static com.users.api.ApiResponseUtils.toResponse;
 
 @RestController
 @RequestMapping("/api/users")
@@ -21,13 +23,14 @@ public class UserController {
 
     @GetMapping("")
     public DeferredResult<List<UserDto>> getAllCustomers() {
-        return ApiResponseUtils.toResponse(userService.getUsers());
+        return toResponse(userService.getUsers());
     }
 
     @GetMapping("/{email}")
-    public DeferredResult<UserDto> getCustomerByEmail(@PathVariable String email) {
+    public DeferredResult<UserDto> getUserByEmail(@PathVariable String email) {
         return userService.getUserByEmail(email)
                 .map(ApiResponseUtils::toResponse)
                 .orElseThrow(() -> new UserApiException("User not found", HttpStatus.NOT_FOUND));
     }
+
 }
