@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpaBuddyIdeaProjectConfig" reUseTableSchema="true">
+    <option name="defaultUnitInitialized" value="true" />
+    <option name="reLastEntityCreationPackage" value="src/main/java/com/flight/search/entity" />
+    <option name="renamerInitialized" value="true" />
+    <option name="reverseEngineeringLastDbConnectionId" value="b2532345-2e5c-4c0e-806e-79ae71a163fa__flight-booking_public" />
+  </component>
+</project>

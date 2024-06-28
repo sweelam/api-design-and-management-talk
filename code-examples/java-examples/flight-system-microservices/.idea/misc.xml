@@ -13,12 +13,21 @@
         <option value="$PROJECT_DIR$/email-service/pom.xml" />
         <option value="$PROJECT_DIR$/flight-service/pom.xml" />
         <option value="$PROJECT_DIR$/customer-service/pom.xml" />
+        <option value="$PROJECT_DIR$/flight-search-service/pom.xml" />
+        <option value="$PROJECT_DIR$/notification-service/pom.xml" />
+        <option value="$PROJECT_DIR$/flight-booking-service/pom.xml" />
+        <option value="$PROJECT_DIR$/user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/flight-notification-service/pom.xml" />
+        <option value="$PROJECT_DIR$/flight-gateway-service/pom.xml" />
+        <option value="$PROJECT_DIR$/flight-user-service/pom.xml" />
       </list>
     </option>
-    <option name="workspaceImportForciblyTurnedOn" value="true" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="zulu-17" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="zulu-21" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
   </component>
   <component name="SuppressionsComponent">
     <option name="suppComments" value="[]" />
