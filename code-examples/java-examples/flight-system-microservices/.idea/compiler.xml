@@ -29,6 +29,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="flight-notification-service" target="21" />
       <module name="flight-service" target="21" />
     </bytecodeTargetLevel>
   </component>

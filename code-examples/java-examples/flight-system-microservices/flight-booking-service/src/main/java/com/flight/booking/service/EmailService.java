@@ -1,6 +1,6 @@
-package com.flight.search.service;
+package com.flight.booking.service;
 
-import com.flight.search.builders.EmailBuilders;
+import com.flight.booking.builders.EmailBuilders;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.scheduling.annotation.Async;

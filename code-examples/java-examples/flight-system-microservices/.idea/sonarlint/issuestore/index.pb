@@ -111,3 +111,7 @@ i
 9src/main/java/com/users/service/impl/UserServiceImpl.java,4/7/47ab61c70a81b749d069dde5e88d350560a6f2a4
 _
 /src/main/java/com/users/mappers/UserMapper.java,c/6/c66ac1dce73558ab42d91f8d49da81a5550711b8
+j
+:src/main/java/com/flight/booking/service/EmailService.java,5/3/5383a943f45b8527a6733408d9482ae61251a7c7
+k
+;src/main/java/com/flight/search/builders/EmailBuilders.java,a/9/a96d255e8cce96cf0496bd791c76ab9c53245500
