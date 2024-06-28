@@ -5,8 +5,8 @@ import com.google.gson.Gson;
 import java.time.Instant;
 
 public final class EmailBuilders {
-    private static final String applicationName = "flight-service";
-    private static String messageBody = "Your flight %s booking on date %s has been confirmed";
+    private static final String APPLICATION_NAME = "flight-service";
+    private static final String MESSAGE_BODY = "Your flight %s booking on date %s has been confirmed";
     private EmailBuilders() {}
 
     private static final Gson gson = new Gson();
@@ -14,7 +14,7 @@ public final class EmailBuilders {
     public static String buildEmailEvent(final String customerEmail, final String flightName) {
         Instant now = Instant.now();
         return gson.toJson(
-                new EmailEvent(customerEmail, flightName, messageBody.formatted(flightName, now), applicationName, now.toString())
+                new EmailEvent(customerEmail, flightName, MESSAGE_BODY.formatted(flightName, now), APPLICATION_NAME, now.toString())
         );
     }
 
