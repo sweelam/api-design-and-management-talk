@@ -1,0 +1,41 @@
+server:
+  port: '8086'
+  servlet:
+    context-path: /api/flights
+
+spring:
+  application:
+    name: flight-booking-service
+  kafka:
+    producer:
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      bootstrap-servers: localhost:9092
+  datasource:
+    url: jdbc:postgresql://localhost:5432/flight-booking
+    username: ${USERNAME:db_user}
+    password: ${PASSWORD:123qwe}
+  threads:
+    virtual:
+      enabled: true
+  flyway:
+    baseline-on-migrate: true
+    baseline-version: 3
+    ignore-migration-patterns: '*:missing, *:ignored, *:future'
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info, prometheus, metrics
+app:
+  kafka:
+    topic-name: flight.email.topic
+  tracing:
+      url: http://localhost:4318/v1/traces
+  user-service:
+    url: http://localhost:8888/api/public/users
+  flight-service:
+    url: http://localhost:8888/api/flights/search
+
