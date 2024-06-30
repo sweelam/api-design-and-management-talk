@@ -31,14 +31,10 @@ class FLightBookingControllerTest extends IntegrationTestSupport {
     void getBookings_ShouldReturnOk() throws Exception {
         MvcResult result = mockMvc.perform(
                         get(FLIGHT_BOOKING_URL).accept(MediaType.APPLICATION_JSON)
-                )
+                ).andExpect(status().isOk())
                 .andReturn();
 
-        MvcResult mvcResult = mockMvc.perform(asyncDispatch(result))
-                .andExpect(status().isOk())
-                .andReturn();
-
-        String contentAsString = mvcResult.getResponse().getContentAsString();
+        String contentAsString = result.getResponse().getContentAsString();
         assertNotNull(contentAsString);
         assertFalse(contentAsString.isEmpty());
     }
@@ -49,14 +45,10 @@ class FLightBookingControllerTest extends IntegrationTestSupport {
                         get(FLIGHT_BOOKING_URL)
                                 .accept(MediaType.APPLICATION_JSON)
                                 .param("bookingId", "1")
-                )
+                ).andExpect(status().isOk())
                 .andReturn();
 
-        MvcResult mvcResult = mockMvc.perform(asyncDispatch(result))
-                .andExpect(status().isOk())
-                .andReturn();
-
-        String contentAsString = mvcResult.getResponse().getContentAsString();
+        String contentAsString = result.getResponse().getContentAsString();
         assertNotNull(contentAsString);
         assertFalse(contentAsString.isEmpty());
     }
@@ -64,12 +56,15 @@ class FLightBookingControllerTest extends IntegrationTestSupport {
     @Test
     void bookFlight_ShouldReturnOk() throws Exception {
         var request = new BookingDto(null, 2, 1, null, null);
-        mockMvc.perform(
-                        post(FLIGHT_BOOKING_URL)
-                                .accept(MediaType.APPLICATION_JSON)
-                                .contentType(MediaType.APPLICATION_JSON)
-                                .content(objectMapper.writeValueAsString(request))
-                ).andExpect(status().isCreated());
+        MvcResult mvcResult = mockMvc.perform(
+                post(FLIGHT_BOOKING_URL)
+                        .accept(MediaType.APPLICATION_JSON)
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(objectMapper.writeValueAsString(request))
+        ).andReturn();
+
+
+        mockMvc.perform(asyncDispatch(mvcResult)).andExpect(status().isCreated());
     }
 
     @Test
@@ -81,5 +76,19 @@ class FLightBookingControllerTest extends IntegrationTestSupport {
                         .contentType(MediaType.APPLICATION_JSON)
                         .content(objectMapper.writeValueAsString(request))
         ).andExpect(status().isBadRequest());
+    }
+
+    @Test
+    void bookFlightWithWrongBookingId_ShouldReturnBadRequest() throws Exception {
+        var request = new BookingDto(null, -2, 1, null, null);
+
+        MvcResult mvcResult = mockMvc.perform(
+                post(FLIGHT_BOOKING_URL)
+                        .accept(MediaType.APPLICATION_JSON)
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(objectMapper.writeValueAsString(request))
+        ).andReturn();
+
+        mockMvc.perform(asyncDispatch(mvcResult)).andExpect(status().isBadRequest());
     }
 }
