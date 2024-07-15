@@ -80,6 +80,7 @@ public class FlightBookingServiceImpl implements FlightBookingService {
                             throw new BookingApiException("Invalid user or flight ID");
                         }
                     } catch (InterruptedException | ExecutionException e) {
+                        Thread.currentThread().interrupt();
                         throw new BookingApiException("Error occurred while saving flight details " + e);
                     }
                 });

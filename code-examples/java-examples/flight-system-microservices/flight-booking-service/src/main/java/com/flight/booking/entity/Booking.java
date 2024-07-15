@@ -22,9 +22,9 @@ public class Booking {
     @Column(name = "booking_id", nullable = false)
     private Integer id;
 
-    @ColumnDefault("CURRENT_TIMESTAMP")
     @Column(name = "booking_time")
-    private Instant bookingTime;
+    @Builder.Default
+    private Instant bookingTime = Instant.now();
 
     @Column(name = "status", nullable = false, length = 20)
     @Convert(converter = BookingStatusConverter.class)
