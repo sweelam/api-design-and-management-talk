@@ -54,11 +54,11 @@ public class FlightBookingServiceImpl implements FlightBookingService {
     }
 
     @Override
-    public BookingDto createBooking(BookingDto bookingDto) {
+    public CompletableFuture<BookingDto> createBooking(BookingDto bookingDto) {
         var userDetails = isUserIdValid(bookingDto.userId());
         var flightDetails = isFlightIdValid(bookingDto.flightId());
 
-        CompletableFuture<BookingDto> resultFuture = CompletableFuture.allOf(userDetails, flightDetails)
+        return CompletableFuture.allOf(userDetails, flightDetails)
                 .thenComposeAsync(v -> {
                     try {
                         var flightResponse = flightDetails.get();
@@ -80,11 +80,10 @@ public class FlightBookingServiceImpl implements FlightBookingService {
                             throw new BookingApiException("Invalid user or flight ID");
                         }
                     } catch (InterruptedException | ExecutionException e) {
+                        Thread.currentThread().interrupt();
                         throw new BookingApiException("Error occurred while saving flight details " + e);
                     }
                 });
-
-        return resultFuture.join();
     }
 
     private static boolean isValidFlightResponse(ResponseEntity<FlightResponse> flightResponse) {

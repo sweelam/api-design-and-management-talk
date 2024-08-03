@@ -13,7 +13,7 @@
         <module name="flight-gateway-service" />
         <module name="flight-notification" />
       </profile>
-      <profile name="Annotation profile for flight-user-service" enabled="true">
+      <profile name="Annotation profile for flight-booking-service" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />

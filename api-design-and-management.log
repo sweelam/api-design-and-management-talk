@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.10.7)  28 JUN 2024 15:19
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.10.7)  13 JUL 2024 18:38
  restricted system commands enabled.
 **api-design-and-management.tex
 (./api-design-and-management.tex
@@ -2066,7 +2066,7 @@ ed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 29250 strings out of 477785
+ 29246 strings out of 477785
  195340,1144653 words of node,token memory allocated
  20554 words of node memory still in use:
    656 hlist, 11 vlist, 116 rule, 8 disc, 7 local_par, 570 glue, 14 kern, 21 pen
@@ -2077,14 +2077,6 @@ pdf_literal, 84 pdf_colorstack nodes
  47516 multiletter control sequences out of 65536+600000
  59 fonts using 4830791 bytes
  128i,15n,115p,428b,874s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-warning  (pdf backend): unreferenced destination with name 'Navigation95'
-
-warning  (pdf backend): unreferenced destination with name 'Navigation94'
-
-warning  (pdf backend): unreferenced destination with name 'Navigation93'
-
-warning  (pdf backend): unreferenced destination with name 'Navigation96'
 </usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans10-boldobliqu
 e.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmmonolt10-bo
 ld.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans10-bol
@@ -2096,10 +2088,10 @@ egular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans10
 -regular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans
 12-regular.otf></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy8.pfb>
-Output written on api-design-and-management.pdf (91 pages, 2611499 bytes).
+Output written on api-design-and-management.pdf (91 pages, 2611439 bytes).
 
-PDF statistics: 1490 PDF objects out of 1728 (max. 8388607)
- 1046 compressed objects within 11 object streams
- 200 named destinations out of 1000 (max. 131072)
+PDF statistics: 1486 PDF objects out of 1728 (max. 8388607)
+ 1042 compressed objects within 11 object streams
+ 196 named destinations out of 1000 (max. 131072)
  2648 words of extra memory for PDF output out of 10000 (max. 100000000)
 
