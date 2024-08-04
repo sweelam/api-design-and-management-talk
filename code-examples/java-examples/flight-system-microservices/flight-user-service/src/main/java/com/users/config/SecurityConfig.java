@@ -1,18 +1,13 @@
 package com.users.config;
 
-import com.users.filter.HeaderBasedFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
 import org.springframework.security.config.http.SessionCreationPolicy;
-import org.springframework.security.core.userdetails.User;
-import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
-import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 import static org.springframework.security.config.Customizer.withDefaults;
 
@@ -33,22 +28,10 @@ public class SecurityConfig {
                             .requestMatchers("/api/public/users/**").permitAll()
                 )
                 .formLogin(withDefaults())
-                .addFilterBefore(new HeaderBasedFilter() , UsernamePasswordAuthenticationFilter.class)
-                .authenticationProvider(new SuperAdminAuthenticationProvider())
+//                .addFilterBefore(new HeaderBasedFilter() , UsernamePasswordAuthenticationFilter.class)
+//                .authenticationProvider(new SuperAdminAuthenticationProvider())
                 .sessionManagement(t -> t.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .build();
-    }
-
-    @Bean
-    public UserDetailsService userDetailsService() {
-        return new InMemoryUserDetailsManager(
-                User.builder()
-                        .username(ADMIN)
-                        .password("admin")
-                        .roles("ADMIN_USER")
-                        .passwordEncoder(p -> passwordEncoder().encode(p))
-                        .build()
-        );
     }
 
     @Bean

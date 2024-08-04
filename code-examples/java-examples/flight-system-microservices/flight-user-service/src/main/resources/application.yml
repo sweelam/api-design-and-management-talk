@@ -32,3 +32,5 @@ opentracing:
     http-sender:
       url: http://localhost:14268/api/traces
 
+app:
+  private-key: jhskdhhkjhskfjhksjdhkjhsmbmbvlklskfjh93707093kjhdkhkdsjfh

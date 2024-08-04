@@ -6,25 +6,33 @@ import com.users.exceptions.UserApiException;
 import com.users.mappers.UserMapper;
 import com.users.repo.UserRepo;
 import com.users.service.UserService;
-import lombok.AllArgsConstructor;
+import io.jsonwebtoken.Jwts;
+import io.jsonwebtoken.security.Keys;
+import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import java.security.Key;
+import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
 import static org.apache.commons.lang3.StringUtils.isEmpty;
 
 @Service
-@AllArgsConstructor
+@RequiredArgsConstructor
 public class UserServiceImpl implements UserService {
     private final UserRepo userRepo;
     private final UserMapper userMapper;
     private final PasswordEncoder passwordEncoder;
-    
+
+    @Value("${app.private-key}")
+    private String privateKey;
+
     @Override
-    public Optional<UserDto> addUser(UserDto userDto) {
+    public Optional<UserDto>        addUser(UserDto userDto) {
         String password = userDto.password();
 
         if (isEmpty(password)) {
@@ -58,5 +66,25 @@ public class UserServiceImpl implements UserService {
         return userRepo.findAll().stream()
                 .map(userMapper::convertToUserDto)
                 .toList();
+    }
+
+    @Override
+    public String generateJwt(String username, String password) {
+                return userRepo.findByUsername(username)
+                .filter(user -> passwordEncoder.matches(password, user.getPasswordHash()))
+                .map(user -> Jwts.builder()
+                        .subject(   user.getUsername())
+                        .claim("roles", user.getAuthorities())
+                        .issuedAt(new Date())
+                        .expiration(new Date(System.currentTimeMillis() + 86400000)) // 1 day expiration
+                        .signWith(getSignInKey())
+                        .compact()
+                )
+                .orElseThrow(() -> new UserApiException("user not found"));
+    }
+
+    private Key getSignInKey() {
+        byte[] keyBytes = privateKey.getBytes();
+        return Keys.hmacShaKeyFor(keyBytes);
     }
 }

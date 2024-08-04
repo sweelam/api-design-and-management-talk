@@ -11,4 +11,6 @@ public interface UserService {
     UserDto getUserById(Integer userId);
     Optional<UserDto> getUserByEmail(String email);
     List<UserDto> getUsers();
+
+    String generateJwt(String username, String password);
 }
