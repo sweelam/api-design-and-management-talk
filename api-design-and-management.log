@@ -1,90 +1,49 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.10.7)  13 JUL 2024 18:38
- restricted system commands enabled.
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.7)  10 AUG 2024 05:40
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
 **api-design-and-management.tex
 (./api-design-and-management.tex
 LaTeX2e <2021-11-15> patch level 1
-Lua module: luaotfload 2022-03-18 3.21 Lua based OpenType font support
-Lua module: lualibs 2021-05-20 2.74 ConTeXt Lua standard libraries.
-Lua module: lualibs-extended 2021-05-20 2.74 ConTeXt Lua libraries -- extended c
-ollection.
-luaotfload | conf : Root cache directory is "/Users/msweelam/Library/texlive/202
-2/texmf-var/luatex-cache/generic/names".
-luaotfload | init : Loading fontloader "fontloader-2022-02-24.lua" from kpse-res
-olved path "/usr/local/texlive/2022/texmf-dist/tex/luatex/luaotfload/fontloader-
-2022-02-24.lua".
-Lua-only attribute luaotfload@noligature = 1
-luaotfload | init : Context OpenType loader version 3.119
-Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
-Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
-Inserting `luaotfload.glyph_stream' at position 1 in `glyph_stream_provider'.
-Inserting `luaotfload.define_font' at position 1 in `define_font'.
-Lua-only attribute luaotfload_color_attribute = 2
-luaotfload | conf : Root cache directory is "/Users/msweelam/Library/texlive/202
-2/texmf-var/luatex-cache/generic/names".
-Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_opentype_file'.
-Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_truetype_file'.
-Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
-Inserting `luaotfload.harf.glyphstream' at position 1 in `glyph_stream_provider'
-.
-Inserting `luaotfload.harf.finalize_vlist' at position 1 in `post_linebreak_filt
-er'.
-Inserting `luaotfload.harf.finalize_hlist' at position 2 in `hpack_filter'.
-Inserting `luaotfload.cleanup_files' at position 1 in `wrapup_run'.
-Inserting `luaotfload.harf.finalize_unicode' at position 1 in `finish_pdffile'.
-Inserting `luaotfload.glyphinfo' at position 1 in `glyph_info'.
-Lua-only attribute luaotfload.letterspace_done = 3
-Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
-font'.
-Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_fon
-t'.
-Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch
-_font'.
-Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
-t_unsafe'.
-Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
-'.
-Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
-Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
-. L3 programming layer <2022-02-24>
-Inserting `tracingstacklevels' at position 1 in `input_level_string'.
+L3 programming layer <2022-02-24>
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2022/02/08 v3.66 A class for typesetting presentations
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
 (/usr/local/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count183
+\etb@tempcnta=\count185
 )
 \beamer@tempbox=\box50
-\beamer@tempcount=\count184
-\c@beamerpauses=\count185
+\beamer@tempcount=\count186
+\c@beamerpauses=\count187
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
-\beamer@slideinframe=\count186
-\beamer@minimum=\count187
+\beamer@slideinframe=\count188
+\beamer@minimum=\count189
 \beamer@decode@box=\box51
 )
 \beamer@commentbox=\box52
-\beamer@modecount=\count188
+\beamer@modecount=\count190
 )
 (/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
-\headdp=\dimen137
-\footheight=\dimen138
-\sidebarheight=\dimen139
-\beamer@tempdim=\dimen140
-\beamer@finalheight=\dimen141
-\beamer@animht=\dimen142
-\beamer@animdp=\dimen143
-\beamer@animwd=\dimen144
-\beamer@leftmargin=\dimen145
-\beamer@rightmargin=\dimen146
-\beamer@leftsidebar=\dimen147
-\beamer@rightsidebar=\dimen148
-\beamer@boxsize=\dimen149
-\beamer@vboxoffset=\dimen150
-\beamer@descdefault=\dimen151
-\beamer@descriptionwidth=\dimen152
+\headdp=\dimen138
+\footheight=\dimen139
+\sidebarheight=\dimen140
+\beamer@tempdim=\dimen141
+\beamer@finalheight=\dimen142
+\beamer@animht=\dimen143
+\beamer@animdp=\dimen144
+\beamer@animwd=\dimen145
+\beamer@leftmargin=\dimen146
+\beamer@rightmargin=\dimen147
+\beamer@leftsidebar=\dimen148
+\beamer@rightsidebar=\dimen149
+\beamer@boxsize=\dimen150
+\beamer@vboxoffset=\dimen151
+\beamer@descdefault=\dimen152
+\beamer@descriptionwidth=\dimen153
 \beamer@lastskip=\skip47
 \beamer@areabox=\box53
 \beamer@animcurrent=\box54
@@ -92,26 +51,26 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \beamer@sectionbox=\box56
 \beamer@logobox=\box57
 \beamer@linebox=\box58
-\beamer@sectioncount=\count189
-\beamer@subsubsectionmax=\count190
-\beamer@subsectionmax=\count191
-\beamer@sectionmax=\count192
-\beamer@totalheads=\count193
-\beamer@headcounter=\count194
-\beamer@partstartpage=\count195
-\beamer@sectionstartpage=\count196
-\beamer@subsectionstartpage=\count197
-\beamer@animationtempa=\count198
-\beamer@animationtempb=\count199
-\beamer@xpos=\count266
-\beamer@ypos=\count267
-\beamer@ypos@offset=\count268
-\beamer@showpartnumber=\count269
-\beamer@currentsubsection=\count270
-\beamer@coveringdepth=\count271
-\beamer@sectionadjust=\count272
-\beamer@toclastsection=\count273
-\beamer@tocsectionnumber=\count274
+\beamer@sectioncount=\count191
+\beamer@subsubsectionmax=\count192
+\beamer@subsectionmax=\count193
+\beamer@sectionmax=\count194
+\beamer@totalheads=\count195
+\beamer@headcounter=\count196
+\beamer@partstartpage=\count197
+\beamer@sectionstartpage=\count198
+\beamer@subsectionstartpage=\count199
+\beamer@animationtempa=\count266
+\beamer@animationtempb=\count267
+\beamer@xpos=\count268
+\beamer@ypos=\count269
+\beamer@ypos@offset=\count270
+\beamer@showpartnumber=\count271
+\beamer@currentsubsection=\count272
+\beamer@coveringdepth=\count273
+\beamer@sectionadjust=\count274
+\beamer@toclastsection=\count275
+\beamer@tocsectionnumber=\count276
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty
 (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
@@ -127,17 +86,17 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count275
-\Gm@cntv=\count276
-\c@Gm@tempcnt=\count277
-\Gm@bindingoffset=\dimen153
-\Gm@wd@mp=\dimen154
-\Gm@odd@mp=\dimen155
-\Gm@even@mp=\dimen156
-\Gm@layoutwidth=\dimen157
-\Gm@layoutheight=\dimen158
-\Gm@layouthoffset=\dimen159
-\Gm@layoutvoffset=\dimen160
+\Gm@cnth=\count277
+\Gm@cntv=\count278
+\c@Gm@tempcnt=\count279
+\Gm@bindingoffset=\dimen154
+\Gm@wd@mp=\dimen155
+\Gm@odd@mp=\dimen156
+\Gm@even@mp=\dimen157
+\Gm@layoutwidth=\dimen158
+\Gm@layoutheight=\dimen159
+\Gm@layouthoffset=\dimen160
+\Gm@layoutvoffset=\dimen161
 \Gm@dimlist=\toks17
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/math/pgfmath.sty
@@ -145,8 +104,8 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
 \pgfutil@everybye=\toks18
-\pgfutil@tempdima=\dimen161
-\pgfutil@tempdimb=\dimen162
+\pgfutil@tempdima=\dimen162
+\pgfutil@tempdimb=\dimen163
 
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
 sts.tex))
@@ -168,22 +127,22 @@ ode.tex
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex
-\pgf@x=\dimen163
-\pgf@xa=\dimen164
-\pgf@xb=\dimen165
-\pgf@xc=\dimen166
-\pgf@y=\dimen167
-\pgf@ya=\dimen168
-\pgf@yb=\dimen169
-\pgf@yc=\dimen170
-\c@pgf@counta=\count278
-\c@pgf@countb=\count279
-\c@pgf@countc=\count280
-\c@pgf@countd=\count281
+\pgf@x=\dimen164
+\pgf@xa=\dimen165
+\pgf@xb=\dimen166
+\pgf@xc=\dimen167
+\pgf@y=\dimen168
+\pgf@ya=\dimen169
+\pgf@yb=\dimen170
+\pgf@yc=\dimen171
+\c@pgf@counta=\count280
+\c@pgf@countb=\count281
+\c@pgf@countc=\count282
+\c@pgf@countd=\count283
 )
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen171
-\pgfmath@count=\count282
+\pgfmath@dimen=\dimen172
+\pgfmath@count=\count284
 \pgfmath@box=\box60
 \pgfmath@toks=\toks22
 \pgfmath@stack@operand=\toks23
@@ -208,11 +167,10 @@ code.tex)
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
 erarithmetics.code.tex)))
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count283
+\c@pgfmathroundto@lastzeros=\count285
 ))) (/usr/local/texlive/2022/texmf-dist/tex/latex/base/size11.clo
 File: size11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
-luaotfload | db : Font names database loaded from /Users/msweelam/Library/texliv
-e/2022/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz)
+)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
 (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
@@ -226,46 +184,46 @@ Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: luatex.def on input line 107.
+Package graphics Info: Driver file: pdftex.def on input line 107.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/luatex.def
-File: luatex.def 2021/06/01 v1.2c Graphics/color driver for luatex
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen172
-\Gin@req@width=\dimen173
+\Gin@req@height=\dimen173
+\Gin@req@width=\dimen174
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
-\pgf@x=\dimen174
-\pgf@y=\dimen175
-\pgf@xa=\dimen176
-\pgf@ya=\dimen177
-\pgf@xb=\dimen178
-\pgf@yb=\dimen179
-\pgf@xc=\dimen180
-\pgf@yc=\dimen181
-\pgf@xd=\dimen182
-\pgf@yd=\dimen183
+\pgf@x=\dimen175
+\pgf@y=\dimen176
+\pgf@xa=\dimen177
+\pgf@ya=\dimen178
+\pgf@xb=\dimen179
+\pgf@yb=\dimen180
+\pgf@xc=\dimen181
+\pgf@yc=\dimen182
+\pgf@xd=\dimen183
+\pgf@yd=\dimen184
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count284
-\c@pgf@countb=\count285
-\c@pgf@countc=\count286
-\c@pgf@countd=\count287
+\c@pgf@counta=\count286
+\c@pgf@countb=\count287
+\c@pgf@countc=\count288
+\c@pgf@countd=\count289
 \t@pgf@toka=\toks25
 \t@pgf@tokb=\toks26
 \t@pgf@tokc=\toks27
-\pgf@sys@id@count=\count288
+\pgf@sys@id@count=\count290
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
 )
-Driver file for pgf: pgfsys-luatex.def
+Driver file for pgf: pgfsys-pdftex.def
 
-(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-luatex.d
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
 ef
-File: pgfsys-luatex.def 2021/05/15 v3.1.9a (3.1.9a)
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
 
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
 df.def
@@ -274,8 +232,8 @@ File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfsyssoftpath@smallbuffer@items=\count289
-\pgfsyssoftpath@bigbuffer@items=\count290
+\pgfsyssoftpath@smallbuffer@items=\count291
+\pgfsyssoftpath@bigbuffer@items=\count292
 )
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -286,7 +244,7 @@ Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: luatex.def on input line 227.
+Package xcolor Info: Driver file: pdftex.def on input line 227.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
 Package xcolor Info: Model `RGB' extended on input line 1368.
@@ -304,32 +262,32 @@ Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
 File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@picminx=\dimen184
-\pgf@picmaxx=\dimen185
-\pgf@picminy=\dimen186
-\pgf@picmaxy=\dimen187
-\pgf@pathminx=\dimen188
-\pgf@pathmaxx=\dimen189
-\pgf@pathminy=\dimen190
-\pgf@pathmaxy=\dimen191
-\pgf@xx=\dimen192
-\pgf@xy=\dimen193
-\pgf@yx=\dimen194
-\pgf@yy=\dimen195
-\pgf@zx=\dimen196
-\pgf@zy=\dimen197
+\pgf@picminx=\dimen185
+\pgf@picmaxx=\dimen186
+\pgf@picminy=\dimen187
+\pgf@picmaxy=\dimen188
+\pgf@pathminx=\dimen189
+\pgf@pathmaxx=\dimen190
+\pgf@pathminy=\dimen191
+\pgf@pathmaxy=\dimen192
+\pgf@xx=\dimen193
+\pgf@xy=\dimen194
+\pgf@yx=\dimen195
+\pgf@yy=\dimen196
+\pgf@zx=\dimen197
+\pgf@zy=\dimen198
 )
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
 ruct.code.tex
 File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@path@lastx=\dimen198
-\pgf@path@lasty=\dimen199
+\pgf@path@lastx=\dimen199
+\pgf@path@lasty=\dimen256
 )
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
 .code.tex
 File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@shorten@end@additional=\dimen256
-\pgf@shorten@start@additional=\dimen257
+\pgf@shorten@end@additional=\dimen257
+\pgf@shorten@start@additional=\dimen258
 )
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
 de.tex
@@ -337,19 +295,19 @@ File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfpic=\box61
 \pgf@hbox=\box62
 \pgf@layerbox@main=\box63
-\pgf@picture@serial@count=\count291
+\pgf@picture@serial@count=\count293
 )
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
 File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgflinewidth=\dimen258
+\pgflinewidth=\dimen259
 )
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
 ations.code.tex
 File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@pt@x=\dimen259
-\pgf@pt@y=\dimen260
-\pgf@pt@temp=\dimen261
+\pgf@pt@x=\dimen260
+\pgf@pt@y=\dimen261
+\pgf@pt@temp=\dimen262
 )
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
 e.tex
@@ -366,14 +324,14 @@ File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
 de.tex
 File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowsep=\dimen262
+\pgfarrowsep=\dimen263
 )
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
 e.tex
 File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@max=\dimen263
-\pgf@sys@shading@range@num=\count292
-\pgf@shadingcount=\count293
+\pgf@max=\dimen264
+\pgf@sys@shading@range@num=\count294
+\pgf@shadingcount=\count295
 )
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -401,8 +359,8 @@ tex
 File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ))) (/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
 Package: xxcolor 2003/10/24 ver 0.1
-\XC@nummixins=\count294
-\XC@countmixins=\count295
+\XC@nummixins=\count296
+\XC@countmixins=\count297
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
@@ -423,7 +381,6 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-\pdftexcmds@toks=\toks28
 )
 (/usr/local/texlive/2022/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
@@ -446,12 +403,14 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
-\@linkdim=\dimen264
-\Hy@linkcounter=\count296
-\Hy@pagecounter=\count297
+\@linkdim=\dimen265
+\Hy@linkcounter=\count298
+\Hy@pagecounter=\count299
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
 )
 (/usr/local/texlive/2022/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
@@ -459,10 +418,12 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (/usr/local/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count298
+\Hy@SavedSpaceFactor=\count300
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
 )
 Package hyperref Info: Option `bookmarks' set `true' on input line 4018.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 4018.
@@ -474,14 +435,14 @@ Package hyperref Info: Plain pages OFF on input line 4152.
 Package hyperref Info: Backreferencing OFF on input line 4157.
 Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
 Package hyperref Info: Bookmarks ON on input line 4390.
-\c@Hy@tempcnt=\count299
+\c@Hy@tempcnt=\count301
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4749.
-\XeTeXLinkMargin=\dimen265
+\XeTeXLinkMargin=\dimen266
 
 (/usr/local/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -490,9 +451,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count300
-\Field@Width=\dimen266
-\Fld@charsize=\dimen267
+\Fld@menulength=\count302
+\Field@Width=\dimen267
+\Fld@charsize=\dimen268
 Package hyperref Info: Hyper figures OFF on input line 6027.
 Package hyperref Info: Link nesting OFF on input line 6032.
 Package hyperref Info: Hyper index ON on input line 6035.
@@ -502,27 +463,23 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6052.
 Package hyperref Info: PDF/A mode OFF on input line 6057.
 LaTeX Info: Redefining \ref on input line 6097.
 LaTeX Info: Redefining \pageref on input line 6101.
-\Hy@abspage=\count301
+\Hy@abspage=\count303
 
 
 Package hyperref Message: Stopped early.
 
 )
-Package hyperref Info: Driver (autodetected): hluatex.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hluatex.def
-File: hluatex.def 2022-02-21 v7.00n Hyperref driver for luaTeX
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2022-02-21 v7.00n Hyperref driver for pdfTeX
 
-(/usr/local/texlive/2022/texmf-dist/tex/generic/stringenc/stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
-)
-)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count302
-\c@bookmark@seq@number=\count303
+\Fld@listcount=\count304
+\c@bookmark@seq@number=\count305
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
@@ -540,7 +497,7 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks29
+\@emptytoks=\toks28
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
@@ -566,43 +523,43 @@ Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasemisc.sty)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
-\beamer@argscount=\count304
+\beamer@argscount=\count306
 \beamer@lastskipcover=\skip50
-\beamer@trivlistdepth=\count305
+\beamer@trivlistdepth=\count307
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasetitle.sty)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasesection.sty
-\c@lecture=\count306
-\c@part=\count307
-\c@section=\count308
-\c@subsection=\count309
-\c@subsubsection=\count310
+\c@lecture=\count308
+\c@part=\count309
+\c@section=\count310
+\c@subsection=\count311
+\c@subsubsection=\count312
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
 \beamer@framebox=\box65
 \beamer@frametitlebox=\box66
 \beamer@zoombox=\box67
-\beamer@zoomcount=\count311
-\beamer@zoomframecount=\count312
-\beamer@frametextheight=\dimen268
-\c@subsectionslide=\count313
+\beamer@zoomcount=\count313
+\beamer@zoomframecount=\count314
+\beamer@frametextheight=\dimen269
+\c@subsectionslide=\count315
 \beamer@frametopskip=\skip51
 \beamer@framebottomskip=\skip52
 \beamer@frametopskipautobreak=\skip53
 \beamer@framebottomskipautobreak=\skip54
-\beamer@envbody=\toks30
-\framewidth=\dimen269
-\c@framenumber=\count314
+\beamer@envbody=\toks29
+\framewidth=\dimen270
+\c@framenumber=\count316
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
 \beamer@verbatimfileout=\write4
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
 \beamer@splitbox=\box68
-\beamer@autobreakcount=\count315
-\beamer@autobreaklastheight=\dimen270
-\beamer@frametitletoks=\toks31
-\beamer@framesubtitletoks=\toks32
+\beamer@autobreakcount=\count317
+\beamer@autobreaklastheight=\dimen271
+\beamer@frametitletoks=\toks30
+\beamer@framesubtitletoks=\toks31
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.
 sty
@@ -613,35 +570,35 @@ sty
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasetoc.sty)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
-\beamer@sbttoks=\toks33
+\beamer@sbttoks=\toks32
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
 \bmb@box=\box71
 \bmb@colorbox=\box72
-\bmb@boxwidth=\dimen271
-\bmb@boxheight=\dimen272
-\bmb@prevheight=\dimen273
-\bmb@temp=\dimen274
-\bmb@dima=\dimen275
-\bmb@dimb=\dimen276
-\bmb@prevheight=\dimen277
+\bmb@boxwidth=\dimen272
+\bmb@boxheight=\dimen273
+\bmb@prevheight=\dimen274
+\bmb@temp=\dimen275
+\bmb@dima=\dimen276
+\bmb@dimb=\dimen277
+\bmb@prevheight=\dimen278
 )
-\beamer@blockheadheight=\dimen278
+\beamer@blockheadheight=\dimen279
 ))
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.s
 ty (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
-\@enLab=\toks34
+\@enLab=\toks33
 )
 \beamer@bibiconwidth=\skip55
-\c@figure=\count316
-\c@table=\count317
+\c@figure=\count318
+\c@table=\count319
 \abovecaptionskip=\skip56
 \belowcaptionskip=\skip57
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
-\beamer@section@min@dim=\dimen279
+\beamer@section@min@dim=\dimen280
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
@@ -654,67 +611,67 @@ Package: amstext 2021/08/26 v2.01 AMS text
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks35
-\ex@=\dimen280
+\@emptytoks=\toks34
+\ex@=\dimen281
 ))
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen281
+\pmbraise@=\dimen282
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2021/08/26 v2.02 operator names
 )
-\inf@bad=\count318
-LaTeX Info: Redefining \frac on input line 236.
-\uproot@=\count319
-\leftroot@=\count320
+\inf@bad=\count320
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count321
+\leftroot@=\count322
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count321
-\DOTSCASE@=\count322
+\classnum@=\count323
+\DOTSCASE@=\count324
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
 \Mathstrutbox@=\box73
 \strutbox@=\box74
-\big@size=\dimen282
+\big@size=\dimen283
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count323
-\c@MaxMatrixCols=\count324
+\macc@depth=\count325
+\c@MaxMatrixCols=\count326
 \dotsspace@=\muskip17
-\c@parentequation=\count325
-\dspbrk@lvl=\count326
-\tag@help=\toks36
-\row@=\count327
-\column@=\count328
-\maxfields@=\count329
-\andhelp@=\toks37
-\eqnshift@=\dimen283
-\alignsep@=\dimen284
-\tagshift@=\dimen285
-\tagwidth@=\dimen286
-\totwidth@=\dimen287
-\lineht@=\dimen288
-\@envbody=\toks38
+\c@parentequation=\count327
+\dspbrk@lvl=\count328
+\tag@help=\toks35
+\row@=\count329
+\column@=\count330
+\maxfields@=\count331
+\andhelp@=\toks36
+\eqnshift@=\dimen284
+\alignsep@=\dimen285
+\tagshift@=\dimen286
+\tagwidth@=\dimen287
+\totwidth@=\dimen288
+\lineht@=\dimen289
+\@envbody=\toks37
 \multlinegap=\skip59
 \multlinetaggap=\skip60
-\mathdisplay@stack=\toks39
+\mathdisplay@stack=\toks38
 LaTeX Info: Redefining \[ on input line 2938.
 LaTeX Info: Redefining \] on input line 2939.
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks40
-\thm@bodyfont=\toks41
-\thm@headfont=\toks42
-\thm@notefont=\toks43
-\thm@headpunct=\toks44
+\thm@style=\toks39
+\thm@bodyfont=\toks40
+\thm@headfont=\toks41
+\thm@notefont=\toks42
+\thm@headpunct=\toks43
 \thm@preskip=\skip61
 \thm@postskip=\skip62
 \thm@headsep=\skip63
-\dth@everypar=\toks45
+\dth@everypar=\toks44
 )
-\c@theorem=\count330
+\c@theorem=\count332
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasethemes.sty))
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerthemedefault.sty
@@ -724,8 +681,8 @@ Package: amsthm 2020/05/29 v2.20.6
 y)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.st
 y
-\beamer@dima=\dimen289
-\beamer@dimb=\dimen290
+\beamer@dima=\dimen290
+\beamer@dimb=\dimen291
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerouterthemedefault.st
 y)))
@@ -754,8 +711,8 @@ File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -0-65.sty
 Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@nodesepstart=\dimen291
-\pgf@nodesepend=\dimen292
+\pgf@nodesepstart=\dimen292
+\pgf@nodesepend=\dimen293
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -1-18.sty
@@ -766,10 +723,10 @@ Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
 Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen293
-\pgffor@skip=\dimen294
-\pgffor@stack=\toks46
-\pgffor@toks=\toks47
+\pgffor@iter=\dimen294
+\pgffor@skip=\dimen295
+\pgffor@stack=\toks45
+\pgffor@toks=\toks46
 ))
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
 e.tex
@@ -778,57 +735,57 @@ Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count331
-\pgfplotmarksize=\dimen295
+\pgf@plot@mark@count=\count333
+\pgfplotmarksize=\dimen296
 )
-\tikz@lastx=\dimen296
-\tikz@lasty=\dimen297
-\tikz@lastxsaved=\dimen298
-\tikz@lastysaved=\dimen299
-\tikz@lastmovetox=\dimen300
-\tikz@lastmovetoy=\dimen301
-\tikzleveldistance=\dimen302
-\tikzsiblingdistance=\dimen303
+\tikz@lastx=\dimen297
+\tikz@lasty=\dimen298
+\tikz@lastxsaved=\dimen299
+\tikz@lastysaved=\dimen300
+\tikz@lastmovetox=\dimen301
+\tikz@lastmovetoy=\dimen302
+\tikzleveldistance=\dimen303
+\tikzsiblingdistance=\dimen304
 \tikz@figbox=\box76
 \tikz@figbox@bg=\box77
 \tikz@tempbox=\box78
 \tikz@tempbox@bg=\box79
-\tikztreelevel=\count332
-\tikznumberofchildren=\count333
-\tikznumberofcurrentchild=\count334
-\tikz@fig@count=\count335
+\tikztreelevel=\count334
+\tikznumberofchildren=\count335
+\tikznumberofcurrentchild=\count336
+\tikz@fig@count=\count337
 
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count336
-\pgfmatrixcurrentcolumn=\count337
-\pgf@matrix@numberofcolumns=\count338
+\pgfmatrixcurrentrow=\count338
+\pgfmatrixcurrentcolumn=\count339
+\pgf@matrix@numberofcolumns=\count340
 )
-\tikz@expandcount=\count339
+\tikz@expandcount=\count341
 
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
 (/usr/local/texlive/2022/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count340
+\lst@mode=\count342
 \lst@gtempboxa=\box80
-\lst@token=\toks48
-\lst@length=\count341
-\lst@currlwidth=\dimen304
-\lst@column=\count342
-\lst@pos=\count343
-\lst@lostspace=\dimen305
-\lst@width=\dimen306
-\lst@newlines=\count344
-\lst@lineno=\count345
-\lst@maxwidth=\dimen307
+\lst@token=\toks47
+\lst@length=\count343
+\lst@currlwidth=\dimen305
+\lst@column=\count344
+\lst@pos=\count345
+\lst@lostspace=\dimen306
+\lst@width=\dimen307
+\lst@newlines=\count346
+\lst@lineno=\count347
+\lst@maxwidth=\dimen308
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count346
-\lst@skipnumbers=\count347
+\c@lstnumber=\count348
+\lst@skipnumbers=\count349
 \lst@framebox=\box81
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/listings/listings.cfg
@@ -841,15 +798,15 @@ Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/array.sty
 Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen308
+\col@sep=\dimen309
 \ar@mcellbox=\box82
-\extrarowheight=\dimen309
-\NC@list=\toks49
+\extrarowheight=\dimen310
+\NC@list=\toks48
 \extratabsurround=\skip64
 \backup@length=\skip65
 \ar@cellbox=\box83
 )
-\everycr=\toks50
+\everycr=\toks49
 \minrowclearance=\skip66
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -861,9 +818,9 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 (/usr/local/texlive/2022/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
-File: l3backend-luatex.def 2022-02-07 L3 backend support: PDF output (LuaTeX)
-\l__color_backend_stack_int=\count348
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count350
 \l__pdf_internal_box=\box84
 )
 (./api-design-and-management.aux
@@ -879,8 +836,14 @@ LaTeX Warning: Label `api-graphs<1>' multiply defined.
 
 LaTeX Warning: Label `api-graphs' multiply defined.
 
+
+LaTeX Warning: Label `flight-system-hld<1>' multiply defined.
+
+
+LaTeX Warning: Label `flight-system-hld' multiply defined.
+
 )
-\openout1 = api-design-and-management.aux
+\openout1 = `api-design-and-management.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
 LaTeX Font Info:    ... okay on input line 80.
@@ -891,13 +854,6 @@ LaTeX Font Info:    ... okay on input line 80.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
 LaTeX Font Info:    ... okay on input line 80.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 8
-0.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 80.
 LaTeX Font Info:    ... okay on input line 80.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
 LaTeX Font Info:    ... okay on input line 80.
@@ -909,21 +865,21 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 80.
 LaTeX Font Info:    ... okay on input line 80.
 
 *geometry* driver: auto-detecting
-*geometry* detected driver: luatex
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: luatex
+* driver: pdftex
 * paper: custom
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(10.95pt, 342.29536pt, 10.95pt)
+* h-part:(L,W,R)=(10.95003pt, 342.2953pt, 10.95003pt)
 * v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
 * \paperwidth=364.19536pt
 * \paperheight=273.14662pt
-* \textwidth=342.29536pt
+* \textwidth=342.2953pt
 * \textheight=244.6939pt
-* \oddsidemargin=-61.31999pt
-* \evensidemargin=-61.31999pt
+* \oddsidemargin=-61.31996pt
+* \evensidemargin=-61.31996pt
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
@@ -944,17 +900,17 @@ LaTeX Font Info:    ... okay on input line 80.
 
 (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count349
-\scratchdimen=\dimen310
+\scratchcounter=\count351
+\scratchdimen=\dimen311
 \scratchbox=\box85
-\nofMPsegments=\count350
-\nofMParguments=\count351
-\everyMPshowfont=\toks51
-\MPscratchCnt=\count352
-\MPscratchDim=\dimen311
-\MPnumerator=\count353
-\makeMPintoPDFobject=\count354
-\everyMPtoPDFconversion=\toks52
+\nofMPsegments=\count352
+\nofMParguments=\count353
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count354
+\MPscratchDim=\dimen312
+\MPnumerator=\count355
+\makeMPintoPDFobject=\count356
+\everyMPtoPDFconversion=\toks51
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -976,15 +932,15 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count355
+\c@section@level=\count357
 )
 LaTeX Info: Redefining \ref on input line 80.
 LaTeX Info: Redefining \pageref on input line 80.
 LaTeX Info: Redefining \nameref on input line 80.
  (./api-design-and-management.out) (./api-design-and-management.out)
 \@outlinefile=\write5
+\openout5 = `api-design-and-management.out'.
 
-\openout5 = api-design-and-management.out
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 80.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
@@ -992,41 +948,51 @@ LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmr/m/n on input line 80.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 80.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmss/b/n on input line 80.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmss/b/n on input line 80.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 80.
 LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 80.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/m/n on input line 80.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 80.
 LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmss/m/it on input line 80.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmss/m/it on input line 80.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 80.
 LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 80.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 80.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 80.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  TU/lmss/m/n --> TU/lmss/b/n on input line 80.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 80.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  TU/lmss/m/it --> TU/lmss/b/it on input line 80.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> TU/lmr/b/n on input line 80.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  TU/lmss/b/n --> TU/lmss/b/n on input line 80.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  TU/lmss/m/n --> TU/lmss/b/n on input line 80.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  TU/lmss/m/it --> TU/lmss/b/it on input line 80.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  TU/lmtt/m/n --> TU/lmtt/b/n on input line 80.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 80.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 80.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 8
+0.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 8
+0.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
+ut line 80.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/translator/translator-basic-dicti
 onary-English.dict
@@ -1052,97 +1018,93 @@ Dictionary: translator-numbers-dictionary, Language: English
 tionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-\c@lstlisting=\count356
+\c@lstlisting=\count358
  (./api-design-and-management.nav)
 <img/course-logo.png, id=62, 456.70625pt x 455.7025pt>
 File: img/course-logo.png Graphic file (type png)
 <use img/course-logo.png>
-Package luatex.def Info: img/course-logo.png  used on input line 84.
-(luatex.def)             Requested size: 199.16736pt x 99.58037pt.
-<img/channel-logo-circular.png, id=63, 331.2375pt x 325.215pt>
+Package pdftex.def Info: img/course-logo.png  used on input line 84.
+(pdftex.def)             Requested size: 199.16736pt x 99.58037pt.
+<img/channel-logo-circular.png, id=64, 331.2375pt x 325.215pt>
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 84.
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 84.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [1
 
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./img/cha
-nnel-logo-circular.png><./img/course-logo.png>] (./api-design-and-management.to
-c)
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./img/c
+hannel-logo-circular.png> <./img/course-logo.png>] (./api-design-and-management
+.toc)
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 88.
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 88.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [2
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 99.
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 99.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [3
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 99.
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
- [4
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 99.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
+
+[4
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 99.
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
-
-[5
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 99.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
+ [5
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 99.
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 99.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [6
 
 ]
-LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <6> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 115.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 115.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 115.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [7
 
 ]
-<img/osi-model.png, id=183, 682.55pt x 547.04375pt>
+<img/osi-model.png, id=177, 682.55pt x 547.04375pt>
 File: img/osi-model.png Graphic file (type png)
 <use img/osi-model.png>
-Package luatex.def Info: img/osi-model.png  used on input line 123.
-(luatex.def)             Requested size: 273.83794pt x 149.65703pt.
-LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 123.
+Package pdftex.def Info: img/osi-model.png  used on input line 123.
+(pdftex.def)             Requested size: 273.83794pt x 149.64868pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 123.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 123.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [8
 
-<./img/osi-model.png>]
-<img/api-client-to-server.png, id=195, 2167.09625pt x 872.25874pt>
+ <./img/osi-model.png>]
+<img/api-client-to-server.png, id=189, 2167.09625pt x 872.25874pt>
 File: img/api-client-to-server.png Graphic file (type png)
 <use img/api-client-to-server.png>
-Package luatex.def Info: img/api-client-to-server.png  used on input line 131.
-(luatex.def)             Requested size: 205.38028pt x 99.7686pt.
+Package pdftex.def Info: img/api-client-to-server.png  used on input line 131.
+(pdftex.def)             Requested size: 205.38028pt x 99.7553pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 131.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 131.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [9
 
-<./img/api-client-to-server.png>]
+ <./img/api-client-to-server.png>]
 LaTeX Font Info:    Trying to load font information for U+msa on input line 156
 .
 
@@ -1155,943 +1117,1126 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 156
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <5> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 156.
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
+ut line 156.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+)
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 156.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 156.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [10
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 156.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 156.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [11
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 156.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 156.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
-
-[12
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
+ [12
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 156.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 156.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [13
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 156.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 156.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [14
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 174.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 174.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [15
 
 ]
-\openout4 = api-design-and-management.vrb
+\openout4 = `api-design-and-management.vrb'.
+
  (./api-design-and-management.vrb)
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 204.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 204.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [16
 
 ]
 (./api-design-and-management.vrb)
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 204.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 204.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [17
 
 ] (./api-design-and-management.vrb)
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 204.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 204.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
 
 [18
 
 ] (./api-design-and-management.vrb)
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 204.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 204.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [19
 
 ]
-\openout4 = api-design-and-management.10.vrb
+\openout4 = `api-design-and-management.10.vrb'.
+
  (./api-design-and-management.10.vrb
-<img/api-protocols.png, id=328, 1204.5pt x 677.53125pt>
+<img/api-protocols.png, id=311, 1204.5pt x 677.53125pt>
 File: img/api-protocols.png Graphic file (type png)
 <use img/api-protocols.png>
-Package luatex.def Info: img/api-protocols.png  used on input line 13.
-(luatex.def)             Requested size: 239.5908pt x 149.65695pt.
-LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 15.
-LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 15.
+Package pdftex.def Info: img/api-protocols.png  used on input line 13.
+(pdftex.def)             Requested size: 239.5908pt x 149.6466pt.
 )
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 225.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 225.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [20
 
-<./img/api-protocols.png>]
-\openout4 = api-design-and-management.vrb
+ <./img/api-protocols.png>]
+\openout4 = `api-design-and-management.vrb'.
+
  (./api-design-and-management.vrb
-<img/http1-http2.png, id=341, 604.2575pt x 692.5875pt>
+<img/http1-http2.png, id=324, 604.2575pt x 692.5875pt>
 File: img/http1-http2.png Graphic file (type png)
 <use img/http1-http2.png>
-Package luatex.def Info: img/http1-http2.png  used on input line 20.
-(luatex.def)             Requested size: 205.3803pt x 142.17157pt.
+Package pdftex.def Info: img/http1-http2.png  used on input line 20.
+(pdftex.def)             Requested size: 205.3803pt x 142.16101pt.
 )
-Overfull \vbox (5.25111pt too high) detected at line 249
+Overfull \vbox (5.24745pt too high) detected at line 249
  []
 
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 249.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 249.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
 [21
 
-<./img/http1-http2.png>]
-\openout4 = api-design-and-management.vrb
+ <./img/http1-http2.png>]
+\openout4 = `api-design-and-management.vrb'.
+
  (./api-design-and-management.vrb
-<img/grpc.png, id=353, 521.95pt x 338.26375pt>
+<img/grpc.png, id=334, 521.95pt x 338.26375pt>
 File: img/grpc.png Graphic file (type png)
 <use img/grpc.png>
-Package luatex.def Info: img/grpc.png  used on input line 14.
-(luatex.def)             Requested size: 171.14494pt x 99.77145pt.
+Package pdftex.def Info: img/grpc.png  used on input line 14.
+(pdftex.def)             Requested size: 171.14494pt x 99.76112pt.
 )
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 269.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 269.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [22
 
-<./img/grpc.png>]
-\openout4 = api-design-and-management.vrb
+ <./img/grpc.png>]
+\openout4 = `api-design-and-management.vrb'.
+
  (./api-design-and-management.vrb
-LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <8> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 11.
-<img/protobuf-img.png, id=364, 717.68124pt x 211.79124pt>
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <8> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 11.
+<img/protobuf-img.png, id=344, 717.68124pt x 211.79124pt>
 File: img/protobuf-img.png Graphic file (type png)
 <use img/protobuf-img.png>
-Package luatex.def Info: img/protobuf-img.png  used on input line 21.
-(luatex.def)             Requested size: 239.60612pt x 74.82932pt.
+Package pdftex.def Info: img/protobuf-img.png  used on input line 21.
+(pdftex.def)             Requested size: 239.60612pt x 74.82285pt.
 )
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 296.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 296.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [23
 
-<./img/protobuf-img.png>]
-\openout4 = api-design-and-management.vrb
+ <./img/protobuf-img.png>]
+\openout4 = `api-design-and-management.vrb'.
+
 
 (./api-design-and-management.vrb
-<img/flight-gRPC.png, id=376, 999.735pt x 668.4975pt>
+<img/flight-gRPC.png, id=354, 999.735pt x 668.4975pt>
 File: img/flight-gRPC.png Graphic file (type png)
 <use img/flight-gRPC.png>
-Package luatex.def Info: img/flight-gRPC.png  used on input line 4.
-(luatex.def)             Requested size: 273.83727pt x 174.60088pt.
+Package pdftex.def Info: img/flight-gRPC.png  used on input line 4.
+(pdftex.def)             Requested size: 273.83727pt x 174.59068pt.
 )
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 305.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 305.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [24
 
-<./img/flight-gRPC.png>]
-\openout4 = api-design-and-management.vrb
+ <./img/flight-gRPC.png>]
+\openout4 = `api-design-and-management.vrb'.
+
 
 (./api-design-and-management.vrb)
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 332.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 332.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [25
 
 ]
-warning  (pdf backend): ignoring duplicate destination with the name 'api-graphs
-<1>'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'api-graphs
-'
-(./api-design-and-management.10.vrb
+pdfTeX warning (ext4): destination with the same identifier (name{api-graphs<1>
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.334 \againframe{api-graphs}
+                             
+pdfTeX warning (ext4): destination with the same identifier (name{api-graphs}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.334 \againframe{api-graphs}
+                              (./api-design-and-management.10.vrb
 File: img/api-protocols.png Graphic file (type png)
 <use img/api-protocols.png>
-Package luatex.def Info: img/api-protocols.png  used on input line 13.
-(luatex.def)             Requested size: 239.5908pt x 149.65695pt.
+Package pdftex.def Info: img/api-protocols.png  used on input line 13.
+(pdftex.def)             Requested size: 239.5908pt x 149.6466pt.
 )
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 334.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 334.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [26
 
 ]
-File: img/channel-logo-circular.png Graphic file (type png)
-<use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 363.
+LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 
+363.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 363.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
- [27
 
-]
-LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <8> not available
-(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 394.
+LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbraceleft' on input line 363.
 
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 394.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 363.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
- [28
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
+[27
 
 ]
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
+(Font)              using `OT1/cmss/b/it' instead on input line 394.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/b/it' undefined
+(Font)              using `OT1/cmss/b/n' instead on input line 394.
+
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <8> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 394.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
+(Font)              using `OT1/cmss/b/it' instead on input line 394.
+
+LaTeX Font Info:    Font shape `OT1/cmss/b/it' in size <8> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 394.
+
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 394.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 394.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
- [29
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
+[28
 
 ]
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
+(Font)              using `OT1/cmss/b/it' instead on input line 394.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
+(Font)              using `OT1/cmss/b/it' instead on input line 394.
+
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 394.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 394.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
- [30
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
+[29
 
 ]
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
+(Font)              using `OT1/cmss/b/it' instead on input line 394.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
+(Font)              using `OT1/cmss/b/it' instead on input line 394.
+
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 394.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 394.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
- [31
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
+[30
 
 ]
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
+(Font)              using `OT1/cmss/b/it' instead on input line 394.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
+(Font)              using `OT1/cmss/b/it' instead on input line 394.
+
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 394.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 394.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
- [32
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
+[31
 
 ]
-<img/crud.png, id=555, 596.2275pt x 199.74625pt>
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
+(Font)              using `OT1/cmss/b/it' instead on input line 394.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
+(Font)              using `OT1/cmss/b/it' instead on input line 394.
+
+File: img/channel-logo-circular.png Graphic file (type png)
+<use img/channel-logo-circular.png>
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 394.
+
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
+[32
+
+]
+<img/crud.png, id=524, 596.2275pt x 199.74625pt>
 File: img/crud.png Graphic file (type png)
 <use img/crud.png>
-Package luatex.def Info: img/crud.png  used on input line 407.
-(luatex.def)             Requested size: 239.60579pt x 99.7723pt.
+Package pdftex.def Info: img/crud.png  used on input line 407.
+(pdftex.def)             Requested size: 239.60579pt x 99.76315pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 407.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 407.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
+ [33
 
-[33
-
-<./img/crud.png>]
-warning  (pdf backend): ignoring duplicate destination with the name 'api-graphs
-<1>'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'api-graphs
-'
-(./api-design-and-management.10.vrb
+ <./img/crud.png>]
+pdfTeX warning (ext4): destination with the same identifier (name{api-graphs<1>
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.409 \againframe{api-graphs}
+                             
+pdfTeX warning (ext4): destination with the same identifier (name{api-graphs}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.409 \againframe{api-graphs}
+                              (./api-design-and-management.10.vrb
 File: img/api-protocols.png Graphic file (type png)
 <use img/api-protocols.png>
-Package luatex.def Info: img/api-protocols.png  used on input line 13.
-(luatex.def)             Requested size: 239.5908pt x 149.65695pt.
+Package pdftex.def Info: img/api-protocols.png  used on input line 13.
+(pdftex.def)             Requested size: 239.5908pt x 149.6466pt.
 )
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 409.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 409.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [34
 
 ]
-Overfull \vbox (1.4291pt too high) detected at line 423
+Overfull \vbox (1.03859pt too high) detected at line 423
  []
 
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 423.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 423.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
 [35
 
 ]
-Overfull \vbox (1.4291pt too high) detected at line 423
+Overfull \vbox (1.03859pt too high) detected at line 423
  []
 
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 423.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 423.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
 [36
 
 ]
-Overfull \vbox (1.4291pt too high) detected at line 423
+Overfull \vbox (1.03859pt too high) detected at line 423
  []
 
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 423.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 423.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
 [37
 
 ]
-<img/graphql-example.png, id=659, 740.7675pt x 161.60374pt>
+<img/graphql-example.png, id=623, 740.7675pt x 161.60374pt>
 File: img/graphql-example.png Graphic file (type png)
 <use img/graphql-example.png>
-Package luatex.def Info: img/graphql-example.png  used on input line 446.
-(luatex.def)             Requested size: 239.60497pt x 62.35695pt.
+Package pdftex.def Info: img/graphql-example.png  used on input line 446.
+(pdftex.def)             Requested size: 239.60497pt x 62.35202pt.
 
-Overfull \vbox (1.51862pt too high) detected at line 446
+Overfull \vbox (1.00957pt too high) detected at line 446
  []
 
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 446.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 446.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
 [38
 
-<./img/graphql-example.png>]
-<img/graphql-example-2.png, id=670, 740.7675pt x 161.60374pt>
+ <./img/graphql-example.png>]
+<img/graphql-example-2.png, id=634, 740.7675pt x 161.60374pt>
 File: img/graphql-example-2.png Graphic file (type png)
 <use img/graphql-example-2.png>
-Package luatex.def Info: img/graphql-example-2.png  used on input line 459.
-(luatex.def)             Requested size: 171.14156pt x 62.35695pt.
-<img/graphql-example-3.png, id=671, 740.7675pt x 161.60374pt>
+Package pdftex.def Info: img/graphql-example-2.png  used on input line 459.
+(pdftex.def)             Requested size: 171.14156pt x 62.35202pt.
+<img/graphql-example-3.png, id=635, 740.7675pt x 161.60374pt>
 File: img/graphql-example-3.png Graphic file (type png)
 <use img/graphql-example-3.png>
-Package luatex.def Info: img/graphql-example-3.png  used on input line 459.
-(luatex.def)             Requested size: 171.14156pt x 62.35695pt.
+Package pdftex.def Info: img/graphql-example-3.png  used on input line 459.
+(pdftex.def)             Requested size: 171.14156pt x 62.35202pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 459.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 459.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [39
 
-<./img/graphql-example-2.png><./img/graphql-example-3.png>]
-<img/websockets.jpeg, id=695, 803.0pt x 338.26375pt>
+ <./img/graphql-example-2.png> <./img/graphql-example-3.png>]
+<img/websockets.jpeg, id=658, 803.0pt x 338.26375pt>
 File: img/websockets.jpeg Graphic file (type jpg)
 <use img/websockets.jpeg>
-Package luatex.def Info: img/websockets.jpeg  used on input line 477.
-(luatex.def)             Requested size: 273.83733pt x 124.71689pt.
+Package pdftex.def Info: img/websockets.jpeg  used on input line 477.
+(pdftex.def)             Requested size: 273.83733pt x 124.70657pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 477.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 477.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [40
 
-<./img/websockets.jpeg>]
+ <./img/websockets.jpeg>]
 File: img/websockets.jpeg Graphic file (type jpg)
 <use img/websockets.jpeg>
-Package luatex.def Info: img/websockets.jpeg  used on input line 477.
-(luatex.def)             Requested size: 273.83733pt x 124.71689pt.
+Package pdftex.def Info: img/websockets.jpeg  used on input line 477.
+(pdftex.def)             Requested size: 273.83733pt x 124.70657pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 477.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 477.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [41
 
 ]
-<img/understanding-apis.jpg, id=724, 1490.56876pt x 675.52374pt>
+<img/understanding-apis.jpg, id=684, 1490.56876pt x 675.52374pt>
 File: img/understanding-apis.jpg Graphic file (type jpg)
 <use img/understanding-apis.jpg>
-Package luatex.def Info: img/understanding-apis.jpg  used on input line 484.
-(luatex.def)             Requested size: 273.81764pt x 174.60126pt.
+Package pdftex.def Info: img/understanding-apis.jpg  used on input line 484.
+(pdftex.def)             Requested size: 273.81764pt x 174.58064pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 484.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 484.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [42
 
-<./img/understanding-apis.jpg>]
-<img/advice-API.png, id=745, 571.13374pt x 220.825pt>
+ <./img/understanding-apis.jpg>]
+<img/advice-API.png, id=704, 571.13374pt x 220.825pt>
 File: img/advice-API.png Graphic file (type png)
 <use img/advice-API.png>
-Package luatex.def Info: img/advice-API.png  used on input line 508.
-(luatex.def)             Requested size: 205.38141pt x 99.77129pt.
+Package pdftex.def Info: img/advice-API.png  used on input line 508.
+(pdftex.def)             Requested size: 205.38141pt x 99.76456pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 508.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 508.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [43
 
-<./img/advice-API.png>]
+ <./img/advice-API.png>]
 File: img/advice-API.png Graphic file (type png)
 <use img/advice-API.png>
-Package luatex.def Info: img/advice-API.png  used on input line 508.
-(luatex.def)             Requested size: 205.38141pt x 99.77129pt.
+Package pdftex.def Info: img/advice-API.png  used on input line 508.
+(pdftex.def)             Requested size: 205.38141pt x 99.76456pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 508.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 508.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [44
 
 ]
 File: img/advice-API.png Graphic file (type png)
 <use img/advice-API.png>
-Package luatex.def Info: img/advice-API.png  used on input line 508.
-(luatex.def)             Requested size: 205.38141pt x 99.77129pt.
+Package pdftex.def Info: img/advice-API.png  used on input line 508.
+(pdftex.def)             Requested size: 205.38141pt x 99.76456pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 508.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 508.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [45
 
 ]
 File: img/advice-API.png Graphic file (type png)
 <use img/advice-API.png>
-Package luatex.def Info: img/advice-API.png  used on input line 508.
-(luatex.def)             Requested size: 205.38141pt x 99.77129pt.
+Package pdftex.def Info: img/advice-API.png  used on input line 508.
+(pdftex.def)             Requested size: 205.38141pt x 99.76456pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 508.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 508.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [46
 
 ]
 File: img/advice-API.png Graphic file (type png)
 <use img/advice-API.png>
-Package luatex.def Info: img/advice-API.png  used on input line 508.
-(luatex.def)             Requested size: 205.38141pt x 99.77129pt.
+Package pdftex.def Info: img/advice-API.png  used on input line 508.
+(pdftex.def)             Requested size: 205.38141pt x 99.76456pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 508.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 508.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [47
 
 ]
-<img/advice-api-2.png, id=828, 673.51625pt x 302.12875pt>
+<img/advice-api-2.png, id=782, 673.51625pt x 302.12875pt>
 File: img/advice-api-2.png Graphic file (type png)
 <use img/advice-api-2.png>
-Package luatex.def Info: img/advice-api-2.png  used on input line 528.
-(luatex.def)             Requested size: 205.3759pt x 74.83125pt.
+Package pdftex.def Info: img/advice-api-2.png  used on input line 528.
+(pdftex.def)             Requested size: 205.3759pt x 74.82204pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 528.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 528.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [48
 
-<./img/advice-api-2.png>]
+ <./img/advice-api-2.png>]
 File: img/advice-api-2.png Graphic file (type png)
 <use img/advice-api-2.png>
-Package luatex.def Info: img/advice-api-2.png  used on input line 528.
-(luatex.def)             Requested size: 205.3759pt x 74.83125pt.
+Package pdftex.def Info: img/advice-api-2.png  used on input line 528.
+(pdftex.def)             Requested size: 205.3759pt x 74.82204pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 528.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 528.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [49
 
 ]
 File: img/advice-api-2.png Graphic file (type png)
 <use img/advice-api-2.png>
-Package luatex.def Info: img/advice-api-2.png  used on input line 528.
-(luatex.def)             Requested size: 205.3759pt x 74.83125pt.
+Package pdftex.def Info: img/advice-api-2.png  used on input line 528.
+(pdftex.def)             Requested size: 205.3759pt x 74.82204pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 528.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 528.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [50
 
 ]
 File: img/advice-api-2.png Graphic file (type png)
 <use img/advice-api-2.png>
-Package luatex.def Info: img/advice-api-2.png  used on input line 528.
-(luatex.def)             Requested size: 205.3759pt x 74.83125pt.
+Package pdftex.def Info: img/advice-api-2.png  used on input line 528.
+(pdftex.def)             Requested size: 205.3759pt x 74.82204pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 528.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 528.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [51
 
 ]
 File: img/advice-api-2.png Graphic file (type png)
 <use img/advice-api-2.png>
-Package luatex.def Info: img/advice-api-2.png  used on input line 528.
-(luatex.def)             Requested size: 205.3759pt x 74.83125pt.
+Package pdftex.def Info: img/advice-api-2.png  used on input line 528.
+(pdftex.def)             Requested size: 205.3759pt x 74.82204pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 528.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 528.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [52
 
 ]
 File: img/advice-api-2.png Graphic file (type png)
 <use img/advice-api-2.png>
-Package luatex.def Info: img/advice-api-2.png  used on input line 528.
-(luatex.def)             Requested size: 205.3759pt x 74.83125pt.
+Package pdftex.def Info: img/advice-api-2.png  used on input line 528.
+(pdftex.def)             Requested size: 205.3759pt x 74.82204pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 528.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 528.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [53
 
 ]
-<img/api-request-details.png, id=885, 746.79pt x 184.69pt>
+<img/api-request-details.png, id=834, 746.79pt x 184.69pt>
 File: img/api-request-details.png Graphic file (type png)
 <use img/api-request-details.png>
-Package luatex.def Info: img/api-request-details.png  used on input line 543.
-(luatex.def)             Requested size: 205.37358pt x 99.77055pt.
+Package pdftex.def Info: img/api-request-details.png  used on input line 543.
+(pdftex.def)             Requested size: 205.37358pt x 99.7621pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 543.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 543.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [54
 
-<./img/api-request-details.png>]
-<img/api-request.png, id=895, 1912.14375pt x 473.77pt>
+ <./img/api-request-details.png>]
+<img/api-request.png, id=843, 1912.14375pt x 473.77pt>
 File: img/api-request.png Graphic file (type png)
 <use img/api-request.png>
-Package luatex.def Info: img/api-request.png  used on input line 557.
-(luatex.def)             Requested size: 273.82545pt x 124.7171pt.
+Package pdftex.def Info: img/api-request.png  used on input line 557.
+(pdftex.def)             Requested size: 273.82545pt x 124.70264pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 557.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 557.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [55
 
-<./img/api-request.png>]
-<img/api-response.png, id=906, 1912.14375pt x 752.8125pt>
+ <./img/api-request.png>]
+<img/api-response.png, id=853, 1912.14375pt x 752.8125pt>
 File: img/api-response.png Graphic file (type png)
 <use img/api-response.png>
-Package luatex.def Info: img/api-response.png  used on input line 572.
-(luatex.def)             Requested size: 273.82545pt x 124.71413pt.
+Package pdftex.def Info: img/api-response.png  used on input line 572.
+(pdftex.def)             Requested size: 273.82545pt x 124.70264pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 572.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 572.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [56
 
-<./img/api-response.png>]
+ <./img/api-response.png>]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 581.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 581.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [57
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 595.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 595.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [58
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 611.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 611.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [59
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 630.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 630.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [60
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 652.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 652.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [61
 
 ]
-<img/header-metadata.png, id=980, 719.68875pt x 152.06813pt>
+<img/header-metadata.png, id=921, 719.68875pt x 152.06813pt>
 File: img/header-metadata.png Graphic file (type png)
 <use img/header-metadata.png>
-Package luatex.def Info: img/header-metadata.png  used on input line 676.
-(luatex.def)             Requested size: 205.37698pt x 49.88562pt.
+Package pdftex.def Info: img/header-metadata.png  used on input line 676.
+(pdftex.def)             Requested size: 205.37698pt x 49.88098pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 676.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 676.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
- [62
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
 
-<./img/header-metadata.png>]
-<img/unspported-media-type.png, id=1003, 456.95718pt x 194.22563pt>
+[62
+
+ <./img/header-metadata.png>]
+<img/unspported-media-type.png, id=944, 456.95718pt x 194.22563pt>
 File: img/unspported-media-type.png Graphic file (type png)
 <use img/unspported-media-type.png>
-Package luatex.def Info: img/unspported-media-type.png  used on input line 699.
+Package pdftex.def Info: img/unspported-media-type.png  used on input line 699.
 
-(luatex.def)             Requested size: 205.3778pt x 74.83191pt.
+(pdftex.def)             Requested size: 205.3778pt x 74.82599pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 699.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 699.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [63
 
-<./img/unspported-media-type.png>]
-<img/http-methods.png, id=1014, 553.31718pt x 295.85532pt>
+ <./img/unspported-media-type.png>]
+<img/http-methods.png, id=954, 553.31718pt x 295.85532pt>
 File: img/http-methods.png Graphic file (type png)
 <use img/http-methods.png>
-Package luatex.def Info: img/http-methods.png  used on input line 708.
-(luatex.def)             Requested size: 273.83797pt x 149.66533pt.
+Package pdftex.def Info: img/http-methods.png  used on input line 708.
+(pdftex.def)             Requested size: 273.83797pt x 149.65178pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 708.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 708.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
- [64
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
 
-<./img/http-methods.png>]
+[64
+
+ <./img/http-methods.png>]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 722.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 722.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [65
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 740.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 740.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [66
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 763.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 763.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [67
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 772.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 786.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [68
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 784.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 786.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [69
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 784.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 786.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [70
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 784.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 786.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [71
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 784.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 786.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [72
 
 ]
+\openout4 = `api-design-and-management.vrb'.
+
+
+(./api-design-and-management.vrb)
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 784.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 819.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [73
 
-]
+] (./api-design-and-management.vrb)
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 784.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 819.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
- [74
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
 
-]
-<img/swagger-doc.png, id=1178, 1185.67969pt x 681.29532pt>
-File: img/swagger-doc.png Graphic file (type png)
-<use img/swagger-doc.png>
-Package luatex.def Info: img/swagger-doc.png  used on input line 795.
-(luatex.def)             Requested size: 273.8404pt x 149.65672pt.
+[74
+
+] (./api-design-and-management.vrb)
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 795.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 819.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [75
 
-<./img/swagger-doc.png>]
-<img/Flight-System.png, id=1189, 1954.30125pt x 1142.2675pt>
-File: img/Flight-System.png Graphic file (type png)
-<use img/Flight-System.png>
-Package luatex.def Info: img/Flight-System.png  used on input line 801.
-(luatex.def)             Requested size: 273.83887pt x 199.53378pt.
+] (./api-design-and-management.vrb)
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 801.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 819.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
- [76
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
 
-<./img/Flight-System.png>]
-<img/flight-booking-sequence.png, id=1198, 1384.17125pt x 630.355pt>
-File: img/flight-booking-sequence.png Graphic file (type png)
-<use img/flight-booking-sequence.png>
-Package luatex.def Info: img/flight-booking-sequence.png  used on input line 80
-9.
-(luatex.def)             Requested size: 273.8302pt x 149.66277pt.
-File: img/channel-logo-circular.png Graphic file (type png)
-<use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 809.
-
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
- [77
-
-<./img/flight-booking-sequence.png>]
-File: img/swagger-doc.png Graphic file (type png)
-<use img/swagger-doc.png>
-Package luatex.def Info: img/swagger-doc.png  used on input line 819.
-(luatex.def)             Requested size: 273.8404pt x 149.65672pt.
-File: img/channel-logo-circular.png Graphic file (type png)
-<use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 819.
-
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
-
-[78
+[76
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 842.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 828.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
+ [77
+
+]
+File: img/channel-logo-circular.png Graphic file (type png)
+<use img/channel-logo-circular.png>
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 840.
+
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
+ [78
+
+]
+File: img/channel-logo-circular.png Graphic file (type png)
+<use img/channel-logo-circular.png>
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 840.
+
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [79
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 842.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 840.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [80
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 842.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 840.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [81
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 842.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 840.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [82
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 842.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 840.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [83
 
 ]
-\openout4 = api-design-and-management.vrb
- (./api-design-and-management.vrb)
+<img/swagger-doc.png, id=1263, 1185.67969pt x 681.29532pt>
+File: img/swagger-doc.png Graphic file (type png)
+<use img/swagger-doc.png>
+Package pdftex.def Info: img/swagger-doc.png  used on input line 851.
+(pdftex.def)             Requested size: 273.8404pt x 149.64633pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 875.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 851.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [84
 
-]
-(./api-design-and-management.vrb)
+ <./img/swagger-doc.png>]
+<img/Flight-System.png, id=1272, 1954.30125pt x 1142.2675pt>
+File: img/Flight-System.png Graphic file (type png)
+<use img/Flight-System.png>
+Package pdftex.def Info: img/Flight-System.png  used on input line 857.
+(pdftex.def)             Requested size: 273.83887pt x 199.53378pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 875.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 857.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [85
 
-] (./api-design-and-management.vrb)
+ <./img/Flight-System.png (PNG copy)>]
+<img/flight-booking-sequence.png, id=1283, 1384.17125pt x 630.355pt>
+File: img/flight-booking-sequence.png Graphic file (type png)
+<use img/flight-booking-sequence.png>
+Package pdftex.def Info: img/flight-booking-sequence.png  used on input line 86
+5.
+(pdftex.def)             Requested size: 273.8302pt x 149.64354pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 875.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 865.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
+ [86
 
-[86
-
-] (./api-design-and-management.vrb)
+ <./img/flight-booking-sequence.png>]
+File: img/swagger-doc.png Graphic file (type png)
+<use img/swagger-doc.png>
+Package pdftex.def Info: img/swagger-doc.png  used on input line 875.
+(pdftex.def)             Requested size: 273.8404pt x 149.64633pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 875.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 875.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
- [87
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
+
+[87
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 886.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 884.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [88
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 895.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 892.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [89
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 905.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 912.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [90
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package luatex.def Info: img/channel-logo-circular.png  used on input line 913.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 940.
 
-(luatex.def)             Requested size: 28.97612pt x 28.45274pt.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [91
 
 ]
+<img/auth-systems.png, id=1348, 777.90625pt x 613.29124pt>
+File: img/auth-systems.png Graphic file (type png)
+<use img/auth-systems.png>
+Package pdftex.def Info: img/auth-systems.png  used on input line 956.
+(pdftex.def)             Requested size: 205.37262pt x 149.64471pt.
+File: img/channel-logo-circular.png Graphic file (type png)
+<use img/channel-logo-circular.png>
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 956.
+
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
+ [92
+
+ <./img/auth-systems.png>]
+File: img/auth-systems.png Graphic file (type png)
+<use img/auth-systems.png>
+Package pdftex.def Info: img/auth-systems.png  used on input line 956.
+(pdftex.def)             Requested size: 205.37262pt x 149.64471pt.
+File: img/channel-logo-circular.png Graphic file (type png)
+<use img/channel-logo-circular.png>
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 956.
+
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
+ [93
+
+]
+File: img/auth-systems.png Graphic file (type png)
+<use img/auth-systems.png>
+Package pdftex.def Info: img/auth-systems.png  used on input line 956.
+(pdftex.def)             Requested size: 205.37262pt x 149.64471pt.
+File: img/channel-logo-circular.png Graphic file (type png)
+<use img/channel-logo-circular.png>
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 956.
+
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
+ [94
+
+]
+File: img/auth-systems.png Graphic file (type png)
+<use img/auth-systems.png>
+Package pdftex.def Info: img/auth-systems.png  used on input line 956.
+(pdftex.def)             Requested size: 205.37262pt x 149.64471pt.
+File: img/channel-logo-circular.png Graphic file (type png)
+<use img/channel-logo-circular.png>
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 956.
+
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
+ [95
+
+]
+<img/auth-systems-issues.png, id=1379, 1284.8pt x 613.29124pt>
+File: img/auth-systems-issues.png Graphic file (type png)
+<use img/auth-systems-issues.png>
+Package pdftex.def Info: img/auth-systems-issues.png  used on input line 964.
+(pdftex.def)             Requested size: 338.86281pt x 149.64471pt.
+File: img/channel-logo-circular.png Graphic file (type png)
+<use img/channel-logo-circular.png>
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 964.
+
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
+ [96
+
+ <./img/auth-systems-issues.png>]
+pdfTeX warning (ext4): destination with the same identifier (name{flight-system
+-hld<1>}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.968 \againframe{flight-system-hld}
+                                    
+pdfTeX warning (ext4): destination with the same identifier (name{flight-system
+-hld}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.968 \againframe{flight-system-hld}
+                                    
+File: img/Flight-System.png Graphic file (type png)
+<use img/Flight-System.png>
+Package pdftex.def Info: img/Flight-System.png  used on input line 968.
+(pdftex.def)             Requested size: 273.83887pt x 199.53378pt.
+File: img/channel-logo-circular.png Graphic file (type png)
+<use img/channel-logo-circular.png>
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 968.
+
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
+ [97
+
+]
+File: img/channel-logo-circular.png Graphic file (type png)
+<use img/channel-logo-circular.png>
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 978.
+
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
+ [98
+
+]
+File: img/channel-logo-circular.png Graphic file (type png)
+<use img/channel-logo-circular.png>
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 988.
+
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
+ [99
+
+]
+File: img/channel-logo-circular.png Graphic file (type png)
+<use img/channel-logo-circular.png>
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 996.
+
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
+ [100
+
+]
 \tf@nav=\write6
+\openout6 = `api-design-and-management.nav'.
 
-\openout6 = api-design-and-management.nav
 \tf@toc=\write7
+\openout7 = `api-design-and-management.toc'.
 
-\openout7 = api-design-and-management.toc
 \tf@snm=\write8
+\openout8 = `api-design-and-management.snm'.
 
-\openout8 = api-design-and-management.snm
 
 (./api-design-and-management.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `api-design-and-management.out' has not chang
 ed.
 (rerunfilecheck)             Checksum: 4E5A91BF4701CCAFE702CBC8FDE18E23;1398.
-)
-
-Here is how much of LuaTeX's memory you used:
- 29246 strings out of 477785
- 195340,1144653 words of node,token memory allocated
- 20554 words of node memory still in use:
-   656 hlist, 11 vlist, 116 rule, 8 disc, 7 local_par, 570 glue, 14 kern, 21 pen
-alty, 68 glyph, 1398 attribute, 63 glue_spec, 1398 attribute_list, 4 write, 819 
-pdf_literal, 84 pdf_colorstack nodes
-   avail lists: 1:1,2:1019,3:479,4:2816,5:2572,6:81,7:6836,8:34,9:6338,10:27,11:
-497
- 47516 multiletter control sequences out of 65536+600000
- 59 fonts using 4830791 bytes
- 128i,15n,115p,428b,874s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans10-boldobliqu
-e.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmmonolt10-bo
-ld.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans10-bol
-d.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmmono8-regul
-ar.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans10-obl
-ique.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans8-ob
-lique.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans8-r
-egular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans10
--regular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans
-12-regular.otf></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy8.pfb>
-Output written on api-design-and-management.pdf (91 pages, 2611439 bytes).
-
-PDF statistics: 1486 PDF objects out of 1728 (max. 8388607)
- 1042 compressed objects within 11 object streams
- 196 named destinations out of 1000 (max. 131072)
- 2648 words of extra memory for PDF output out of 10000 (max. 100000000)
+ ) 
+Here is how much of TeX's memory you used:
+ 27628 strings out of 478268
+ 548923 string characters out of 5846347
+ 1029936 words of memory out of 5000000
+ 45022 multiletter control sequences out of 15000+600000
+ 479992 words of font info for 66 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 128i,15n,122p,429b,1431s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
+></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb>
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></
+usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><
+/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><
+/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></
+usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></us
+r/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on api-design-and-management.pdf (100 pages, 2803433 bytes).
+PDF statistics:
+ 1498 PDF objects out of 1728 (max. 8388607)
+ 1044 compressed objects within 11 object streams
+ 216 named destinations out of 1000 (max. 500000)
+ 1845 words of extra memory for PDF output out of 10000 (max. 10000000)
 
