@@ -1,4 +1,4 @@
-#!/Users/msweelam/work/my-youtube/api-design-and-management-talk/code-examples/apiCourseV/bin/python3.11
+#!/Users/msweelam/work/my-youtube/api-design-and-management-talk/code-examples/python-examples/apiCourseV/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
