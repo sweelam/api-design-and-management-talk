@@ -126,25 +126,31 @@
 \headcommand {\beamer@framepages {92}{95}}
 \headcommand {\slideentry {6}{0}{6}{96/96}{}{0}}
 \headcommand {\beamer@framepages {96}{96}}
-\headcommand {\slideentry {6}{0}{7}{97/97}{}{0}}
-\headcommand {\beamer@framepages {97}{97}}
-\headcommand {\beamer@sectionpages {88}{97}}
-\headcommand {\beamer@subsectionpages {88}{97}}
-\headcommand {\sectionentry {7}{API Testing and Quality Assurance}{98}{API Testing and Quality Assurance}{0}}
-\headcommand {\slideentry {7}{0}{1}{98/98}{}{0}}
-\headcommand {\beamer@framepages {98}{98}}
-\headcommand {\beamer@sectionpages {98}{98}}
-\headcommand {\beamer@subsectionpages {98}{98}}
-\headcommand {\sectionentry {8}{API Management and Lifecycle}{99}{API Management and Lifecycle}{0}}
-\headcommand {\slideentry {8}{0}{1}{99/99}{}{0}}
-\headcommand {\beamer@framepages {99}{99}}
-\headcommand {\beamer@sectionpages {99}{99}}
-\headcommand {\beamer@subsectionpages {99}{99}}
-\headcommand {\sectionentry {9}{Conclusion}{100}{Conclusion}{0}}
-\headcommand {\slideentry {9}{0}{1}{100/100}{}{0}}
-\headcommand {\beamer@framepages {100}{100}}
-\headcommand {\beamer@partpages {1}{100}}
-\headcommand {\beamer@subsectionpages {100}{100}}
-\headcommand {\beamer@sectionpages {100}{100}}
-\headcommand {\beamer@documentpages {100}}
-\headcommand {\gdef \inserttotalframenumber {59}}
+\headcommand {\slideentry {6}{0}{7}{97/102}{}{0}}
+\headcommand {\beamer@framepages {97}{102}}
+\headcommand {\slideentry {6}{0}{8}{103/106}{}{0}}
+\headcommand {\beamer@framepages {103}{106}}
+\headcommand {\slideentry {6}{0}{9}{107/110}{}{0}}
+\headcommand {\beamer@framepages {107}{110}}
+\headcommand {\slideentry {6}{0}{10}{111/111}{}{0}}
+\headcommand {\beamer@framepages {111}{111}}
+\headcommand {\beamer@sectionpages {88}{111}}
+\headcommand {\beamer@subsectionpages {88}{111}}
+\headcommand {\sectionentry {7}{API Testing and Quality Assurance}{112}{API Testing and Quality Assurance}{0}}
+\headcommand {\slideentry {7}{0}{1}{112/112}{}{0}}
+\headcommand {\beamer@framepages {112}{112}}
+\headcommand {\beamer@sectionpages {112}{113}}
+\headcommand {\beamer@subsectionpages {112}{113}}
+\headcommand {\sectionentry {8}{API Management and Lifecycle}{114}{API Management and Lifecycle}{0}}
+\headcommand {\slideentry {8}{0}{1}{114/114}{}{0}}
+\headcommand {\beamer@framepages {114}{114}}
+\headcommand {\beamer@sectionpages {114}{114}}
+\headcommand {\beamer@subsectionpages {114}{114}}
+\headcommand {\sectionentry {9}{Conclusion}{115}{Conclusion}{0}}
+\headcommand {\slideentry {9}{0}{1}{115/115}{}{0}}
+\headcommand {\beamer@framepages {115}{115}}
+\headcommand {\beamer@partpages {1}{115}}
+\headcommand {\beamer@subsectionpages {115}{115}}
+\headcommand {\beamer@sectionpages {115}{115}}
+\headcommand {\beamer@documentpages {115}}
+\headcommand {\gdef \inserttotalframenumber {62}}

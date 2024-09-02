@@ -4,6 +4,6 @@
 \beamer@sectionintoc {4}{RESTful API Design}{57}{0}{4}
 \beamer@sectionintoc {5}{API Documentation and Specification}{77}{0}{5}
 \beamer@sectionintoc {6}{API Security}{88}{0}{6}
-\beamer@sectionintoc {7}{API Testing and Quality Assurance}{98}{0}{7}
-\beamer@sectionintoc {8}{API Management and Lifecycle}{99}{0}{8}
-\beamer@sectionintoc {9}{Conclusion}{100}{0}{9}
+\beamer@sectionintoc {7}{API Testing and Quality Assurance}{112}{0}{7}
+\beamer@sectionintoc {8}{API Management and Lifecycle}{114}{0}{8}
+\beamer@sectionintoc {9}{Conclusion}{115}{0}{9}

@@ -8,7 +8,6 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -38,8 +37,7 @@ public class AuthProvider implements AuthenticationProvider {
 
     private static @NotNull UsernamePasswordAuthenticationToken getUsernamePasswordAuthenticationToken(
             com.users.entity.User userDetails, String username, String password) {
-        final List<GrantedAuthority> grantedAuths = new ArrayList<>();
-        grantedAuths.add(new SimpleGrantedAuthority(userDetails.getAuthorities()));
+        final List<GrantedAuthority> grantedAuths = new ArrayList<>(userDetails.getAuthorities());
         final UserDetails principal = new User(username, password, grantedAuths);
         return new UsernamePasswordAuthenticationToken(principal, password, grantedAuths);
     }

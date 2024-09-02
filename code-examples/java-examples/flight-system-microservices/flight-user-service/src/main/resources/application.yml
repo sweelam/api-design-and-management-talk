@@ -1,7 +1,7 @@
 server:
-  port: '8081'
+  port: "8081"
   http2:
-    enabled: 'true'
+    enabled: "true"
 
 spring:
   datasource:
@@ -12,12 +12,12 @@ spring:
     name: user-service
   threads:
     virtual:
-      enabled: 'true'
+      enabled: "true"
   flyway:
     baseline-on-migrate: true
     baseline-version: 2
     out-of-order: true
-    ignore-migration-patterns: '*:missing, *:ignored, *:future'
+    ignore-migration-patterns: "*:missing, *:ignored, *:future"
 
 
 management:
@@ -28,9 +28,10 @@ management:
 
 opentracing:
   jaeger:
-    log-spans: 'true'
+    log-spans: "true"
     http-sender:
       url: http://localhost:14268/api/traces
 
 app:
-  private-key: jhskdhhkjhskfjhksjdhkjhsmbmbvlklskfjh93707093kjhdkhkdsjfh
+  private-key: amhza2RoaGtqaHNrZmpoa3NqZGhramhzbWJtYnZsa2xza2ZqaDkzNzA3MDkza2poZGtoa2RzamZo
+

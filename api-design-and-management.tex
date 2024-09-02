@@ -964,11 +964,69 @@
 \end{frame}
 
 
+\begin{frame}[t]{Authentication (Digest Access)}
+  \begin{itemize}
+    \scriptsize
+    \item<1-> Digest access authentication is one of the agreed-upon methods a web server can use to negotiate credentials, such as username or password.
+    \item<2-> It applies a \textbf{hash function} to the username and password before sending them over the network
+    \item<3-> Digest access authentication was originally specified by RFC 2069 (An Extension to HTTP: Digest Access Authentication).
+    \item<4-> RFC 2069 specifies roughly a traditional digest authentication scheme with security maintained by a server-generated nonce value.
+    \item<5-> The authentication response is formed as follows (where HA1 and HA2 are names of string variables)
+    \item<6->[]
+  		\begin{itemize}
+			\item[] HA1 = MD5(username:realm:password) 
+			\item[] HA2 = MD5(method:digestURI) 
+			\item[] response = MD5(HA1:nonce:HA2) 
+		\end{itemize}	
+  \end{itemize}
+
+\vspace{14mm}
+\tiny source: \href{https://datatracker.ietf.org/doc/html/rfc2069} {\textcolor{blue}{RFC 2069}} 	
+\end{frame}
+
+\begin{frame}[t]{Authentication (Digest Access)}
+    \scriptsize
+
+	Pros
+  \begin{itemize}
+    \item<1-> The password is not sent clear to the server.
+    \item<2-> The password is not used directly in the digest, but rather HA1 = MD5(username:realm:password).
+    \item<3-> Client nonce was introduced in RFC 2617, which allows the client to prevent chosen-plaintext attacks, such as rainbow tables that could otherwise threaten digest authentication schemes
+    \item<4-> Server nonce is allowed to contain timestamps. Therefore, the server may inspect nonce attributes submitted by clients, to prevent replay attacks
+  \end{itemize}
+
+\vspace{37mm}
+\tiny source: \href{https://en.wikipedia.org/wiki/Digest_access_authentication} {\textcolor{blue}{Digest access authentication}} 	
+\end{frame}
+
+\begin{frame}[t]{Authentication (Digest Access)}
+    \scriptsize
+
+	Pros
+  \begin{itemize}
+    \item The password is not sent clear to the server.
+    \item The password is not used directly in the digest, but rather HA1 = MD5(username:realm:password).
+    \item Client nonce was introduced in RFC 2617, which allows the client to prevent chosen-plaintext attacks, such as rainbow tables that could otherwise threaten digest authentication schemes
+    \item Server nonce is allowed to contain timestamps. Therefore, the server may inspect nonce attributes submitted by clients, to prevent replay attacks
+  \end{itemize}
+	Cons
+  \begin{itemize}
+    \item<1-> The website has no control over the user interface presented to the end user.
+    \item<2-> Digest access authentication is vulnerable to a man-in-the-middle (MITM) attack. For example, a MITM attacker could tell clients to use basic access authentication or legacy RFC2069 digest access authentication mode.
+    \item<3-> Digest access authentication prevents the use of a strong password hash (such as bcrypt) when storing passwords 
+    \item<4-> RFC 2069 specifies roughly a traditional digest authentication scheme with security maintained by a server-generated nonce value.
+  \end{itemize}
+
+\vspace{2mm}
+\tiny source: \href{https://en.wikipedia.org/wiki/Digest_access_authentication} {\textcolor{blue}{Digest access authentication}} 	
+\end{frame}
+
 
 \againframe{flight-system-hld}
 
 
 \section{API Testing and Quality Assurance}
+A tool to try https://github.com/grafana/k6
 \begin{frame}{API Testing and Quality Assurance}
   \begin{itemize}
     \item Writing Effective API Tests
