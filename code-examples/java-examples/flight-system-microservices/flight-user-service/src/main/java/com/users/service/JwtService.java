@@ -1,7 +1,5 @@
 package com.users.service;
 
-import com.users.exceptions.UserApiException;
-import com.users.repo.UserRepo;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import org.springframework.beans.factory.annotation.Value;
@@ -16,26 +14,20 @@ import java.util.Date;
 
 @Service
 public class JwtService {
-    private final UserRepo userRepo;
     private final String privateKey;
 
-    public JwtService(UserRepo userRepo,
-                      @Value("${app.private-key}") final String privateKey) {
-        this.userRepo = userRepo;
+    public JwtService(@Value("${app.private-key}") final String privateKey) {
         this.privateKey = privateKey;
     }
 
-    public String generateJwt(String username, String password) {
-        return userRepo.findByUsername(username)
-                .map(user -> Jwts.builder()
-                        .subject(   user.getUsername())
-                        .claim("roles", user.getAuthorities())
+    public String generateJwt(UserDetails user) {
+        return Jwts.builder()
+                .subject(user.getUsername())
+                        .claim("role", user.getAuthorities())
                         .issuedAt(new Date())
                         .expiration(new Date(System.currentTimeMillis() + 86400000)) // 1 day expiration
                         .signWith(getSignInKey())
-                        .compact()
-                )
-                .orElseThrow(() -> new UserApiException("user not found"));
+                        .compact();
     }
 
     public boolean isTokenValid(String token, UserDetails userDetails) {

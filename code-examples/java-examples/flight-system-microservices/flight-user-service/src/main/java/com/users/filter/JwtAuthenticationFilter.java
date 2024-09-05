@@ -21,7 +21,14 @@ import java.io.IOException;
 @RequiredArgsConstructor
 public class JwtAuthenticationFilter extends OncePerRequestFilter {
     private final JwtService jwtService;
-    private final UserDetailsService userDetailsService;
+    private final UserDetailsService userService;
+
+
+    // This is required to deal with async requests
+    @Override
+    protected boolean shouldNotFilterAsyncDispatch() {
+        return false;
+    }
 
     @Override
     protected void doFilterInternal(HttpServletRequest request,
@@ -36,12 +43,13 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
         }
 
         String token = requestHeader.substring(7);
-        String userEmail = jwtService.getUsername(token);
+        String username = jwtService.getUsername(token);
 
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
 
-        if (userEmail != null && authentication == null) {
-            UserDetails userDetails = this.userDetailsService.loadUserByUsername(userEmail);
+        if (username != null && authentication == null) {
+            UserDetails userDetails = userService.loadUserByUsername(username);
+            System.out.println("UserDetails : " + userDetails);
 
             if (jwtService.isTokenValid(token, userDetails)) {
                 UsernamePasswordAuthenticationToken authToken = new UsernamePasswordAuthenticationToken(
@@ -52,6 +60,7 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
                 authToken.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
                 SecurityContextHolder.getContext().setAuthentication(authToken);
+                System.out.println("Authenticated user: " + SecurityContextHolder.getContext().getAuthentication());
             }
         }
 

@@ -8,6 +8,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.context.request.async.DeferredResult;
@@ -22,6 +23,7 @@ public class RegistrationController {
   private final JwtService jwtService;
   private final PasswordEncoder passwordEncoder;
   private final AuthenticationManager authenticationManager;
+  private final UserDetailsService userDetails;
 
   @PostMapping("/registration")
   public ResponseEntity<UserDto> registerNewCustomer(@RequestBody UserDto userRequest) {
@@ -40,7 +42,7 @@ public class RegistrationController {
     authenticationManager.authenticate(
             new UsernamePasswordAuthenticationToken(username, password)
     );
-    return ResponseEntity.ok(jwtService.generateJwt(username, password));
+    return ResponseEntity.ok(jwtService.generateJwt(userDetails.loadUserByUsername(username)));
   }
 
   @GetMapping("/pass-hash")

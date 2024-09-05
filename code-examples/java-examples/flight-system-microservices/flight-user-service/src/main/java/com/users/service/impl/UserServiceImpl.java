@@ -70,5 +70,4 @@ public class UserServiceImpl implements UserService {
 
     return userRepo.findByUsername(username).orElseThrow();
   }
-
 }
