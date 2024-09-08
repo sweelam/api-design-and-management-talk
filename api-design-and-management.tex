@@ -762,62 +762,6 @@
 	\tiny source: \href{https://learning.mlytics.com/the-internet/http-request-methods} {\textcolor{blue}{Common Properties}} 
 \end{frame}
 
-\section{API Documentation and Specification}
-\begin{frame}{API Documentation and Specification}
-  \begin{itemize}
-    \item Importance of Comprehensive API Documentation
-    \item Tools for API Documentation (Swagger, OpenAPI Specification)
-    \item Maintaining and Versioning API Documentation
-  \end{itemize}
-\end{frame}
-
-\begin{frame}[t]{API Documentations}
-		\begin{itemize}
-			\item<1-> API Docs is like the manual of using something, instructions to follow "remember IKEA" 
-			\item<2-> Consumers/Users always prefer agreements to feel safe
-			\item<3-> API docs explain and answer consumers' questions, why you'd use this API? with examples
-			\item<4-> API docs should mention carefully the restrictions like Authentication, Rate Limiting, and Terms of use
-			\item<5-> Consumers love to try, they always look for \textit{"Getting Started"}; Interactive API platforms are what they will love more.
-			\item<6-> API Docs need to be up to date to avoid any service usage interruptions.
-		\end{itemize}		
-	
-\end{frame}
-
-
-\begin{frame}[t]{Restful API Design "Communications"}
-		\scriptsize	
-		How to communicate the specifications to the client?
-
-		\begin{center}
-   			\includegraphics[width=0.8\textwidth, height=0.6\textheight]{img/swagger-doc.png}
-		\end{center}		
-	
-\end{frame}
-
-\begin{frame}[t]{Flight System}
-		\begin{center}
-   			\includegraphics[width=0.8\textwidth, height=0.8\textheight]{img/Flight-System.png}
-		\end{center}	
-\end{frame}
-
-
-
-\begin{frame}[t]{Flight Booking Sequence Diagram}
-		\begin{center}
-   			\includegraphics[width=0.8\textwidth, height=0.6\textheight]{img/flight-booking-sequence.png}
-		\end{center}
-\end{frame}
-
-\begin{frame}[t]{Restful API Design "Communications"}
-		\scriptsize	
-		How to communicate the specifications to the client?
-
-		\begin{center}
-   			\includegraphics[width=0.8\textwidth, height=0.6\textheight]{img/swagger-doc.png}
-		\end{center}		
-	
-\end{frame}
-
 
 \begin{frame}[t]{Hypermedia}
 		
@@ -873,8 +817,62 @@
 
 \tiny source: \href{https://www.oreilly.com/library/view/restful-web-apis/9781449359713/} {\textcolor{blue}{Restful Web APIs}} 	
 \end{frame}
-				
 
+\section{API Documentation and Specification}
+\begin{frame}{API Documentation and Specification}
+  \begin{itemize}
+    \item Importance of Comprehensive API Documentation
+    \item Tools for API Documentation (Swagger, OpenAPI Specification)
+    \item Maintaining and Versioning API Documentation
+  \end{itemize}
+\end{frame}
+
+\begin{frame}[t]{API Documentations}
+		\begin{itemize}
+			\item<1-> API Docs is like the manual of using something, instructions to follow "remember IKEA" 
+			\item<2-> Consumers/Users always prefer agreements to feel safe
+			\item<3-> API docs explain and answer consumers' questions, why you'd use this API? with examples
+			\item<4-> API docs should mention carefully the restrictions like Authentication, Rate Limiting, and Terms of use
+			\item<5-> Consumers love to try, they always look for \textit{"Getting Started"}; Interactive API platforms are what they will love more.
+			\item<6-> API Docs need to be up to date to avoid any service usage interruptions.
+		\end{itemize}		
+	
+\end{frame}
+
+
+\begin{frame}[t]{Restful API Design "Communications"}
+		\scriptsize	
+		How to communicate the specifications to the client?
+
+		\begin{center}
+   			\includegraphics[width=0.8\textwidth, height=0.6\textheight]{img/swagger-doc.png}
+		\end{center}		
+	
+\end{frame}
+
+\begin{frame}[t, label=flight-system-hld]{Flight System}
+		\begin{center}
+   			\includegraphics[width=0.8\textwidth, height=0.8\textheight]{img/Flight-System.png}
+		\end{center}	
+\end{frame}
+
+
+
+\begin{frame}[t]{Flight Booking Sequence Diagram}
+		\begin{center}
+   			\includegraphics[width=0.8\textwidth, height=0.6\textheight]{img/flight-booking-sequence.png}
+		\end{center}
+\end{frame}
+
+\begin{frame}[t]{Restful API Design "Communications"}
+		\scriptsize	
+		How to communicate the specifications to the client?
+
+		\begin{center}
+   			\includegraphics[width=0.8\textwidth, height=0.6\textheight]{img/swagger-doc.png}
+		\end{center}		
+	
+\end{frame}
 
 \section{API Security}
 \begin{frame}{API Security}
@@ -885,7 +883,150 @@
   \end{itemize}
 \end{frame}
 
+\begin{frame}[t]{Authentication vs Authorization}
+  \begin{itemize}
+  	\small
+    \item Authentication: Who is using the system? Is it human or machine?
+    \item Authorization: What can user do inside the system? \textit{Roles \& Permissions}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}[t]{Authentication vs Authorization}
+  \begin{itemize}
+  	\small
+    \item Authentication: Who is using the system? Is it human or machine?
+    \item Authorization: What can user do inside the system? \textit{Roles \& Permissions}
+  \end{itemize}
+  
+  \begin{block}{Sensitive Data}
+    \scriptsize
+    \begin{itemize}
+		\item Data is an asset, and you should keep an extreme focus on it. Differentiate between normal and sensitive data. 
+		\item It's not just about passwords or credit card numbers; Personally Identifiable Information (PII) is also sensitive information: \\ 
+  			Email, Biometrics like fingerprints, Driver's license number, Social Security number (SSN) \\
+  	
+  		\item System Configurations may also contain sensitive information that need to be secured.
+  	\end{itemize}
+  \end{block}
+  
+\end{frame}
+
+\begin{frame}[t]{Authentication vs Authorization}
+  \begin{itemize}
+  	\small
+    \item Authentication: Who is using the system? Is it human or machine?
+    \item Authorization: What can user do inside the system? \textit{Roles \& Permissions}
+  \end{itemize}
+  
+  \begin{block}{Sensitive Data}
+    \scriptsize
+  	\begin{itemize}
+		\item Data is an asset, and you should keep an extreme focus on it. Differentiate between normal and sensitive data. 
+		\item It's not just about passwords or credit card numbers; Personally Identifiable Information (PII) is also sensitive information: \\ 
+  			Email, Biometrics like fingerprints, Driver's license number, Social Security number (SSN)
+  	
+  		\item System Configurations may also contain sensitive information that need to be secured.
+  	\end{itemize}
+  \end{block}
+  
+  \small Some common techniques to secure your information
+  \scriptsize
+  \begin{itemize}
+    \item Encryption: a two-way function where information is scrambled in such a way that it can be unscrambled later
+    \item Hashing: a one-way function where data is mapped to a fixed-length value.
+  \end{itemize}
+  
+  
+\end{frame}
+
+
+\begin{frame}[t]{Authentication}
+  \begin{itemize}
+  	\tiny
+    \item<1-> Validating the user identity using credentials in \textbf{data stores} such as database, cache-node, or even file-system
+    \item<2-> The most simple form of user credentials is username \& password 
+    \item<3-> User or System can send those credentials in request-header for example , but this is still not secure!
+    \item<4-> Another simple way is to use \code{basic-auth} which is \code{Basic username:password} encoded with base64
+  \end{itemize}
+  
+  	\begin{center}
+   		\includegraphics[width=0.6\textwidth, height=0.6\textheight]{img/auth-systems.png}
+	\end{center}		
+  
+\end{frame}
+
+\begin{frame}[t]{Authentication}
+
+  	\begin{center}
+   		\includegraphics[width=0.99\textwidth, height=0.6\textheight]{img/auth-systems-issues.png}
+	\end{center}		
+  
+\end{frame}
+
+
+\begin{frame}[t]{Authentication (Digest Access)}
+  \begin{itemize}
+    \scriptsize
+    \item<1-> Digest access authentication is one of the agreed-upon methods a web server can use to negotiate credentials, such as username or password.
+    \item<2-> It applies a \textbf{hash function} to the username and password before sending them over the network
+    \item<3-> Digest access authentication was originally specified by RFC 2069 (An Extension to HTTP: Digest Access Authentication).
+    \item<4-> RFC 2069 specifies roughly a traditional digest authentication scheme with security maintained by a server-generated nonce value.
+    \item<5-> The authentication response is formed as follows (where HA1 and HA2 are names of string variables)
+    \item<6->[]
+  		\begin{itemize}
+			\item[] HA1 = MD5(username:realm:password) 
+			\item[] HA2 = MD5(method:digestURI) 
+			\item[] response = MD5(HA1:nonce:HA2) 
+		\end{itemize}	
+  \end{itemize}
+
+\vspace{14mm}
+\tiny source: \href{https://datatracker.ietf.org/doc/html/rfc2069} {\textcolor{blue}{RFC 2069}} 	
+\end{frame}
+
+\begin{frame}[t]{Authentication (Digest Access)}
+    \scriptsize
+
+	Pros
+  \begin{itemize}
+    \item<1-> The password is not sent clear to the server.
+    \item<2-> The password is not used directly in the digest, but rather HA1 = MD5(username:realm:password).
+    \item<3-> Client nonce was introduced in RFC 2617, which allows the client to prevent chosen-plaintext attacks, such as rainbow tables that could otherwise threaten digest authentication schemes
+    \item<4-> Server nonce is allowed to contain timestamps. Therefore, the server may inspect nonce attributes submitted by clients, to prevent replay attacks
+  \end{itemize}
+
+\vspace{37mm}
+\tiny source: \href{https://en.wikipedia.org/wiki/Digest_access_authentication} {\textcolor{blue}{Digest access authentication}} 	
+\end{frame}
+
+\begin{frame}[t]{Authentication (Digest Access)}
+    \scriptsize
+
+	Pros
+  \begin{itemize}
+    \item The password is not sent clear to the server.
+    \item The password is not used directly in the digest, but rather HA1 = MD5(username:realm:password).
+    \item Client nonce was introduced in RFC 2617, which allows the client to prevent chosen-plaintext attacks, such as rainbow tables that could otherwise threaten digest authentication schemes
+    \item Server nonce is allowed to contain timestamps. Therefore, the server may inspect nonce attributes submitted by clients, to prevent replay attacks
+  \end{itemize}
+	Cons
+  \begin{itemize}
+    \item<1-> The website has no control over the user interface presented to the end user.
+    \item<2-> Digest access authentication is vulnerable to a man-in-the-middle (MITM) attack. For example, a MITM attacker could tell clients to use basic access authentication or legacy RFC2069 digest access authentication mode.
+    \item<3-> Digest access authentication prevents the use of a strong password hash (such as bcrypt) when storing passwords 
+    \item<4-> RFC 2069 specifies roughly a traditional digest authentication scheme with security maintained by a server-generated nonce value.
+  \end{itemize}
+
+\vspace{2mm}
+\tiny source: \href{https://en.wikipedia.org/wiki/Digest_access_authentication} {\textcolor{blue}{Digest access authentication}} 	
+\end{frame}
+
+
+\againframe{flight-system-hld}
+
+
 \section{API Testing and Quality Assurance}
+A tool to try https://github.com/grafana/k6
 \begin{frame}{API Testing and Quality Assurance}
   \begin{itemize}
     \item Writing Effective API Tests
