@@ -1,5 +1,5 @@
 INSERT INTO users (username, email, password_hash, created_at, updated_at) VALUES
-('john_doe', 'john@example.com', 'hashed_password_1', '2024-01-01 10:00:00', '2024-01-01 10:00:00'),
+('msweelam', 'msweelam@example.com', '$2a$12$PJeDlLrkrL2cJM1M6G.3OOx/pL5AVxCngwCNaCoYxH1fucvJTlIE2', '2024-01-01 10:00:00', '2024-01-01 10:00:00'),
 ('jane_doe', 'jane@example.com', 'hashed_password_2', '2024-01-01 11:00:00', '2024-01-01 11:00:00'),
 ('alice_smith', 'alice@example.com', 'hashed_password_3', '2024-01-02 09:30:00', '2024-01-02 09:30:00'),
 ('bob_jones', 'bob@example.com', 'hashed_password_4', '2024-01-02 10:15:00', '2024-01-02 10:15:00'),
@@ -21,6 +21,7 @@ INSERT INTO flights (flight_number, departure_airport, arrival_airport, departur
 ('FL107', 'DEN', 'DFW', '2024-07-08 14:00:00', '2024-07-08 16:00:00', 240.00, '2024-01-04 17:30:00', '2024-01-04 17:30:00'),
 ('FL108', 'SEA', 'BOS', '2024-07-09 15:00:00', '2024-07-09 23:00:00', 460.00, '2024-01-05 12:00:00', '2024-01-05 12:00:00'),
 ('FL109', 'BOS', 'SEA', '2024-07-10 16:00:00', '2024-07-10 20:00:00', 470.00, '2024-01-05 13:30:00', '2024-01-05 13:30:00');
+
 
 INSERT INTO bookings (user_id, flight_id, booking_time, status, created_at, updated_at) VALUES
 (1, 1, '2024-01-10 08:00:00', 'Confirmed', '2024-01-10 08:00:00', '2024-01-10 08:00:00'),

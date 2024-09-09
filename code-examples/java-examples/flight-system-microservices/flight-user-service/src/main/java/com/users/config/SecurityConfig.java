@@ -41,7 +41,6 @@ public class SecurityConfig {
                         .requestMatchers("/api/public/users/**").permitAll()
                         .anyRequest().authenticated())
                 .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class)
-//                .httpBasic(Customizer.withDefaults())
                 .sessionManagement(t -> t.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .build();
     }
