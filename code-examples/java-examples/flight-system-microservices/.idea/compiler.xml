@@ -13,7 +13,7 @@
         <module name="flight-gateway-service" />
         <module name="flight-notification" />
       </profile>
-      <profile name="Annotation profile for flight-user-service" enabled="true">
+      <profile name="Annotation profile for flight-auth-service" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -23,9 +23,10 @@
           <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
           <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
         </processorPath>
+        <module name="flight-booking" />
+        <module name="flight-auth-service" />
         <module name="flight-user-service" />
         <module name="flight-search" />
-        <module name="flight-booking" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -35,6 +36,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="flight-auth-service" options="-parameters" />
       <module name="flight-booking" options="-parameters" />
       <module name="flight-booking-service" options="-parameters" />
       <module name="flight-gateway-service" options="-parameters" />

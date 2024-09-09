@@ -1,0 +1,32 @@
+server:
+  port: "7076"
+  http2:
+    enabled: "true"
+
+spring:
+  datasource:
+    username: ${USERNAME:db_user}
+    url: jdbc:postgresql://localhost:5432/flight-booking
+    password: ${PASSWORD:123qwe}
+  application:
+    name: auth-service
+  threads:
+    virtual:
+      enabled: "true"
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info, prometheus, metrics
+
+opentracing:
+  jaeger:
+    log-spans: "true"
+    http-sender:
+      url: http://localhost:14268/api/traces
+
+app:
+  private-key: amhza2RoaGtqaHNrZmpoa3NqZGhramhzbWJtYnZsa2xza2ZqaDkzNzA3MDkza2poZGtoa2RzamZo
+

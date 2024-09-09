@@ -21,7 +21,6 @@ public class FlightGatewayApplication {
 	}
 
 
-
 	@Bean
 	OtlpHttpSpanExporter otlpHttpSpanExporter(@Value("${management.tracing.url}") String url) {
 		return OtlpHttpSpanExporter.builder()
