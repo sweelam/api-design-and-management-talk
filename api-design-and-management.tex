@@ -765,15 +765,16 @@
 
 \begin{frame}[t]{Hypermedia}
 		
-		User uses APIs according to his understanding with the help of communications support, calling APIs using \textit{resources}. Eventually the user will need to follow some more resources' calls. You might be think of:
+		\scriptsize 
+		User uses APIs based on his understanding with some form of communication support. Eventually, the user will need to follow on additional resources' calls. You might be thinking of:
 		
 		\scriptsize		
 		\begin{itemize}
-			\item<1-> How can the user/client know which request he needs to make next?
+			\item<1-> How can the client/consumer know which request he needs to make next?
 			\item<2-> How the request should look like?
 			\item<3-> Which types of error should the client expect?
 			
-			\item<4->[] \normalsize The answer to this is \textit{"hpermedia"}
+			\item<4->[] \normalsize The answer to this is \textit{"hypermedia"}
 			
 			\item<5->[] 
 				\small
@@ -787,35 +788,60 @@
 
 
 \begin{frame}[t, fragile]{Hypermedia}
+		\scriptsize		
 		\begin{itemize}
 			\item<1-> Application Navigation Control \\
-			\scriptsize		
 				\begin{semiverbatim}
 					\code{<a href="http://www.tyi.com/messages/"> See the latest messages </a>}	
 				\end{semiverbatim}
 			
 			\item<2-> Application Embdedded Control
-			\scriptsize		
 				\begin{semiverbatim}
 					\code{<img rel="icon" src="http://www.example.com/logo.png" />}
 				\end{semiverbatim}
-			
-			\item<3-> Application Complex Control \\
-			\scriptsize			
-				\begin{semiverbatim}
-					\code{<form action="http://www.youtypeitwepostit.com/messages" method="post">}
-					\code{	<input type="text" name="message" value="" required="true" /> }
-					\code{</form>}
-				\end{semiverbatim}
 				
-			\item<4->[] 
-			\scriptsize		
-			\begin{block}{Hypermedia Formal Definition}
+			\item<3->[] 
+			\begin{block}{Formal Definition}
 				Hypermedia is defined by the presence of application control information embedded within, or as a layer above, the presentation of information.
-			\end{block}	
+			\end{block}
+			
+			\item<4-> HATEOAS \\
+				- In Rest, this is also called "Hypermedia as the Engine of Application State"
+		\end{itemize}		
+\end{frame}
+
+\begin{frame}[t, fragile]{HATEOAS}
+		\scriptsize		
+		\begin{itemize}
+			\item It allows us use the hypermedia links in the API response contents.
+			\item It allows the client to dynamically navigate to resources by traversing the \underline{links}.
+			\item [] 
+				\begin{center}
+   					\includegraphics[width=0.6\textwidth, height=0.5\textheight]{img/rest-maturity-model.png}
+   				\end{center}
 		\end{itemize}		
 
-\tiny source: \href{https://www.oreilly.com/library/view/restful-web-apis/9781449359713/} {\textcolor{blue}{Restful Web APIs}} 	
+\vspace{8mm}
+\tiny source: \href{https://martinfowler.com/articles/richardsonMaturityModel.html} {\textcolor{blue}{Richardson Maturity Model}} 	
+\end{frame}
+
+\begin{frame}[t, fragile]{HATEOAS}
+
+		\scriptsize		
+		\begin{itemize}
+			\item 
+				\begin{semiverbatim}
+					\code{http://localhost:8080/greeting}	
+				\end{semiverbatim}
+   				\includegraphics[width=0.5\textwidth, height=0.3\textheight]{img/greeting-response.png}
+   			\item<2->
+				\begin{semiverbatim}
+					\code{http://localhost:8080/greeting?name=User}	
+				\end{semiverbatim}
+   				\includegraphics[width=0.5\textwidth, height=0.3\textheight]{img/greeting-response-2.png}
+   				
+		\end{itemize}		
+
 \end{frame}
 
 \section{API Documentation and Specification}

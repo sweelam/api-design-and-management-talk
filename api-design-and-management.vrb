@@ -1,30 +1,17 @@
-\frametitle{Hypermedia}
-\begin{itemize}
-			\item<1-> Application Navigation Control \\
-			\scriptsize		
+\frametitle{HATEOAS}
+
+		\scriptsize		
+		\begin{itemize}
+			\item
 				\begin{semiverbatim}
-					\code{<a href="http://www.tyi.com/messages/"> See the latest messages </a>}	
+					\code{http://localhost:8080/greeting}	
 				\end{semiverbatim}
-			
-			\item<2-> Application Embdedded Control
-			\scriptsize		
+   				\includegraphics[width=0.5\textwidth, height=0.3\textheight]{img/greeting-response.png}
+   			\item<2->
 				\begin{semiverbatim}
-					\code{<img rel="icon" src="http://www.example.com/logo.png" />}
+					\code{http://localhost:8080/greeting?name=User}	
 				\end{semiverbatim}
-			
-			\item<3-> Application Complex Control \\
-			\scriptsize			
-				\begin{semiverbatim}
-					\code{<form action="http://www.youtypeitwepostit.com/messages" method="post">}
-					\code{	<input type="text" name="message" value="" required="true" /> }
-					\code{</form>}
-				\end{semiverbatim}
-				
-			\item<4->[]
-			\scriptsize		
-			\begin{block}{Hypermedia Formal Definition}
-				Hypermedia is defined by the presence of application control information embedded within, or as a layer above, the presentation of information.
-			\end{block}	
+   				\includegraphics[width=0.5\textwidth, height=0.3\textheight]{img/greeting-response-2.png}
+   				
 		\end{itemize}		
 
-\tiny source: \href{https://www.oreilly.com/library/view/restful-web-apis/9781449359713/} {\textcolor{blue}{Restful Web APIs}} 	

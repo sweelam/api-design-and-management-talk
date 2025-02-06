@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 40) (preloaded format=pdflatex 2024.8.1)  18 AUG 2024 17:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 40) (preloaded format=pdflatex 2024.11.13)  17 JAN 2025 21:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1855,7 +1855,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 763.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 786.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 787.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [68
@@ -1863,7 +1863,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 786.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 786.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 787.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [69
@@ -1871,7 +1871,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 786.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 786.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 787.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [70
@@ -1879,7 +1879,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 786.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 786.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 787.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [71
@@ -1887,7 +1887,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 786.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 786.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 787.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [72
@@ -1899,7 +1899,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 786.
 (./api-design-and-management.vrb)
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 819.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 811.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [73
@@ -1907,7 +1907,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 819.
 ] (./api-design-and-management.vrb)
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 819.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 811.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
 
@@ -1916,7 +1916,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 819.
 ] (./api-design-and-management.vrb)
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 819.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 811.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [75
@@ -1924,32 +1924,66 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 819.
 ] (./api-design-and-management.vrb)
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 819.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 811.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
 
 [76
 
 ]
+\openout4 = `api-design-and-management.vrb'.
+
+ (./api-design-and-management.vrb
+<img/rest-maturity-model.png, id=1209, 675.52374pt x 399.4925pt>
+File: img/rest-maturity-model.png Graphic file (type png)
+<use img/rest-maturity-model.png>
+Package pdftex.def Info: img/rest-maturity-model.png  used on input line 8.
+(pdftex.def)             Requested size: 205.3799pt x 124.70699pt.
+)
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 828.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 826.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [77
 
-]
+ <./img/rest-maturity-model.png>]
+\openout4 = `api-design-and-management.vrb'.
+
+
+(./api-design-and-management.vrb
+<img/greeting-response.png, id=1218, 388.45125pt x 167.87718pt>
+File: img/greeting-response.png Graphic file (type png)
+<use img/greeting-response.png>
+Package pdftex.def Info: img/greeting-response.png  used on input line 9.
+(pdftex.def)             Requested size: 171.15024pt x 74.82422pt.
+<img/greeting-response-2.png, id=1219, 444.15938pt x 164.86594pt>
+File: img/greeting-response-2.png Graphic file (type png)
+<use img/greeting-response-2.png>
+Package pdftex.def Info: img/greeting-response-2.png  used on input line 14.
+(pdftex.def)             Requested size: 171.1476pt x 74.82542pt.
+)
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 840.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 845.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [78
 
-]
+ <./img/greeting-response.png> <./img/greeting-response-2.png>] (./api-design-a
+nd-management.vrb
+File: img/greeting-response.png Graphic file (type png)
+<use img/greeting-response.png>
+Package pdftex.def Info: img/greeting-response.png  used on input line 9.
+(pdftex.def)             Requested size: 171.15024pt x 74.82422pt.
+File: img/greeting-response-2.png Graphic file (type png)
+<use img/greeting-response-2.png>
+Package pdftex.def Info: img/greeting-response-2.png  used on input line 14.
+(pdftex.def)             Requested size: 171.1476pt x 74.82542pt.
+)
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 840.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 845.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [79
@@ -1957,7 +1991,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 840.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 840.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 854.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [80
@@ -1965,7 +1999,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 840.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 840.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 866.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [81
@@ -1973,7 +2007,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 840.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 840.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 866.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [82
@@ -1981,84 +2015,84 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 840.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 840.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 866.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
- [83
+
+[83
 
 ]
-<img/swagger-doc.png, id=1263, 1185.67969pt x 681.29532pt>
-File: img/swagger-doc.png Graphic file (type png)
-<use img/swagger-doc.png>
-Package pdftex.def Info: img/swagger-doc.png  used on input line 851.
-(pdftex.def)             Requested size: 273.8404pt x 149.64633pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 851.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 866.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [84
 
- <./img/swagger-doc.png>]
-<img/Flight-System.png, id=1272, 1954.30125pt x 1142.2675pt>
-File: img/Flight-System.png Graphic file (type png)
-<use img/Flight-System.png>
-Package pdftex.def Info: img/Flight-System.png  used on input line 857.
-(pdftex.def)             Requested size: 273.83887pt x 199.53378pt.
+]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 857.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 866.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [85
 
- <./img/Flight-System.png (PNG copy)>]
-<img/flight-booking-sequence.png, id=1283, 1384.17125pt x 630.355pt>
-File: img/flight-booking-sequence.png Graphic file (type png)
-<use img/flight-booking-sequence.png>
-Package pdftex.def Info: img/flight-booking-sequence.png  used on input line 86
-5.
-(pdftex.def)             Requested size: 273.8302pt x 149.64354pt.
+]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 865.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 866.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [86
 
- <./img/flight-booking-sequence.png>]
+]
+<img/swagger-doc.png, id=1287, 1185.67969pt x 681.29532pt>
 File: img/swagger-doc.png Graphic file (type png)
 <use img/swagger-doc.png>
-Package pdftex.def Info: img/swagger-doc.png  used on input line 875.
+Package pdftex.def Info: img/swagger-doc.png  used on input line 877.
 (pdftex.def)             Requested size: 273.8404pt x 149.64633pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 875.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 877.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
+ [87
 
-[87
-
-]
+ <./img/swagger-doc.png>]
+<img/Flight-System.png, id=1296, 1954.30125pt x 1142.2675pt>
+File: img/Flight-System.png Graphic file (type png)
+<use img/Flight-System.png>
+Package pdftex.def Info: img/Flight-System.png  used on input line 883.
+(pdftex.def)             Requested size: 273.83887pt x 199.53378pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 884.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 883.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [88
 
-]
+ <./img/Flight-System.png (PNG copy)>]
+<img/flight-booking-sequence.png, id=1306, 1384.17125pt x 630.355pt>
+File: img/flight-booking-sequence.png Graphic file (type png)
+<use img/flight-booking-sequence.png>
+Package pdftex.def Info: img/flight-booking-sequence.png  used on input line 89
+1.
+(pdftex.def)             Requested size: 273.8302pt x 149.64354pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 892.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 891.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [89
 
-]
+ <./img/flight-booking-sequence.png>]
+File: img/swagger-doc.png Graphic file (type png)
+<use img/swagger-doc.png>
+Package pdftex.def Info: img/swagger-doc.png  used on input line 901.
+(pdftex.def)             Requested size: 273.8404pt x 149.64633pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 912.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 901.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [90
@@ -2066,125 +2100,126 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 912.
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 940.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 910.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [91
 
 ]
-<img/auth-systems.png, id=1348, 755.82375pt x 593.96906pt>
-File: img/auth-systems.png Graphic file (type png)
-<use img/auth-systems.png>
-Package pdftex.def Info: img/auth-systems.png  used on input line 956.
-(pdftex.def)             Requested size: 205.37836pt x 149.652pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 956.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 918.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [92
 
- <./img/auth-systems.png>]
-File: img/auth-systems.png Graphic file (type png)
-<use img/auth-systems.png>
-Package pdftex.def Info: img/auth-systems.png  used on input line 956.
-(pdftex.def)             Requested size: 205.37836pt x 149.652pt.
+]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 956.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 938.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [93
 
 ]
-File: img/auth-systems.png Graphic file (type png)
-<use img/auth-systems.png>
-Package pdftex.def Info: img/auth-systems.png  used on input line 956.
-(pdftex.def)             Requested size: 205.37836pt x 149.652pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 956.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 966.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
- [94
+
+[94
 
 ]
+<img/auth-systems.png, id=1371, 777.90625pt x 613.29124pt>
 File: img/auth-systems.png Graphic file (type png)
 <use img/auth-systems.png>
-Package pdftex.def Info: img/auth-systems.png  used on input line 956.
-(pdftex.def)             Requested size: 205.37836pt x 149.652pt.
+Package pdftex.def Info: img/auth-systems.png  used on input line 982.
+(pdftex.def)             Requested size: 205.37262pt x 149.64471pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 956.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 982.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [95
 
-]
-<img/auth-systems-issues.png, id=1379, 1249.66875pt x 593.96906pt>
-File: img/auth-systems-issues.png Graphic file (type png)
-<use img/auth-systems-issues.png>
-Package pdftex.def Info: img/auth-systems-issues.png  used on input line 964.
-(pdftex.def)             Requested size: 338.86427pt x 149.652pt.
+ <./img/auth-systems.png>]
+File: img/auth-systems.png Graphic file (type png)
+<use img/auth-systems.png>
+Package pdftex.def Info: img/auth-systems.png  used on input line 982.
+(pdftex.def)             Requested size: 205.37262pt x 149.64471pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 964.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 982.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [96
 
- <./img/auth-systems-issues.png>]
+]
+File: img/auth-systems.png Graphic file (type png)
+<use img/auth-systems.png>
+Package pdftex.def Info: img/auth-systems.png  used on input line 982.
+(pdftex.def)             Requested size: 205.37262pt x 149.64471pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 985.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 982.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [97
 
 ]
+File: img/auth-systems.png Graphic file (type png)
+<use img/auth-systems.png>
+Package pdftex.def Info: img/auth-systems.png  used on input line 982.
+(pdftex.def)             Requested size: 205.37262pt x 149.64471pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 985.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 982.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [98
 
 ]
+<img/auth-systems-issues.png, id=1403, 1284.8pt x 613.29124pt>
+File: img/auth-systems-issues.png Graphic file (type png)
+<use img/auth-systems-issues.png>
+Package pdftex.def Info: img/auth-systems-issues.png  used on input line 990.
+(pdftex.def)             Requested size: 338.86281pt x 149.64471pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 985.
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 990.
 
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [99
 
-]
+ <./img/auth-systems-issues.png>]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 985.
-
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1011
+.
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [100
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 985.
-
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1011
+.
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [101
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 985.
-
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1011
+.
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [102
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1000
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1011
 .
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [103
@@ -2192,7 +2227,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1000
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1000
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1011
 .
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [104
@@ -2200,16 +2235,15 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1000
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1000
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1011
 .
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
-
-[105
+ [105
 
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1000
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1026
 .
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [106
@@ -2217,7 +2251,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1000
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1022
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1026
 .
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [107
@@ -2225,7 +2259,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1022
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1022
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1026
 .
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [108
@@ -2233,7 +2267,7 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1022
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1022
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1026
 .
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [109
@@ -2241,41 +2275,24 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1022
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1022
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1048
 .
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [110
 
 ]
-pdfTeX warning (ext4): destination with the same identifier (name{flight-system
--hld<1>}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1025 \againframe{flight-system-hld}
-                                     
-pdfTeX warning (ext4): destination with the same identifier (name{flight-system
--hld}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1025 \againframe{flight-system-hld}
-                                     
-File: img/Flight-System.png Graphic file (type png)
-<use img/Flight-System.png>
-Package pdftex.def Info: img/Flight-System.png  used on input line 1025.
-(pdftex.def)             Requested size: 273.83887pt x 199.53378pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1025
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1048
 .
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
- [111
+
+[111
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1036
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1048
 .
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [112
@@ -2283,25 +2300,67 @@ Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1036
 ]
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1036
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1048
 .
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
+ [113
 
-[113]
+]
+pdfTeX warning (ext4): destination with the same identifier (name{flight-system
+-hld<1>}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1051 \againframe{flight-system-hld}
+                                     
+pdfTeX warning (ext4): destination with the same identifier (name{flight-system
+-hld}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1051 \againframe{flight-system-hld}
+                                     
+File: img/Flight-System.png Graphic file (type png)
+<use img/Flight-System.png>
+Package pdftex.def Info: img/Flight-System.png  used on input line 1051.
+(pdftex.def)             Requested size: 273.83887pt x 199.53378pt.
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1046
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1051
 .
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [114
 
 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 File: img/channel-logo-circular.png Graphic file (type png)
 <use img/channel-logo-circular.png>
-Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1054
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1062
 .
 (pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
  [115
+
+]
+File: img/channel-logo-circular.png Graphic file (type png)
+<use img/channel-logo-circular.png>
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1062
+.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
+
+[116]
+File: img/channel-logo-circular.png Graphic file (type png)
+<use img/channel-logo-circular.png>
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1072
+.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
+ [117
+
+]
+File: img/channel-logo-circular.png Graphic file (type png)
+<use img/channel-logo-circular.png>
+Package pdftex.def Info: img/channel-logo-circular.png  used on input line 1080
+.
+(pdftex.def)             Requested size: 28.97612pt x 28.45274pt.
+ [118
 
 ]
 \tf@nav=\write6
@@ -2325,10 +2384,10 @@ ed.
 (rerunfilecheck)             Checksum: 4E5A91BF4701CCAFE702CBC8FDE18E23;1398.
  ) 
 Here is how much of TeX's memory you used:
- 27779 strings out of 476034
- 550224 string characters out of 5792855
+ 27816 strings out of 476034
+ 551137 string characters out of 5792853
  1948388 words of memory out of 6000000
- 47389 multiletter control sequences out of 15000+600000
+ 47411 multiletter control sequences out of 15000+600000
  523020 words of font info for 70 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
  128i,15n,122p,401b,1435s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2340,10 +2399,10 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmtt8.pfb>
-Output written on api-design-and-management.pdf (115 pages, 2832554 bytes).
+Output written on api-design-and-management.pdf (118 pages, 2825322 bytes).
 PDF statistics:
- 1630 PDF objects out of 1728 (max. 8388607)
- 1160 compressed objects within 12 object streams
- 246 named destinations out of 1000 (max. 500000)
- 1845 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1654 PDF objects out of 1728 (max. 8388607)
+ 1176 compressed objects within 12 object streams
+ 252 named destinations out of 1000 (max. 500000)
+ 1860 words of extra memory for PDF output out of 10000 (max. 10000000)
 
