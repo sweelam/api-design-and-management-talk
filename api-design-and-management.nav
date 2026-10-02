@@ -145,16 +145,23 @@
 \headcommand {\beamer@framepages {115}{115}}
 \headcommand {\beamer@sectionpages {115}{116}}
 \headcommand {\beamer@subsectionpages {115}{116}}
-\headcommand {\sectionentry {8}{API Management and Lifecycle}{117}{API Management and Lifecycle}{0}}
+\headcommand {\sectionentry {8}{You build it, You Operate it}{117}{You build it, You Operate it}{0}}
 \headcommand {\slideentry {8}{0}{1}{117/117}{}{0}}
 \headcommand {\beamer@framepages {117}{117}}
-\headcommand {\beamer@sectionpages {117}{117}}
-\headcommand {\beamer@subsectionpages {117}{117}}
-\headcommand {\sectionentry {9}{Conclusion}{118}{Conclusion}{0}}
-\headcommand {\slideentry {9}{0}{1}{118/118}{}{0}}
+\headcommand {\slideentry {8}{0}{2}{118/118}{}{0}}
 \headcommand {\beamer@framepages {118}{118}}
-\headcommand {\beamer@partpages {1}{118}}
-\headcommand {\beamer@subsectionpages {118}{118}}
-\headcommand {\beamer@sectionpages {118}{118}}
-\headcommand {\beamer@documentpages {118}}
-\headcommand {\gdef \inserttotalframenumber {64}}
+\headcommand {\beamer@sectionpages {117}{118}}
+\headcommand {\beamer@subsectionpages {117}{118}}
+\headcommand {\sectionentry {9}{API Management and Lifecycle}{119}{API Management and Lifecycle}{0}}
+\headcommand {\slideentry {9}{0}{1}{119/119}{}{0}}
+\headcommand {\beamer@framepages {119}{119}}
+\headcommand {\beamer@sectionpages {119}{119}}
+\headcommand {\beamer@subsectionpages {119}{119}}
+\headcommand {\sectionentry {10}{Conclusion}{120}{Conclusion}{0}}
+\headcommand {\slideentry {10}{0}{1}{120/120}{}{0}}
+\headcommand {\beamer@framepages {120}{120}}
+\headcommand {\beamer@partpages {1}{120}}
+\headcommand {\beamer@subsectionpages {120}{120}}
+\headcommand {\beamer@sectionpages {120}{120}}
+\headcommand {\beamer@documentpages {120}}
+\headcommand {\gdef \inserttotalframenumber {66}}
